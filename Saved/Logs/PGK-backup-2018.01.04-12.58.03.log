@@ -1,0 +1,1050 @@
+﻿Log file open, 01/04/18 11:09:59
+LogInit:Display: Running engine for game: PGK
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1263143596) SRandInit(1263143596).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.226171
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: P:/silnik/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.04-10.09.59:881][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.04-10.09.59:881][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.04-10.09.59:935][  0]LogInit: Computer: GROBKOMP
+[2018.01.04-10.09.59:935][  0]LogInit: User: Robert
+[2018.01.04-10.09.59:935][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.04-10.09.59:935][  0]LogInit: High frequency timer resolution =2.249998 MHz
+[2018.01.04-10.09.59:936][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.01.04-10.09.59:936][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.04-10.09.59:936][  0]LogMemory: Process Physical Memory: 275.19 MB used, 275.19 MB peak
+[2018.01.04-10.09.59:936][  0]LogMemory: Process Virtual Memory: 266.73 MB used, 266.73 MB peak
+[2018.01.04-10.09.59:936][  0]LogMemory: Physical Memory: 5201.33 MB used,  2908.87 MB free, 8110.20 MB total
+[2018.01.04-10.09.59:936][  0]LogMemory: Virtual Memory: 663.04 MB used,  2908.87 MB free, 134217728.00 MB total
+[2018.01.04-10.10.00:081][  0]LogInit: Using OS detected language (pl-PL).
+[2018.01.04-10.10.00:081][  0]LogInit: Using OS detected locale (pl-PL).
+[2018.01.04-10.10.00:088][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2018.01.04-10.10.00:089][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the locale.
+[2018.01.04-10.10.01:992][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.04-10.10.03:243][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.01.04-10.10.03:243][  0]LogD3D11RHI:       2017/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.04-10.10.03:259][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.01.04-10.10.03:259][  0]LogD3D11RHI:       128/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.04-10.10.03:263][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.04-10.10.03:263][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.04-10.10.03:263][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.04-10.10.03:271][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.04-10.10.03:271][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.01.04-10.10.03:271][  0]LogWindows: EnumDisplayDevices:
+[2018.01.04-10.10.03:272][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.01.04-10.10.03:272][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.01.04-10.10.03:272][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.01.04-10.10.03:273][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.01.04-10.10.03:273][  0]LogWindows:    4. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.01.04-10.10.03:273][  0]LogWindows:    5. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.01.04-10.10.03:274][  0]LogWindows:    6. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.01.04-10.10.03:274][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.04-10.10.03:274][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.01.04-10.10.03:274][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.04-10.10.03:274][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.04-10.10.03:274][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.04-10.10.04:451][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.04-10.10.04:886][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.04-10.10.04:890][  0]LogShaderCompilers: Guid format shader working directory is 33 characters bigger than the processId version (I:/Projekt/PGK/Intermediate/Shaders/WorkingDirectory/7772/).
+[2018.01.04-10.10.04:891][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Robert/AppData/Local/Temp/UnrealShaderWorkingDir/0D5E2940411693043F99BB869856370E/'.
+[2018.01.04-10.10.04:891][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.04-10.10.07:075][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.04-10.10.07:164][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.04-10.10.07:253][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.04-10.10.07:343][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.04-10.10.07:434][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.04-10.10.07:523][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.04-10.10.07:620][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.04-10.10.07:715][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.04-10.10.07:793][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.04-10.10.07:879][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.04-10.10.07:964][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.04-10.10.08:050][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.04-10.10.08:137][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.04-10.10.08:223][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.04-10.10.08:309][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.04-10.10.08:482][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.04-10.10.08:482][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.04-10.10.08:549][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.04-10.10.08:692][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.04-10.10.08:743][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.04-10.10.08:827][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.04-10.10.08:914][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.04-10.10.09:000][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.04-10.10.09:087][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.04-10.10.09:087][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.04-10.10.10:124][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.04-10.10.10:303][  0]LogDerivedDataCache: Loaded boot cache 0.18s 99MB C:/Users/Robert/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.04-10.10.10:303][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Robert/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.04-10.10.10:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/Projekt/PGK/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.04-10.10.10:304][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.04-10.10.10:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file I:/Projekt/PGK/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.04-10.10.10:304][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.04-10.10.10:339][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.04-10.10.10:355][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Robert/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.04-10.10.10:447][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.04-10.10.10:448][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.04-10.10.10:450][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.04-10.10.10:450][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.04-10.10.11:308][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.04-10.10.11:436][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.04-10.10.11:738][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.04-10.10.11:813][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.04-10.10.11:906][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.04-10.10.11:906][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.04-10.10.11:906][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.04-10.10.12:993][  0]LogNetVersion: PGK , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3392332418)
+[2018.01.04-10.10.13:088][  0]LogAssetRegistry: FAssetRegistry took 0.0304 seconds to start up
+[2018.01.04-10.10.13:148][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.026102 seconds
+[2018.01.04-10.10.13:159][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.04-10.10.13:159][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.01.04-10.10.13:159][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.04-10.10.13:262][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.04-10.10.17:999][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.04-10.10.18:066][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.04-10.10.19:071][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.04-10.10.19:831][  0]SourceControl: Info Source control is disabled
+[2018.01.04-10.10.19:833][  0]SourceControl: Info Source control is disabled
+[2018.01.04-10.10.19:924][  0]SourceControl: Info Source control is disabled
+[2018.01.04-10.10.20:014][  0]SourceControl: Info Source control is disabled
+[2018.01.04-10.10.21:285][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.04-10.10.22:393][  0]LogEngine: Initializing Engine...
+[2018.01.04-10.10.22:395][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.04-10.10.22:753][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.04-10.10.22:753][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.04-10.10.22:981][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.04-10.10.23:000][  0]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-10.10.23:107][  0]LogInit: FAudioDevice initialized.
+[2018.01.04-10.10.23:216][  0]LogDerivedDataCache: Saved boot cache 0.11s 99MB C:/Users/Robert/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.04-10.10.23:237][  0]LogInit: Texture streaming: Enabled
+[2018.01.04-10.10.23:404][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.04-10.10.23:817][  0]LogInit: Transaction tracking system initialized
+[2018.01.04-10.10.24:357][  0]BlueprintLog: New page: Editor Load
+[2018.01.04-10.10.25:929][  0]LocalizationService: Info Localization service is disabled
+[2018.01.04-10.10.27:088][  0]LogConsoleResponse:Display: 
+[2018.01.04-10.10.29:058][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.04-10.10.29:058][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.04-10.10.30:109][  0]LogFileCache: Scanning file cache for directory 'I:/Projekt/PGK/Content/' took 0.04s
+[2018.01.04-10.10.30:969][  0]SourceControl: Info Source control is disabled
+[2018.01.04-10.10.30:969][  0]Cmd: MAP LOAD FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.04-10.10.30:970][  0]LightingResults: New page: Lighting Build
+[2018.01.04-10.10.31:039][  0]MapCheck: New page: Map Check
+[2018.01.04-10.10.31:039][  0]LightingResults: New page: Lighting Build
+[2018.01.04-10.10.38:202][  0]LogMaterial: Missing cached shader map for material st_tile, compiling. 
+[2018.01.04-10.10.38:230][  0]LogMaterial:Warning: Failed to compile Material /Game/import/kibel/st_tile.st_tile for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.04-10.10.38:230][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/import/kibel/Dirt_map.Dirt_map
+[2018.01.04-10.10.38:397][  0]LogTexture:Display: Building textures: TX_Flashlight_Map (AutoDXT, 1024X1024)
+[2018.01.04-10.10.41:185][  0]LogMaterial: Missing cached shader map for material Material__99, compiling. 
+[2018.01.04-10.10.41:351][  0]LogStaticMesh: Building static mesh FlashLight_Mesh...
+[2018.01.04-10.10.41:409][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.04-10.10.42:050][  0]LogStaticMesh: Built static mesh [0.72s] /Game/import/FlashLight_Mesh.FlashLight_Mesh
+[2018.01.04-10.10.44:826][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.04-10.10.48:375][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.04-10.10.48:419][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.04-10.10.48:556][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 136.613ms to complete.
+[2018.01.04-10.10.48:556][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 17.587
+[2018.01.04-10.10.49:771][  0]LogCollectionManager: Loaded 0 collections in 0.004176 seconds
+[2018.01.04-10.10.50:064][  0]LogFileCache: Scanning file cache for directory 'I:/Projekt/PGK/Saved/Collections/' took 0.01s
+[2018.01.04-10.10.50:064][  0]LogFileCache: Scanning file cache for directory 'I:/Projekt/PGK/Content/Developers/Robert/Collections/' took 0.01s
+[2018.01.04-10.10.50:064][  0]LogFileCache: Scanning file cache for directory 'I:/Projekt/PGK/Content/Collections/' took 0.01s
+[2018.01.04-10.10.50:064][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.01.04-10.10.50:101][  0]LogContentBrowser: Native class hierarchy populated in 0.0299 seconds. Added 2329 classes and 491 folders.
+[2018.01.04-10.10.50:286][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.01.04-10.10.51:353][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2018.01.04-10.10.51:541][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2018.01.04-10.10.52:088][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.04-10.10.52:197][  0]LogSlate: Took 0.001169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.04-10.10.52:207][  0]LogSlate: Took 0.001105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.04-10.10.52:245][  0]LogSlate: Took 0.019848 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.04-10.10.52:703][  0]LogRenderer: Reallocating scene render targets to support 1240x592 NumSamples 1 (Frame:1).
+[2018.01.04-10.10.53:332][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.04-10.10.53:451][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2018.01.04-10.10.53:452][  0]LogLoad: (Engine Initialization) Total time: 57.56 seconds
+[2018.01.04-10.10.53:452][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.42 seconds
+[2018.01.04-10.10.53:452][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.04-10.10.53:487][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.04-10.10.53:488][  0]LogOcInput: OculusInput pre-init called
+[2018.01.04-10.10.53:488][  0]LogHMD: Starting GearVRController plugin
+[2018.01.04-10.10.53:540][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.04-10.10.53:710][  0]LogSlate: Took 0.006833 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.04-10.10.53:773][  1]LogFileCache: Retrieving MD5 hashes for directory 'I:/Projekt/PGK/Content/' took 0.27s
+[2018.01.04-10.10.54:100][  3]LogAssetRegistry: Asset discovery search completed in 41.0343 seconds
+[2018.01.04-10.10.54:109][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.04-10.10.54:109][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000141 seconds (updated 0 objects)
+[2018.01.04-10.10.56:534][ 72]LogSlate: Took 0.000436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.04-10.22.37:845][ 76]AssetReimport: New page: Outstanding source content changes 12:22:37 PM
+[2018.01.04-10.22.38:052][ 78]LogStaticMesh: Building static mesh default...
+[2018.01.04-10.22.38:120][ 78]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.04-10.22.40:085][ 78]LogStaticMesh: Built static mesh [2.06s] /Game/import/FL2/default.default
+[2018.01.04-10.22.40:194][ 78]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2018.01.04-10.22.43:448][166]AssetReimport:Error: Error Failed to reimport asset default.
+[2018.01.04-10.23.14:911][ 77]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.04-10.23.15:243][ 77]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-10.23.15:244][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-10.23.15:287][ 77]PIE: New page: PIE session: FirstPersonExampleMap (Jan 4, 2018, 12:23:15 PM)
+[2018.01.04-10.23.15:292][ 77]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.04-10.23.15:430][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.138042s)
+[2018.01.04-10.23.15:432][ 77]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.04-10.23.15:433][ 77]LogPlayLevel: PIE: World Init took: (0.002220s)
+[2018.01.04-10.23.15:445][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.152908s)
+[2018.01.04-10.23.15:474][ 77]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-10.23.15:510][ 77]LogInit: FAudioDevice initialized.
+[2018.01.04-10.23.15:594][ 77]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.04-10.23.15:643][ 77]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.04-11.23.15
+[2018.01.04-10.23.15:676][ 77]LogWorld: Bringing up level for play took: 0.052951
+[2018.01.04-10.23.15:896][ 77]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0023 seconds. Added 11 classes and 0 folders.
+[2018.01.04-10.23.15:899][ 77]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.839
+[2018.01.04-10.23.15:900][ 77]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-10.23.34:787][639]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-10.23.34:899][639]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-10.31.13:019][532]LogRenderer: Reallocating scene render targets to support 1240x620 NumSamples 1 (Frame:35959).
+[2018.01.04-10.34.34:044][611]LogRenderer: Reallocating scene render targets to support 1244x620 NumSamples 1 (Frame:42044).
+[2018.01.04-10.34.34:095][612]LogRenderer: Reallocating scene render targets to support 1248x620 NumSamples 1 (Frame:42046).
+[2018.01.04-10.34.34:145][613]LogRenderer: Reallocating scene render targets to support 1260x620 NumSamples 1 (Frame:42048).
+[2018.01.04-10.34.34:200][614]LogRenderer: Reallocating scene render targets to support 1268x620 NumSamples 1 (Frame:42050).
+[2018.01.04-10.34.34:253][615]LogRenderer: Reallocating scene render targets to support 1272x620 NumSamples 1 (Frame:42052).
+[2018.01.04-10.34.34:306][616]LogRenderer: Reallocating scene render targets to support 1276x620 NumSamples 1 (Frame:42054).
+[2018.01.04-10.34.34:396][618]LogRenderer: Reallocating scene render targets to support 1280x620 NumSamples 1 (Frame:42058).
+[2018.01.04-10.34.34:444][619]LogRenderer: Reallocating scene render targets to support 1284x620 NumSamples 1 (Frame:42060).
+[2018.01.04-10.34.34:560][621]LogRenderer: Reallocating scene render targets to support 1288x620 NumSamples 1 (Frame:42064).
+[2018.01.04-10.34.34:609][622]LogRenderer: Reallocating scene render targets to support 1292x620 NumSamples 1 (Frame:42066).
+[2018.01.04-10.34.35:239][647]LogRenderer: Reallocating scene render targets to support 1296x620 NumSamples 1 (Frame:42093).
+[2018.01.04-10.34.36:754][691]LogRenderer: Reallocating scene render targets to support 1296x628 NumSamples 1 (Frame:42144).
+[2018.01.04-10.34.36:804][692]LogRenderer: Reallocating scene render targets to support 1296x632 NumSamples 1 (Frame:42146).
+[2018.01.04-10.34.36:858][693]LogRenderer: Reallocating scene render targets to support 1296x636 NumSamples 1 (Frame:42148).
+[2018.01.04-10.34.36:907][694]LogRenderer: Reallocating scene render targets to support 1296x640 NumSamples 1 (Frame:42150).
+[2018.01.04-10.34.36:956][695]LogRenderer: Reallocating scene render targets to support 1296x648 NumSamples 1 (Frame:42152).
+[2018.01.04-10.34.37:059][697]LogRenderer: Reallocating scene render targets to support 1296x652 NumSamples 1 (Frame:42156).
+[2018.01.04-10.34.37:273][706]LogRenderer: Reallocating scene render targets to support 1296x656 NumSamples 1 (Frame:42167).
+[2018.01.04-10.34.37:323][707]LogRenderer: Reallocating scene render targets to support 1296x660 NumSamples 1 (Frame:42169).
+[2018.01.04-10.36.36:763][286]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.01.04-10.36.49:852][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FlashLight_Mesh)
+[2018.01.04-10.37.33:963][  4]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.01.04-10.37.42:897][272]Cmd: TRANSACTION UNDO
+[2018.01.04-10.37.42:897][272]LogEditorTransaction: Undo Move Actors
+[2018.01.04-10.37.47:469][407]LogSlate: Took 0.005209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.04-10.39.12:634][961]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.04-10.39.14:019][961]LogSavePackage: Save=1237.19ms
+[2018.01.04-10.39.14:019][961]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_Auto1C5045D2144FA46D521A9FA90DD0D17C6.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2018.01.04-10.39.14:021][961]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2018.01.04-10.39.14:032][961]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.362
+[2018.01.04-10.39.14:032][961]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.362
+[2018.01.04-10.43.03:359][854]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2018.01.04-10.43.05:019][854]LogSlate: Took 0.016791 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.04-10.44.29:767][308]LogRenderer: Reallocating scene render targets to support 1296x724 NumSamples 1 (Frame:1).
+[2018.01.04-10.49.37:884][675]LogSavePackage: Save=1041.99ms
+[2018.01.04-10.49.37:884][675]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_Auto2988C770B413C50CCDDE0A3AC78A04F37.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2018.01.04-10.49.37:885][675]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2018.01.04-10.49.37:887][675]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.104
+[2018.01.04-10.49.37:887][675]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.104
+[2018.01.04-10.49.37:892][675]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2018.01.04-10.49.37:995][675]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2018.01.04-10.49.37:995][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2018.01.04-10.49.38:290][675]LogSavePackage: Save=289.92ms
+[2018.01.04-10.49.38:290][675]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacter_Auto23850E91D441CBDE697FF46B115C37A72.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2018.01.04-10.49.38:291][675]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset
+[2018.01.04-10.49.38:291][675]LogFileHelpers: Auto-saving content packages took 0.400
+[2018.01.04-10.52.16:083][460]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.04-10.52.43:976][296]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_sciana3)
+[2018.01.04-10.52.46:351][368]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.01.04-10.55.04:491][512]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (podloga_kor1)
+[2018.01.04-10.58.15:244][232]BlueprintLog: New page: Compile FirstPersonExampleMap
+[2018.01.04-10.58.23:851][488]MapCheck: New page: Map Check
+[2018.01.04-10.58.23:934][488]Cmd: MAP REBUILD ALLVISIBLE
+[2018.01.04-10.58.23:937][488]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.01.04-10.58.25:178][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.01.04-10.58.25:227][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.01.04-10.58.25:234][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy t_plytka_Mat, compiling. 
+[2018.01.04-10.58.25:240][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.01.04-10.58.25:248][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy tekstura_windy_Mat, compiling. 
+[2018.01.04-10.58.25:256][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy hol_maly, compiling. 
+[2018.01.04-10.58.25:262][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy hol_duzy, compiling. 
+[2018.01.04-10.58.25:268][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Floor, compiling. 
+[2018.01.04-10.58.25:291][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
+[2018.01.04-10.58.25:297][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2018.01.04-10.58.25:303][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Door, compiling. 
+[2018.01.04-10.58.25:309][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.01.04-10.58.25:338][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2018.01.04-10.58.25:344][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableRound, compiling. 
+[2018.01.04-10.58.25:350][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Lamp, compiling. 
+[2018.01.04-10.58.25:356][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Dirt_map_Mat, compiling. 
+[2018.01.04-10.58.25:361][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WOOD_562_Mat, compiling. 
+[2018.01.04-10.58.25:419][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 02_-_Default, compiling. 
+[2018.01.04-10.58.25:443][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy _Black_, compiling. 
+[2018.01.04-10.58.25:449][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy _Black_1, compiling. 
+[2018.01.04-10.58.25:454][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy łazienka_Mat, compiling. 
+[2018.01.04-10.58.25:487][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy chrome_go, compiling. 
+[2018.01.04-10.58.25:493][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ìåòàëë, compiling. 
+[2018.01.04-10.58.25:499][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy _Black_2, compiling. 
+[2018.01.04-10.58.25:505][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock, compiling. 
+[2018.01.04-10.58.25:512][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.01.04-10.58.25:529][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock_Basalt, compiling. 
+[2018.01.04-10.58.25:535][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Material__99, compiling. 
+[2018.01.04-10.58.25:541][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.01.04-10.58.25:548][488]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_FPGun, compiling. 
+[2018.01.04-10.58.27:822][488]TextureStreamingBuild:Display: Compiling optional shaders took 2.652 seconds.
+[2018.01.04-10.58.28:010][488]LogLevel:Display: Export Material TexCoord Scales took 0.188 seconds.
+[2018.01.04-10.58.28:094][488]TextureStreamingBuild:Display: Build Texture Streaming took 0.083 seconds.
+[2018.01.04-10.58.28:195][488]LightingResults: New page: Lighting Build - Jan 4, 2018, 12:58:28 PM
+[2018.01.04-10.58.28:215][488]LogStaticLightingSystem:Warning: WorldSettings.bForceNoPrecomputedLighting is true, Skipping Lighting Build!
+[2018.01.04-10.58.28:310][488]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.01.04-10.58.28:310][488]MapCheck: New page: FirstPersonExampleMap - Jan 4, 2018, 12:58:28 PM
+[2018.01.04-10.58.28:486][488]MapCheck:Error: Error Cube8_31 Cube8_31 : Invalid DrawScale/DrawScale3D 
+[2018.01.04-10.58.28:494][488]MapCheck:Warning: Warning SM_Rock5 SM_Rock5 is in the same location as SM_Rock7 
+[2018.01.04-10.58.28:503][488]MapCheck:Warning: Warning SM_Rock7 SM_Rock7 is in the same location as SM_Rock5 
+[2018.01.04-10.58.28:591][488]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 280.866ms to complete.
+[2018.01.04-10.58.28:614][488]LogEditorBuildUtils: Build time 0:04
+[2018.01.04-10.58.51:396][316]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.04-10.58.51:415][316]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-10.58.51:415][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-10.58.51:415][316]PIE: New page: PIE session: FirstPersonExampleMap (Jan 4, 2018, 12:58:51 PM)
+[2018.01.04-10.58.51:415][316]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.04-10.58.51:486][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070617s)
+[2018.01.04-10.58.51:489][316]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.04-10.58.51:490][316]LogPlayLevel: PIE: World Init took: (0.003525s)
+[2018.01.04-10.58.51:491][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.074969s)
+[2018.01.04-10.58.51:557][316]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-10.58.51:583][316]LogInit: FAudioDevice initialized.
+[2018.01.04-10.58.51:616][316]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.04-10.58.51:629][316]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.04-11.58.51
+[2018.01.04-10.58.51:629][316]LogWorld: Bringing up level for play took: 0.011809
+[2018.01.04-10.58.51:631][316]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.571
+[2018.01.04-10.58.51:631][316]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-10.59.02:098][637]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-10.59.02:163][637]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-10.59.05:873][750]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox2)
+[2018.01.04-10.59.09:173][849]Cmd: DELETE
+[2018.01.04-10.59.09:173][849]Cmd: ACTOR DELETE
+[2018.01.04-10.59.09:367][849]LogEditorActor: Deleted Actor: TriggerBox
+[2018.01.04-10.59.09:403][849]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2018.01.04-10.59.13:107][967]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.04-10.59.13:123][967]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-10.59.13:123][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-10.59.13:123][967]PIE: New page: PIE session: FirstPersonExampleMap (Jan 4, 2018, 12:59:13 PM)
+[2018.01.04-10.59.13:123][967]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.04-10.59.13:185][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062102s)
+[2018.01.04-10.59.13:187][967]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.04-10.59.13:188][967]LogPlayLevel: PIE: World Init took: (0.002536s)
+[2018.01.04-10.59.13:188][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.065264s)
+[2018.01.04-10.59.13:215][967]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-10.59.13:237][967]LogInit: FAudioDevice initialized.
+[2018.01.04-10.59.13:273][967]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.04-10.59.13:285][967]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.04-11.59.13
+[2018.01.04-10.59.13:285][967]LogWorld: Bringing up level for play took: 0.010696
+[2018.01.04-10.59.13:287][967]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.227
+[2018.01.04-10.59.13:287][967]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-10.59.15:242][ 31]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-10.59.15:281][ 31]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-10.59.29:895][377]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.04-10.59.30:372][385]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PGK
+[2018.01.04-10.59.30:373][385]LogTemp: CWD: P:\silnik\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.04-10.59.30:373][385]LogTemp: Initial Dir: P:\silnik\UE_4.16
+[2018.01.04-10.59.30:373][385]LogTemp: Env CWD: P:\silnik\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.04-10.59.30:373][385]LogTemp: BranchPath = GROBKOMP/P/silnik/UE_4.16/Engine/Binaries --- GameBranchPath = GROBKOMP/P/silnik/UE_4.16/Engine/Binaries
+[2018.01.04-10.59.30:800][399]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Robert\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.04-10.59.52:804][124]LogSavePackage: Save=1052.23ms
+[2018.01.04-10.59.52:804][124]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_Auto370DE94E14A18668ED75AB9A30304F37A.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2018.01.04-10.59.52:806][124]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap
+[2018.01.04-10.59.52:876][124]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.04-10.59.52:878][124]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.163
+[2018.01.04-10.59.52:878][124]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.163
+[2018.01.04-10.59.52:885][124]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2018.01.04-10.59.52:909][124]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2018.01.04-10.59.52:909][124]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2018.01.04-10.59.53:044][124]LogSavePackage: Save=130.05ms
+[2018.01.04-10.59.53:044][124]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacter_Auto3CAA7CB3D492D085340217C969F788D32.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset'
+[2018.01.04-10.59.53:046][124]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset
+[2018.01.04-10.59.53:047][124]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData] ([1] browsable assets)...
+[2018.01.04-10.59.53:047][124]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData]
+[2018.01.04-10.59.53:068][124]LogSavePackage: Save=15.75ms
+[2018.01.04-10.59.53:068][124]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_BuiltData_Auto3EA5C385B4DB7F9190EB18C8A05E34793.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData_Auto3.uasset'
+[2018.01.04-10.59.53:069][124]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData_Auto3.uasset
+[2018.01.04-10.59.53:069][124]LogFileHelpers: Auto-saving content packages took 0.187
+[2018.01.04-11.02.23:578][650]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.04-11.02.23:840][660]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PGK
+[2018.01.04-11.02.23:841][660]LogTemp: CWD: P:\silnik\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.04-11.02.23:841][660]LogTemp: Initial Dir: P:\silnik\UE_4.16
+[2018.01.04-11.02.23:841][660]LogTemp: Env CWD: P:\silnik\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.04-11.02.23:859][661]LogTemp: BranchPath = GROBKOMP/P/silnik/UE_4.16/Engine/Binaries --- GameBranchPath = GROBKOMP/P/silnik/UE_4.16/Engine/Binaries
+[2018.01.04-11.02.23:866][661]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Robert\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.04-11.04.05:451][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FlashLight_Mesh)
+[2018.01.04-11.07.02:564][ 49]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2018.01.04-11.10.29:061][686]LogSavePackage: Save=1047.38ms
+[2018.01.04-11.10.29:061][686]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_Auto4315F59F14C143268EFF6CCBB3A9688E9.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2018.01.04-11.10.29:063][686]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap
+[2018.01.04-11.10.29:065][686]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.103
+[2018.01.04-11.10.29:065][686]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.103
+[2018.01.04-11.10.29:070][686]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2018.01.04-11.10.29:087][686]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2018.01.04-11.10.29:087][686]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2018.01.04-11.10.29:224][686]LogSavePackage: Save=130.56ms
+[2018.01.04-11.10.29:224][686]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacter_Auto4DA555824450ABA4DF134E7943884C6A6.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset'
+[2018.01.04-11.10.29:226][686]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto4.uasset
+[2018.01.04-11.10.29:226][686]LogFileHelpers: Auto-saving content packages took 0.157
+[2018.01.04-11.10.41:651][ 22]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.04-11.10.43:170][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.04-11.10.43:304][ 45]LogSavePackage: Save=130.72ms
+[2018.01.04-11.10.43:304][ 45]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacter2110710249EDBBD8330A7691EEA310B8.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.04-11.10.43:311][ 45]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.01.04-11.13.33:023][  1]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.04-11.13.34:420][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.04-11.13.34:548][ 29]LogSavePackage: Save=124.36ms
+[2018.01.04-11.13.34:548][ 29]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacterCF0234D34A73FABC917679928924EEFD.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.04-11.13.34:551][ 29]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.01.04-11.14.14:578][604]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.04-11.14.15:525][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.04-11.14.15:662][626]LogSavePackage: Save=131.91ms
+[2018.01.04-11.14.15:662][626]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacter201D6F4247E3DFCE54E982A14425FE12.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.04-11.14.15:664][626]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.01.04-11.14.25:603][920]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.04-11.14.25:620][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-11.14.25:620][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-11.14.25:620][920]PIE: New page: PIE session: FirstPersonExampleMap (Jan 4, 2018, 1:14:25 PM)
+[2018.01.04-11.14.25:620][920]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.04-11.14.25:688][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068117s)
+[2018.01.04-11.14.25:690][920]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.04-11.14.25:690][920]LogPlayLevel: PIE: World Init took: (0.002261s)
+[2018.01.04-11.14.25:691][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.070997s)
+[2018.01.04-11.14.25:749][920]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-11.14.25:770][920]LogInit: FAudioDevice initialized.
+[2018.01.04-11.14.25:802][920]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.04-11.14.25:815][920]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.04-12.14.25
+[2018.01.04-11.14.25:816][920]LogWorld: Bringing up level for play took: 0.011895
+[2018.01.04-11.14.25:817][920]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.757
+[2018.01.04-11.14.25:818][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-11.15.07:074][584]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-11.15.07:185][584]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-11.15.50:709][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_winda_kor1)
+[2018.01.04-11.16.50:047][663]LogMetaData: Removing '/Game/Geometry/Inventory/Inventory_1.SKEL_Inventory_1_C' ref from Metadata '/Game/Geometry/Inventory/NewInterface.PackageMetaData'
+[2018.01.04-11.16.50:047][663]LogMetaData: Removing '/Game/Geometry/Inventory/Inventory_1.Inventory_1_C' ref from Metadata '/Game/Geometry/Inventory/NewInterface.PackageMetaData'
+[2018.01.04-11.16.50:129][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Inventory/Inventory_1" FILE="I:/Projekt/PGK/Content/Geometry/Inventory/Inventory_1.uasset" SILENT=true
+[2018.01.04-11.16.50:135][663]LogSavePackage: Save=3.60ms
+[2018.01.04-11.16.50:135][663]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/Inventory_149E5FC14464C8C57F3FFEE92B14DCB46.tmp' to 'I:/Projekt/PGK/Content/Geometry/Inventory/Inventory_1.uasset'
+[2018.01.04-11.16.50:138][663]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/Geometry/Inventory/Inventory_1.uasset
+[2018.01.04-11.17.58:054][707]LogSlate: Took 0.013918 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.01.04-11.20.26:264][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Inventory/Inventory_1" FILE="I:/Projekt/PGK/Content/Geometry/Inventory/Inventory_1.uasset" SILENT=true
+[2018.01.04-11.20.26:280][154]LogSavePackage: Save=8.13ms
+[2018.01.04-11.20.26:280][154]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/Inventory_1802E6E724E936B0DF16879B62A68B091.tmp' to 'I:/Projekt/PGK/Content/Geometry/Inventory/Inventory_1.uasset'
+[2018.01.04-11.20.26:282][154]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/Geometry/Inventory/Inventory_1.uasset
+[2018.01.04-11.21.17:119][663]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.04-11.21.20:121][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.04-11.21.20:252][739]LogSavePackage: Save=125.47ms
+[2018.01.04-11.21.20:252][739]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacter8977E0E346CF4B05682F35953922A426.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.04-11.21.20:254][739]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.01.04-11.21.45:612][501]LogSavePackage: Save=969.92ms
+[2018.01.04-11.21.45:612][501]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_Auto5806B78C74706EEABFBF831B985160F16.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap'
+[2018.01.04-11.21.45:614][501]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap
+[2018.01.04-11.21.45:616][501]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.020
+[2018.01.04-11.21.45:616][501]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.020
+[2018.01.04-11.21.50:927][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.04-11.21.51:053][692]LogSavePackage: Save=123.17ms
+[2018.01.04-11.21.51:053][692]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacter27D89A234664E92D43CCBAB46AEFED44.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.04-11.21.51:055][692]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.01.04-11.22.54:668][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.04-11.22.54:854][604]LogSavePackage: Save=179.84ms
+[2018.01.04-11.22.54:854][604]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacterABF47C6A43104FC64B4D54A92ADA8B20.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.04-11.22.54:856][604]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.01.04-11.25.10:855][657]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.04-11.25.17:391][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.04-11.25.17:518][885]LogSavePackage: Save=122.89ms
+[2018.01.04-11.25.17:518][885]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacter1456DA624D6CB768917DAF882FB854B4.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.04-11.25.17:520][885]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.01.04-11.25.18:485][919]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.04-11.25.20:789][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.04-11.25.20:921][987]LogSavePackage: Save=127.47ms
+[2018.01.04-11.25.20:921][987]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacter8875B458417FB3A25CC11C997D4A8AE8.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.04-11.25.20:922][987]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.01.04-11.27.58:792][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Inventory/Inventory_1" FILE="I:/Projekt/PGK/Content/Geometry/Inventory/Inventory_1.uasset" SILENT=true
+[2018.01.04-11.27.58:802][726]LogSavePackage: Save=5.96ms
+[2018.01.04-11.27.58:802][726]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/Inventory_14763AE484FEF82B4502709805C3FC251.tmp' to 'I:/Projekt/PGK/Content/Geometry/Inventory/Inventory_1.uasset'
+[2018.01.04-11.27.58:803][726]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/Geometry/Inventory/Inventory_1.uasset
+[2018.01.04-11.27.59:734][755]BlueprintLog: New page: Compile Inventory_1
+[2018.01.04-11.28.28:967][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.04-11.28.29:120][615]LogSavePackage: Save=143.51ms
+[2018.01.04-11.28.29:120][615]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacter7A5DAD4C483C459E7AB4FCB93FD78CFF.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.04-11.28.29:122][615]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.01.04-11.28.30:161][660]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.04-11.30.22:747][ 18]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.04-11.31.31:940][106]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.04-11.33.59:565][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.04-11.33.59:717][509]LogSavePackage: Save=145.87ms
+[2018.01.04-11.33.59:717][509]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacter95B505744E1630BB6C64E5B423F20846.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.04-11.33.59:721][509]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.01.04-11.34.03:728][640]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.04-11.34.06:090][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.04-11.34.06:236][737]LogSavePackage: Save=142.36ms
+[2018.01.04-11.34.06:236][737]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacter4E8448AA4FD9A1479266BDAB3B1ED6EA.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.04-11.34.06:237][737]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.01.04-11.34.06:949][764]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.04-11.35.07:305][428]LogSavePackage: Save=974.22ms
+[2018.01.04-11.35.07:305][428]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_Auto6D4A115014551B99A5F838F884B9B10D5.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto6.umap'
+[2018.01.04-11.35.07:307][428]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto6.umap
+[2018.01.04-11.35.07:309][428]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.020
+[2018.01.04-11.35.07:309][428]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.020
+[2018.01.04-11.35.07:314][428]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2018.01.04-11.35.07:330][428]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2018.01.04-11.35.07:330][428]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2018.01.04-11.35.07:469][428]LogSavePackage: Save=135.46ms
+[2018.01.04-11.35.07:469][428]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacter_Auto6C3902E7349ADCD80BB971B857BD0A0E2.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto6.uasset'
+[2018.01.04-11.35.07:471][428]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto6.uasset
+[2018.01.04-11.35.07:471][428]LogFileHelpers: Auto-saving content packages took 0.159
+[2018.01.04-11.36.53:473][734]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.04-11.37.03:356][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.04-11.37.03:497][ 49]LogSavePackage: Save=137.25ms
+[2018.01.04-11.37.03:497][ 49]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonCharacterA64E0772466CC91CED017388FACBF88C.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.04-11.37.03:499][ 49]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.01.04-11.37.04:149][ 79]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.04-11.37.09:684][245]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.04-11.37.09:703][245]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-11.37.09:703][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-11.37.09:703][245]PIE: New page: PIE session: FirstPersonExampleMap (Jan 4, 2018, 1:37:09 PM)
+[2018.01.04-11.37.09:703][245]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.04-11.37.09:769][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066535s)
+[2018.01.04-11.37.09:771][245]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.04-11.37.09:772][245]LogPlayLevel: PIE: World Init took: (0.002000s)
+[2018.01.04-11.37.09:772][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.069126s)
+[2018.01.04-11.37.09:803][245]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-11.37.09:835][245]LogInit: FAudioDevice initialized.
+[2018.01.04-11.37.09:873][245]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.04-11.37.09:888][245]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.04-12.37.09
+[2018.01.04-11.37.09:889][245]LogWorld: Bringing up level for play took: 0.014717
+[2018.01.04-11.37.09:891][245]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.831
+[2018.01.04-11.37.09:892][245]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-11.37.18:786][518]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-11.37.18:873][518]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.04-11.38.56:165][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Flashlightl)
+[2018.01.04-11.40.02:529][423]LogActorFactory: Actor Factory created default
+[2018.01.04-11.40.04:415][483]LogActorFactory: Actor Factory created default
+[2018.01.04-11.40.14:270][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Flashlightl)
+[2018.01.04-11.40.17:770][886]Cmd: DELETE
+[2018.01.04-11.40.17:770][886]Cmd: ACTOR DELETE
+[2018.01.04-11.40.17:773][886]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.04-11.40.17:794][886]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.01.04-11.40.20:103][956]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (default)
+[2018.01.04-11.40.22:770][ 36]Cmd: DELETE
+[2018.01.04-11.40.22:770][ 36]Cmd: ACTOR DELETE
+[2018.01.04-11.40.22:773][ 36]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.04-11.40.22:795][ 36]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.01.04-11.41.12:090][510]LogTexture:Display: Building textures: lowPoly_Body_Diffuse (AutoDXT, 2048X2048)
+[2018.01.04-11.41.12:697][510]LogTexture:Display: Building textures: lowPoly_Body_f0 (AutoDXT, 2048X2048)
+[2018.01.04-11.41.13:442][510]LogTexture:Display: Building textures: lowPoly_Body_Height (AutoDXT, 2048X2048)
+[2018.01.04-11.41.14:086][510]LogTexture:Display: Building textures: lowPoly_Body_Normal (BC5, 2048X2048)
+[2018.01.04-11.41.14:748][510]LogTexture:Display: Building textures: lowPoly_Body_Roughness (AutoDXT, 2048X2048)
+[2018.01.04-11.41.15:878][510]LogTexture:Display: Building textures: lowPoly_Body_Specular (AutoDXT, 2048X2048)
+[2018.01.04-11.41.16:636][510]LogTexture:Display: Building textures: lowPoly_Button_Diffuse (AutoDXT, 2048X2048)
+[2018.01.04-11.41.17:252][510]LogTexture:Display: Building textures: lowPoly_Button_f0 (AutoDXT, 2048X2048)
+[2018.01.04-11.41.17:657][510]LogTexture:Display: Building textures: lowPoly_Button_Height (AutoDXT, 2048X2048)
+[2018.01.04-11.41.18:355][510]LogTexture:Display: Building textures: lowPoly_Button_Normal (BC5, 2048X2048)
+[2018.01.04-11.41.18:962][510]LogTexture:Display: Building textures: lowPoly_Button_Roughness (AutoDXT, 2048X2048)
+[2018.01.04-11.41.19:633][510]LogTexture:Display: Building textures: lowPoly_Button_Specular (AutoDXT, 2048X2048)
+[2018.01.04-11.41.20:324][510]LogTexture:Display: Building textures: lowPoly_Glass_Diffuse (AutoDXT, 2048X2048)
+[2018.01.04-11.41.20:738][510]LogTexture:Display: Building textures: lowPoly_Glass_Emissive (AutoDXT, 2048X2048)
+[2018.01.04-11.41.21:455][510]LogTexture:Display: Building textures: lowPoly_Glass_f0 (AutoDXT, 2048X2048)
+[2018.01.04-11.41.22:055][510]LogTexture:Display: Building textures: lowPoly_Glass_Height (AutoDXT, 2048X2048)
+[2018.01.04-11.41.22:665][510]LogTexture:Display: Building textures: lowPoly_Glass_Normal (BC5, 2048X2048)
+[2018.01.04-11.41.23:274][510]LogTexture:Display: Building textures: lowPoly_Glass_Roughness (AutoDXT, 2048X2048)
+[2018.01.04-11.41.23:931][510]LogTexture:Display: Building textures: lowPoly_Glass_Specular (AutoDXT, 2048X2048)
+[2018.01.04-11.41.31:777][510]LogMetaData: Removing '/Game/FL2/FbxScene_FlashLight.FbxScene_FlashLight:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/import/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.41.31:777][510]LogMetaData: Removing '/Game/FL2/FbxScene_FlashLight.FbxScene_FlashLight_C' ref from Metadata '/Game/import/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.41.31:777][510]LogMetaData: Removing '/Game/FL2/FbxScene_FlashLight.FbxScene_FlashLight:EventGraph.K2Node_Event_0' ref from Metadata '/Game/import/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.41.31:777][510]LogMetaData: Removing '/Game/FL2/FbxScene_FlashLight.FbxScene_FlashLight:EventGraph.K2Node_Event_1' ref from Metadata '/Game/import/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.41.31:777][510]LogMetaData: Removing '/Game/FL2/FbxScene_FlashLight.FbxScene_FlashLight:EventGraph.K2Node_Event_2' ref from Metadata '/Game/import/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.41.31:777][510]LogMetaData: Removing '/Game/FL2/FbxScene_FlashLight.FbxScene_FlashLight_C:UserConstructionScript' ref from Metadata '/Game/import/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.41.31:777][510]LogMetaData: Removing '/Game/FL2/FbxScene_FlashLight.FbxScene_FlashLight_C:default' ref from Metadata '/Game/import/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.41.31:777][510]LogMetaData: Removing '/Game/FL2/FbxScene_FlashLight.FbxScene_FlashLight_C:FlashLight_root' ref from Metadata '/Game/import/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.41.31:777][510]LogMetaData: Removing '/Game/FL2/FbxScene_FlashLight.FbxScene_FlashLight_C:DefaultSceneRoot1' ref from Metadata '/Game/import/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.41.31:777][510]LogMetaData: Removing '/Game/FL2/FbxScene_FlashLight.SKEL_FbxScene_FlashLight_C:DefaultSceneRoot1' ref from Metadata '/Game/import/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.41.31:777][510]LogMetaData: Removing '/Game/FL2/FbxScene_FlashLight.SKEL_FbxScene_FlashLight_C:FlashLight_root' ref from Metadata '/Game/import/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.41.31:777][510]LogMetaData: Removing '/Game/FL2/FbxScene_FlashLight.SKEL_FbxScene_FlashLight_C:default' ref from Metadata '/Game/import/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.41.31:777][510]LogMetaData: Removing '/Game/FL2/FbxScene_FlashLight.SKEL_FbxScene_FlashLight_C:UserConstructionScript' ref from Metadata '/Game/import/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.41.31:777][510]LogMetaData: Removing '/Game/FL2/FbxScene_FlashLight.SKEL_FbxScene_FlashLight_C' ref from Metadata '/Game/import/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.41.32:250][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/default" FILE="I:/Projekt/PGK/Content/FL2/default.uasset" SILENT=true
+[2018.01.04-11.41.32:267][510]LogSavePackage: Save=15.32ms
+[2018.01.04-11.41.32:267][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/defaultEB625CF241BB1AD32FCA319D1B84D11F.tmp' to 'I:/Projekt/PGK/Content/FL2/default.uasset'
+[2018.01.04-11.41.32:270][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/default.uasset
+[2018.01.04-11.41.32:350][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/defaultMat" FILE="I:/Projekt/PGK/Content/FL2/defaultMat.uasset" SILENT=true
+[2018.01.04-11.41.32:408][510]LogSavePackage: Save=55.84ms
+[2018.01.04-11.41.32:408][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/defaultMatF0F255484B80DC17D290988951BC4356.tmp' to 'I:/Projekt/PGK/Content/FL2/defaultMat.uasset'
+[2018.01.04-11.41.32:410][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/defaultMat.uasset
+[2018.01.04-11.41.32:414][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/FlashLight" FILE="I:/Projekt/PGK/Content/FL2/FlashLight.uasset" SILENT=true
+[2018.01.04-11.41.32:474][510]LogSavePackage: Save=58.91ms
+[2018.01.04-11.41.32:474][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FlashLightF3B7CD7140519932A0AB7F96C59471AF.tmp' to 'I:/Projekt/PGK/Content/FL2/FlashLight.uasset'
+[2018.01.04-11.41.32:475][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/FlashLight.uasset
+[2018.01.04-11.41.32:518][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/FbxScene_FlashLight" FILE="I:/Projekt/PGK/Content/FL2/FbxScene_FlashLight.uasset" SILENT=true
+[2018.01.04-11.41.32:537][510]LogSavePackage: Save=18.16ms
+[2018.01.04-11.41.32:537][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FbxScene_FlashLight7313DA0A4EE28AB05DDE59B5E0F3F4B1.tmp' to 'I:/Projekt/PGK/Content/FL2/FbxScene_FlashLight.uasset'
+[2018.01.04-11.41.32:538][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/FbxScene_FlashLight.uasset
+[2018.01.04-11.41.32:553][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Body_Diffuse" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Body_Diffuse.uasset" SILENT=true
+[2018.01.04-11.41.32:565][510]LogSavePackage: Save=11.69ms
+[2018.01.04-11.41.32:565][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Body_DiffuseAE4C0DC744099F8D4B81AAB53A750D43.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Body_Diffuse.uasset'
+[2018.01.04-11.41.32:569][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Body_Diffuse.uasset
+[2018.01.04-11.41.32:588][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Body_f0" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Body_f0.uasset" SILENT=true
+[2018.01.04-11.41.32:603][510]LogSavePackage: Save=12.93ms
+[2018.01.04-11.41.32:603][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Body_f041139A8143A19A27D2FFC1BCA603D4EF.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Body_f0.uasset'
+[2018.01.04-11.41.32:606][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Body_f0.uasset
+[2018.01.04-11.41.32:629][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Body_Height" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Body_Height.uasset" SILENT=true
+[2018.01.04-11.41.32:637][510]LogSavePackage: Save=6.09ms
+[2018.01.04-11.41.32:637][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Body_Height9B11AF0E4291F176951C9FBA8B165C77.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Body_Height.uasset'
+[2018.01.04-11.41.32:640][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Body_Height.uasset
+[2018.01.04-11.41.32:690][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Body_Normal" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Body_Normal.uasset" SILENT=true
+[2018.01.04-11.41.32:697][510]LogSavePackage: Save=5.95ms
+[2018.01.04-11.41.32:697][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Body_Normal1ACC06D644458C65E68963AFCB33E371.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Body_Normal.uasset'
+[2018.01.04-11.41.32:700][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Body_Normal.uasset
+[2018.01.04-11.41.32:718][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Body_Roughness" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Body_Roughness.uasset" SILENT=true
+[2018.01.04-11.41.32:743][510]LogSavePackage: Save=24.51ms
+[2018.01.04-11.41.32:743][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Body_Roughness910C0C3D4F818D7BA35B69AEB23B3EEB.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Body_Roughness.uasset'
+[2018.01.04-11.41.32:745][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Body_Roughness.uasset
+[2018.01.04-11.41.32:758][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Body_Specular" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Body_Specular.uasset" SILENT=true
+[2018.01.04-11.41.32:779][510]LogSavePackage: Save=19.16ms
+[2018.01.04-11.41.32:779][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Body_SpecularDF31C18744747CA72ACC0DA9A376ECE6.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Body_Specular.uasset'
+[2018.01.04-11.41.32:781][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Body_Specular.uasset
+[2018.01.04-11.41.32:795][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Button_Diffuse" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Button_Diffuse.uasset" SILENT=true
+[2018.01.04-11.41.32:807][510]LogSavePackage: Save=11.07ms
+[2018.01.04-11.41.32:807][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Button_DiffuseB1D336704C1511F665AE028C923B4494.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Button_Diffuse.uasset'
+[2018.01.04-11.41.32:808][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Button_Diffuse.uasset
+[2018.01.04-11.41.32:822][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Button_f0" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Button_f0.uasset" SILENT=true
+[2018.01.04-11.41.32:828][510]LogSavePackage: Save=4.54ms
+[2018.01.04-11.41.32:828][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Button_f00CD5800B44887EACF196B5B8DAA11003.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Button_f0.uasset'
+[2018.01.04-11.41.32:830][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Button_f0.uasset
+[2018.01.04-11.41.32:846][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Button_Height" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Button_Height.uasset" SILENT=true
+[2018.01.04-11.41.32:857][510]LogSavePackage: Save=9.85ms
+[2018.01.04-11.41.32:857][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Button_Height7098A6AE4779734479A33FB8E9008646.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Button_Height.uasset'
+[2018.01.04-11.41.32:859][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Button_Height.uasset
+[2018.01.04-11.41.32:874][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Button_Normal" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Button_Normal.uasset" SILENT=true
+[2018.01.04-11.41.32:887][510]LogSavePackage: Save=12.35ms
+[2018.01.04-11.41.32:887][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Button_NormalC97A5D2147093D8AD4A44FA938B866DA.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Button_Normal.uasset'
+[2018.01.04-11.41.32:889][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Button_Normal.uasset
+[2018.01.04-11.41.32:903][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Button_Roughness" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Button_Roughness.uasset" SILENT=true
+[2018.01.04-11.41.32:915][510]LogSavePackage: Save=10.03ms
+[2018.01.04-11.41.32:915][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Button_Roughness8EA34E8E406AA1A2FA92D281AD27228C.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Button_Roughness.uasset'
+[2018.01.04-11.41.32:916][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Button_Roughness.uasset
+[2018.01.04-11.41.32:932][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Button_Specular" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Button_Specular.uasset" SILENT=true
+[2018.01.04-11.41.32:938][510]LogSavePackage: Save=5.19ms
+[2018.01.04-11.41.32:938][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Button_Specular6AF2AA7240BF7126B35DD8B81557355A.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Button_Specular.uasset'
+[2018.01.04-11.41.32:940][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Button_Specular.uasset
+[2018.01.04-11.41.32:950][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Glass_Diffuse" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Diffuse.uasset" SILENT=true
+[2018.01.04-11.41.32:957][510]LogSavePackage: Save=6.18ms
+[2018.01.04-11.41.32:957][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Glass_Diffuse49D49C13442CD28BADB12CB14BDDAE1D.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Diffuse.uasset'
+[2018.01.04-11.41.32:959][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Diffuse.uasset
+[2018.01.04-11.41.32:973][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Glass_Emissive" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Emissive.uasset" SILENT=true
+[2018.01.04-11.41.32:985][510]LogSavePackage: Save=10.99ms
+[2018.01.04-11.41.32:985][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Glass_Emissive56825C814F0BAA263181DAB9A376CE5E.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Emissive.uasset'
+[2018.01.04-11.41.32:987][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Emissive.uasset
+[2018.01.04-11.41.33:002][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Glass_f0" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Glass_f0.uasset" SILENT=true
+[2018.01.04-11.41.33:010][510]LogSavePackage: Save=7.56ms
+[2018.01.04-11.41.33:010][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Glass_f01AEA36944C60896B0036048FEB22B9CD.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Glass_f0.uasset'
+[2018.01.04-11.41.33:012][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Glass_f0.uasset
+[2018.01.04-11.41.33:025][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Glass_Height" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Height.uasset" SILENT=true
+[2018.01.04-11.41.33:031][510]LogSavePackage: Save=5.05ms
+[2018.01.04-11.41.33:031][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Glass_Height74B726DC4EFD5F85CF97348AA66BC8C3.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Height.uasset'
+[2018.01.04-11.41.33:032][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Height.uasset
+[2018.01.04-11.41.33:048][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Glass_Normal" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Normal.uasset" SILENT=true
+[2018.01.04-11.41.33:056][510]LogSavePackage: Save=6.31ms
+[2018.01.04-11.41.33:056][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Glass_Normal46C806564C7F9ED3753A468FC8ED3ABF.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Normal.uasset'
+[2018.01.04-11.41.33:058][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Normal.uasset
+[2018.01.04-11.41.33:075][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Glass_Roughness" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Roughness.uasset" SILENT=true
+[2018.01.04-11.41.33:092][510]LogSavePackage: Save=14.96ms
+[2018.01.04-11.41.33:092][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Glass_Roughness2B167DCD4D11CE782B1BF5BCCF292E3D.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Roughness.uasset'
+[2018.01.04-11.41.33:095][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Roughness.uasset
+[2018.01.04-11.41.33:112][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FL2/lowPoly_Glass_Specular" FILE="I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Specular.uasset" SILENT=true
+[2018.01.04-11.41.33:121][510]LogSavePackage: Save=6.70ms
+[2018.01.04-11.41.33:121][510]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Glass_Specular4BA25B174CC36260B33BA4945D9BE23E.tmp' to 'I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Specular.uasset'
+[2018.01.04-11.41.33:123][510]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FL2/lowPoly_Glass_Specular.uasset
+[2018.01.04-11.41.55:743][680]Cmd: TRANSACTION UNDO
+[2018.01.04-11.41.55:743][680]LogEditorTransaction: Undo Delete Actors
+[2018.01.04-11.42.00:457][952]Cmd: TRANSACTION UNDO
+[2018.01.04-11.42.00:457][952]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.04-11.42.30:115][796]LogMetaData: Removing '/Game/FlashLight/FbxScene_FlashLight.FbxScene_FlashLight_C' ref from Metadata '/Game/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.42.30:115][796]LogMetaData: Removing '/Game/FlashLight/FbxScene_FlashLight.FbxScene_FlashLight_C:default' ref from Metadata '/Game/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.42.30:115][796]LogMetaData: Removing '/Game/FlashLight/FbxScene_FlashLight.FbxScene_FlashLight_C:FlashLight_root' ref from Metadata '/Game/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.42.30:115][796]LogMetaData: Removing '/Game/FlashLight/FbxScene_FlashLight.FbxScene_FlashLight_C:DefaultSceneRoot1' ref from Metadata '/Game/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.42.30:115][796]LogMetaData: Removing '/Game/FlashLight/FbxScene_FlashLight.FbxScene_FlashLight_C:UserConstructionScript' ref from Metadata '/Game/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.42.30:115][796]LogMetaData: Removing '/Game/FlashLight/FbxScene_FlashLight.SKEL_FbxScene_FlashLight_C' ref from Metadata '/Game/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.42.30:115][796]LogMetaData: Removing '/Game/FlashLight/FbxScene_FlashLight.SKEL_FbxScene_FlashLight_C:DefaultSceneRoot1' ref from Metadata '/Game/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.42.30:115][796]LogMetaData: Removing '/Game/FlashLight/FbxScene_FlashLight.SKEL_FbxScene_FlashLight_C:FlashLight_root' ref from Metadata '/Game/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.42.30:115][796]LogMetaData: Removing '/Game/FlashLight/FbxScene_FlashLight.SKEL_FbxScene_FlashLight_C:default' ref from Metadata '/Game/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.42.30:115][796]LogMetaData: Removing '/Game/FlashLight/FbxScene_FlashLight.SKEL_FbxScene_FlashLight_C:UserConstructionScript' ref from Metadata '/Game/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.42.30:115][796]LogMetaData: Removing '/Game/FlashLight/FbxScene_FlashLight.FbxScene_FlashLight:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.42.30:115][796]LogMetaData: Removing '/Game/FlashLight/FbxScene_FlashLight.FbxScene_FlashLight:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.42.30:115][796]LogMetaData: Removing '/Game/FlashLight/FbxScene_FlashLight.FbxScene_FlashLight:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.42.30:115][796]LogMetaData: Removing '/Game/FlashLight/FbxScene_FlashLight.FbxScene_FlashLight:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FL2/FbxScene_FlashLight.PackageMetaData'
+[2018.01.04-11.42.30:179][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/default" FILE="I:/Projekt/PGK/Content/FlashLight/default.uasset" SILENT=true
+[2018.01.04-11.42.30:192][796]LogSavePackage: Save=11.87ms
+[2018.01.04-11.42.30:192][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/default664D5FFC469BF91ADEE9148DDB07AAC6.tmp' to 'I:/Projekt/PGK/Content/FlashLight/default.uasset'
+[2018.01.04-11.42.30:194][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/default.uasset
+[2018.01.04-11.42.30:227][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/defaultMat" FILE="I:/Projekt/PGK/Content/FlashLight/defaultMat.uasset" SILENT=true
+[2018.01.04-11.42.30:240][796]LogSavePackage: Save=12.28ms
+[2018.01.04-11.42.30:240][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/defaultMat9B3BB5E3417DF16C41ADE88DABCDD253.tmp' to 'I:/Projekt/PGK/Content/FlashLight/defaultMat.uasset'
+[2018.01.04-11.42.30:242][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/defaultMat.uasset
+[2018.01.04-11.42.30:249][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/FlashLight" FILE="I:/Projekt/PGK/Content/FlashLight/FlashLight.uasset" SILENT=true
+[2018.01.04-11.42.30:252][796]LogSavePackage: Save=1.20ms
+[2018.01.04-11.42.30:252][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FlashLight64BADF9247041E71C220D5ADB3BB7190.tmp' to 'I:/Projekt/PGK/Content/FlashLight/FlashLight.uasset'
+[2018.01.04-11.42.30:254][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/FlashLight.uasset
+[2018.01.04-11.42.30:272][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Glass_Specular" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Specular.uasset" SILENT=true
+[2018.01.04-11.42.30:279][796]LogSavePackage: Save=5.55ms
+[2018.01.04-11.42.30:279][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Glass_SpecularE2CD056B462C96993D198786B2B70DB2.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Specular.uasset'
+[2018.01.04-11.42.30:281][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Specular.uasset
+[2018.01.04-11.42.30:297][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Glass_Roughness" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Roughness.uasset" SILENT=true
+[2018.01.04-11.42.30:309][796]LogSavePackage: Save=11.09ms
+[2018.01.04-11.42.30:309][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Glass_Roughness1B12E5204AC52A44841462856A2301BF.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Roughness.uasset'
+[2018.01.04-11.42.30:312][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Roughness.uasset
+[2018.01.04-11.42.30:329][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Glass_Normal" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Normal.uasset" SILENT=true
+[2018.01.04-11.42.30:335][796]LogSavePackage: Save=4.55ms
+[2018.01.04-11.42.30:335][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Glass_Normal7DB18D434034266930C0968C48AB91DE.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Normal.uasset'
+[2018.01.04-11.42.30:337][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Normal.uasset
+[2018.01.04-11.42.30:353][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Glass_Height" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Height.uasset" SILENT=true
+[2018.01.04-11.42.30:359][796]LogSavePackage: Save=4.11ms
+[2018.01.04-11.42.30:359][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Glass_Height3DEE966349814BC8212E79ACB703E5E2.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Height.uasset'
+[2018.01.04-11.42.30:360][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Height.uasset
+[2018.01.04-11.42.30:377][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Glass_f0" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_f0.uasset" SILENT=true
+[2018.01.04-11.42.30:385][796]LogSavePackage: Save=6.34ms
+[2018.01.04-11.42.30:385][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Glass_f0FD6CFBC34DE69C3D11039791B64B1F4F.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_f0.uasset'
+[2018.01.04-11.42.30:386][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_f0.uasset
+[2018.01.04-11.42.30:404][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Glass_Emissive" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Emissive.uasset" SILENT=true
+[2018.01.04-11.42.30:417][796]LogSavePackage: Save=11.84ms
+[2018.01.04-11.42.30:417][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Glass_Emissive68BEF83E4931F755211ABAB9F0A361A3.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Emissive.uasset'
+[2018.01.04-11.42.30:418][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Emissive.uasset
+[2018.01.04-11.42.30:432][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Glass_Diffuse" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Diffuse.uasset" SILENT=true
+[2018.01.04-11.42.30:439][796]LogSavePackage: Save=6.59ms
+[2018.01.04-11.42.30:439][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Glass_Diffuse1FE7C0A3499E5EB50843F8973B0E6A93.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Diffuse.uasset'
+[2018.01.04-11.42.30:441][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Glass_Diffuse.uasset
+[2018.01.04-11.42.30:459][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Button_Specular" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Specular.uasset" SILENT=true
+[2018.01.04-11.42.30:465][796]LogSavePackage: Save=4.62ms
+[2018.01.04-11.42.30:465][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Button_Specular0647318049F37F00CCD923A56D369599.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Specular.uasset'
+[2018.01.04-11.42.30:466][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Specular.uasset
+[2018.01.04-11.42.30:483][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Button_Roughness" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Roughness.uasset" SILENT=true
+[2018.01.04-11.42.30:493][796]LogSavePackage: Save=9.38ms
+[2018.01.04-11.42.30:494][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Button_Roughness63E1C03348C30516E8C330AD5CAF6C0F.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Roughness.uasset'
+[2018.01.04-11.42.30:495][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Roughness.uasset
+[2018.01.04-11.42.30:512][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Button_Normal" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Normal.uasset" SILENT=true
+[2018.01.04-11.42.30:525][796]LogSavePackage: Save=12.34ms
+[2018.01.04-11.42.30:525][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Button_Normal0688EE434E1626CA130F49B4D20D0E73.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Normal.uasset'
+[2018.01.04-11.42.30:527][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Normal.uasset
+[2018.01.04-11.42.30:544][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Button_Height" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Height.uasset" SILENT=true
+[2018.01.04-11.42.30:554][796]LogSavePackage: Save=9.51ms
+[2018.01.04-11.42.30:554][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Button_HeightABFA0CB3489DFCD9693AA1A3D9D01175.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Height.uasset'
+[2018.01.04-11.42.30:556][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Height.uasset
+[2018.01.04-11.42.30:573][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Button_f0" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_f0.uasset" SILENT=true
+[2018.01.04-11.42.30:579][796]LogSavePackage: Save=4.92ms
+[2018.01.04-11.42.30:579][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Button_f0862AD21B4D14EBD7EDD897A092F385EC.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_f0.uasset'
+[2018.01.04-11.42.30:581][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_f0.uasset
+[2018.01.04-11.42.30:599][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Button_Diffuse" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Diffuse.uasset" SILENT=true
+[2018.01.04-11.42.30:610][796]LogSavePackage: Save=10.55ms
+[2018.01.04-11.42.30:610][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Button_Diffuse300155BE4DA07C386F214FB20E756CC7.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Diffuse.uasset'
+[2018.01.04-11.42.30:613][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Button_Diffuse.uasset
+[2018.01.04-11.42.30:630][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Body_Specular" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Specular.uasset" SILENT=true
+[2018.01.04-11.42.30:651][796]LogSavePackage: Save=20.44ms
+[2018.01.04-11.42.30:651][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Body_SpecularDC71FE80456C02E8E7E800A776FC0053.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Specular.uasset'
+[2018.01.04-11.42.30:653][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Specular.uasset
+[2018.01.04-11.42.30:671][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Body_Roughness" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Roughness.uasset" SILENT=true
+[2018.01.04-11.42.30:698][796]LogSavePackage: Save=25.79ms
+[2018.01.04-11.42.30:698][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Body_RoughnessE127F7EF49BF0757538D64A861FB0C8A.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Roughness.uasset'
+[2018.01.04-11.42.30:700][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Roughness.uasset
+[2018.01.04-11.42.30:717][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Body_Normal" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Normal.uasset" SILENT=true
+[2018.01.04-11.42.30:723][796]LogSavePackage: Save=5.15ms
+[2018.01.04-11.42.30:723][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Body_Normal2B501A074A40B76862D8ED9DB7E754FA.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Normal.uasset'
+[2018.01.04-11.42.30:725][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Normal.uasset
+[2018.01.04-11.42.30:741][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Body_Height" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Height.uasset" SILENT=true
+[2018.01.04-11.42.30:747][796]LogSavePackage: Save=4.94ms
+[2018.01.04-11.42.30:747][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Body_Height8D3DDD28426A27EE8E29EF848AB96693.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Height.uasset'
+[2018.01.04-11.42.30:749][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Height.uasset
+[2018.01.04-11.42.30:766][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Body_f0" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_f0.uasset" SILENT=true
+[2018.01.04-11.42.30:777][796]LogSavePackage: Save=10.46ms
+[2018.01.04-11.42.30:777][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Body_f0F4F7D3B34A655B7661CE1FBCA5FE16E7.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_f0.uasset'
+[2018.01.04-11.42.30:779][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_f0.uasset
+[2018.01.04-11.42.30:793][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/lowPoly_Body_Diffuse" FILE="I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Diffuse.uasset" SILENT=true
+[2018.01.04-11.42.30:806][796]LogSavePackage: Save=10.77ms
+[2018.01.04-11.42.30:806][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/lowPoly_Body_Diffuse17092646415B7F9D257D508D10443FD0.tmp' to 'I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Diffuse.uasset'
+[2018.01.04-11.42.30:807][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/lowPoly_Body_Diffuse.uasset
+[2018.01.04-11.42.30:834][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/FbxScene_FlashLight" FILE="I:/Projekt/PGK/Content/FlashLight/FbxScene_FlashLight.uasset" SILENT=true
+[2018.01.04-11.42.30:854][796]LogSavePackage: Save=19.18ms
+[2018.01.04-11.42.30:855][796]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FbxScene_FlashLight6F1A2D54439AA3BF97BD159B322A934B.tmp' to 'I:/Projekt/PGK/Content/FlashLight/FbxScene_FlashLight.uasset'
+[2018.01.04-11.42.30:856][796]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/FbxScene_FlashLight.uasset
+[2018.01.04-11.42.49:259][430]AssetReimport: New page: Outstanding source content changes 1:42:49 PM
+[2018.01.04-11.42.52:282][521]AssetReimport:Error: Error Failed to reimport asset default.
+[2018.01.04-11.44.09:348][819]LogRenderer: Reallocating scene render targets to support 1296x900 NumSamples 1 (Frame:1).
+[2018.01.04-11.45.30:261][200]LogSavePackage: Save=1040.98ms
+[2018.01.04-11.45.30:261][200]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_Auto7A65434894B6AD41518B80DBE7D23FAA6.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto7.umap'
+[2018.01.04-11.45.30:262][200]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto7.umap
+[2018.01.04-11.45.30:264][200]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.091
+[2018.01.04-11.45.30:264][200]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.091
+[2018.01.04-11.45.30:267][200]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FlashLight/FL_actor] ([1] browsable assets)...
+[2018.01.04-11.45.30:268][200]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlashLight/FL_actor]
+[2018.01.04-11.45.30:268][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/FL_actor" FILE="I:/Projekt/PGK/Saved/Autosaves/Game/FlashLight/FL_actor_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2018.01.04-11.45.30:277][200]LogSavePackage: Save=8.86ms
+[2018.01.04-11.45.30:277][200]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FL_actor_Auto78A3E1DC84EC84E00FD7E37982BE493C7.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/FlashLight/FL_actor_Auto7.uasset'
+[2018.01.04-11.45.30:278][200]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/FlashLight/FL_actor_Auto7.uasset
+[2018.01.04-11.45.30:278][200]LogFileHelpers: Auto-saving content packages took 0.012
+[2018.01.04-11.46.40:922][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/FL_actor" FILE="I:/Projekt/PGK/Content/FlashLight/FL_actor.uasset" SILENT=true
+[2018.01.04-11.46.40:939][377]LogSavePackage: Save=15.00ms
+[2018.01.04-11.46.40:939][377]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FL_actor2271B63A44E00D36DFF19390CC701817.tmp' to 'I:/Projekt/PGK/Content/FlashLight/FL_actor.uasset'
+[2018.01.04-11.46.40:942][377]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/FL_actor.uasset
+[2018.01.04-11.46.41:861][406]BlueprintLog: New page: Compile FL_actor
+[2018.01.04-11.47.24:265][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/deuflat" FILE="I:/Projekt/PGK/Content/FlashLight/deuflat.uasset" SILENT=true
+[2018.01.04-11.47.24:289][673]LogSavePackage: Save=22.96ms
+[2018.01.04-11.47.24:290][673]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/deuflat4F0C6736475BD9D6BAE6E6B69F199B30.tmp' to 'I:/Projekt/PGK/Content/FlashLight/deuflat.uasset'
+[2018.01.04-11.47.24:293][673]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/deuflat.uasset
+[2018.01.04-11.47.24:601][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/FbxScene_FlashLight" FILE="I:/Projekt/PGK/Content/FlashLight/FbxScene_FlashLight.uasset" SILENT=true
+[2018.01.04-11.47.24:623][673]LogSavePackage: Save=17.43ms
+[2018.01.04-11.47.24:623][673]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FbxScene_FlashLight213E2F5141CA125DEC301CBA8685EF31.tmp' to 'I:/Projekt/PGK/Content/FlashLight/FbxScene_FlashLight.uasset'
+[2018.01.04-11.47.24:624][673]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/FbxScene_FlashLight.uasset
+[2018.01.04-11.47.30:597][868]Cmd: TRANSACTION UNDO
+[2018.01.04-11.47.30:597][868]LogEditorTransaction: Undo Remove Components
+[2018.01.04-11.51.09:321][390]BlueprintLog: New page: Compile FL_actor
+[2018.01.04-11.51.30:925][ 46]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.30:925][ 46]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.30:948][ 47]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.30:971][ 48]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.30:993][ 49]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.31:014][ 50]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.31:038][ 51]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.31:056][ 52]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.31:086][ 53]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.31:118][ 54]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.31:404][ 64]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.31:404][ 64]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.31:435][ 65]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.31:466][ 66]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.31:497][ 67]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: FL_actor_C_0.Collision 
+[2018.01.04-11.51.41:863][405]BlueprintLog: New page: Compile FL_actor
+[2018.01.04-11.54.23:257][245]BlueprintLog: New page: Compile FL_actor
+[2018.01.04-11.54.42:154][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlashLight/FL_actor" FILE="I:/Projekt/PGK/Content/FlashLight/FL_actor.uasset" SILENT=true
+[2018.01.04-11.54.42:191][810]LogSavePackage: Save=32.04ms
+[2018.01.04-11.54.42:191][810]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FL_actor92FDC75140B8B4D384442181EE3D31C7.tmp' to 'I:/Projekt/PGK/Content/FlashLight/FL_actor.uasset'
+[2018.01.04-11.54.42:195][810]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FlashLight/FL_actor.uasset
+[2018.01.04-11.54.49:759][ 39]LogActorFactory: Actor Factory created deuflat
+[2018.01.04-11.54.50:733][ 68]LogActorFactory: Actor Factory created deuflat
+[2018.01.04-11.54.54:353][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (default)
+[2018.01.04-11.54.55:553][213]Cmd: DELETE
+[2018.01.04-11.54.55:553][213]Cmd: ACTOR DELETE
+[2018.01.04-11.54.55:556][213]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.04-11.54.55:578][213]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.01.04-11.54.57:386][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deuflat)
+[2018.01.04-11.55.19:839][935]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2018.01.04-11.55.20:184][935]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2018.01.04-11.55.20:226][935]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2018.01.04-11.55.20:284][935]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.24:228][ 73]LogShaderCompilers:Warning: Failed to compile Material /Engine/Transient.defaultMat for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.04-11.55.24:228][ 73]LogShaderCompilers:Warning: 	(): out of memory during compilation
+[2018.01.04-11.55.24:261][ 74]MaterialEditorStats:Error: Error [SM5] (): out of memory during compilation
+[2018.01.04-11.55.24:329][ 76]LogShaderCompilers:Warning: Failed to compile Material  for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.04-11.55.24:329][ 76]LogShaderCompilers:Warning: 	ScreenSpaceRayCast.usf(361,94):  err0r X3093: out of memory while parsing
+[2018.01.04-11.55.24:329][ 76]LogShaderCompilers:Warning: 	ScreenSpaceRayCast.usf(396,11):  err0r X1500: syntax err0r : unexpected token '"'
+[2018.01.04-11.55.24:329][ 76]LogShaderCompilers:Warning: 	ScreenSpaceRayCast.usf(414,11):  err0r X1500: syntax err0r : unexpected token '"'
+[2018.01.04-11.55.47:511][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.47:545][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.47:577][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.47:610][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.47:644][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.47:675][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.47:706][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.47:737][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.47:768][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.47:799][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.47:830][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.47:862][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.47:893][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.47:926][769]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.48:021][772]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2018.01.04-11.55.48:043][772]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.48:696][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.48:730][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.48:764][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.48:796][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.48:830][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.48:865][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.48:896][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.48:928][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.48:960][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.48:993][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.49:026][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.49:059][795]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.49:087][795]LogShaderCompilers:Warning: Failed to compile Material /Engine/Transient.defaultMat for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.04-11.55.49:087][795]LogShaderCompilers:Warning: 	Random.usf(59): fatal error: Out of memory (required size is 0x40400 bytes)
+    	float s = frac(seed / BBS_PRIME24);
+    from ../../../Engine/Shaders/Common.usf: 673:    #include "Random.usf"
+    from ../../../Engine/Shaders/ShadowDepthPixelShader.usf: 11:    #include "Common.usf"
+    macro "BBS_PRIME24" defined as: #define BBS_PRIME24 4093 	/* ../../../Engine/Shaders/Random.usf:47	*/
+[2018.01.04-11.55.49:087][795]LogShaderCompilers:Warning: 	GlobalDistanceFieldShared.usf(104,133):  err0r X3093: out of memory while parsing
+[2018.01.04-11.55.49:087][795]LogShaderCompilers:Warning: 	(): out of memory during compilation
+[2018.01.04-11.55.49:087][795]LogShaderCompilers:Warning: 	UniformBuffers/Material.usf(5): fatal error: Out of memory (required size is 0x40400 bytes)
+    	half4 Material_VectorExpressions[5];
+    from ../../../Engine/Shaders/GeneratedUniformBuffers.usf: 20:    #include "UniformBuffers/Material.usf"
+    from ../../../Engine/Shaders/Common.usf: 98:    #include "GeneratedUniformBuffers.usf"
+    from ../../../Engine/Shaders/BasePassPixelShader.usf: 7:    #include "Common.usf"
+    macro "half4" defined as: #define half4 float4 	/* ../../../Engine/Shaders/Common.usf:40	*/
+[2018.01.04-11.55.49:109][796]MaterialEditorStats:Error: Error [SM5] Random.usf(59): fatal error: Out of memory (required size is 0x40400 bytes)
+    	float s = frac(seed / BBS_PRIME24);
+    from ../../../Engine/Shaders/Common.usf: 673:    #include "Random.usf"
+    from ../../../Engine/Shaders/ShadowDepthPixelShader.usf: 11:    #include "Common.usf"
+    macro "BBS_PRIME24" defined as: #define BBS_PRIME24 4093 	/* ../../../Engine/Shaders/Random.usf:47	*/
+[2018.01.04-11.55.49:109][796]MaterialEditorStats:Error: Error [SM5] GlobalDistanceFieldShared.usf(104,133):  error X3093: out of memory while parsing
+[2018.01.04-11.55.49:109][796]MaterialEditorStats:Error: Error [SM5] (): out of memory during compilation
+[2018.01.04-11.55.49:109][796]MaterialEditorStats:Error: Error [SM5] UniformBuffers/Material.usf(5): fatal error: Out of memory (required size is 0x40400 bytes)
+    	half4 Material_VectorExpressions[5];
+    from ../../../Engine/Shaders/GeneratedUniformBuffers.usf: 20:    #include "UniformBuffers/Material.usf"
+    from ../../../Engine/Shaders/Common.usf: 98:    #include "GeneratedUniformBuffers.usf"
+    from ../../../Engine/Shaders/BasePassPixelShader.usf: 7:    #include "Common.usf"
+    macro "half4" defined as: #define half4 float4 	/* ../../../Engine/Shaders/Common.usf:40	*/
+[2018.01.04-11.55.49:306][804]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2018.01.04-11.55.49:326][804]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.04-11.55.51:998][906]LogShaderCompilers:Warning: Failed to compile Material  for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.04-11.55.51:998][906]LogShaderCompilers:Warning: 	(): out of memory during compilation
+[2018.01.04-11.55.51:998][906]LogShaderCompilers:Warning: 	PixelShaderOutputCommon.usf(106,18-31):  err0r X3093: out of memory while parsing
+[2018.01.04-11.55.52:265][914]LogShaderCompilers:Warning: Failed to compile Material /Engine/Transient.defaultMat for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.04-11.55.52:265][914]LogShaderCompilers:Warning: 	LPVWriteCommon.usf(37): fatal error: Out of memory (required size is 0x40400 bytes)
+    #if PACKED_VPL
+    from ../../../Engine/Shaders/LPVWriteVplCommon.usf: 15:    #include "LPVWriteCommon.usf"
+    from ../../../Engine/Shaders/ShadowDepthPixelShader.usf: 25:    	#include "LPVWriteVplCommon.usf"
+    macro "PACKED_VPL" defined as: #define PACKED_VPL 1 	/* ../../../Engine/Shaders/LPVWriteCommon.usf:27	*/
+[2018.01.04-11.55.52:265][914]LogShaderCompilers:Warning: 	(): out of memory during compilation
+[2018.01.04-11.55.52:265][914]LogShaderCompilers:Warning: 	GlobalDistanceFieldShared.usf(182,185):  err0r X3093: out of memory while parsing
+[2018.01.04-11.55.52:265][914]LogShaderCompilers:Warning: 	GeneratedInstancedStereo.usf(239,23):  err0r X3093: out of memory while parsing
+[2018.01.04-11.55.52:265][914]LogShaderCompilers:Warning: 	Common.usf(1756,2-7):  err0r X3093: out of memory while parsing
+[2018.01.04-11.55.52:265][914]LogShaderCompilers:Warning: 	PixelShaderOutputCommon.usf(64): fatal error: Out of memory (required size is 0x40400 bytes)
+    macro "USES_GBUFFER" defined as: #define USES_GBUFFER (FEATURE_LEVEL >= FEATURE_LEVEL_SM4 && (MATERIALBLENDING_SOLID || MATERIALBLENDING_MASKED) && !SIMPLE_FORWARD_SHADING && !FORWARD_SHADING) 	/* ../../../Engine/Shaders/BasePassCommon.usf:20	*/
+    macro "PIXELSHADEROUTPUT_MRT1" defined as: #define PIXELSHADEROUTPUT_MRT1 (USES_GBUFFER && (!SELECTIVE_BASEPASS_OUTPUTS || !MATERIAL_SHADINGMODEL_UNLIT)) 	/* ../../../Engine/Shaders/BasePassPixelShader.usf:1084	*/
+    from ../../../Engine/Shaders/PixelShaderOutputCommon.usf: 64:    #if PIXELSHADEROUTPUT_MRT1
+    from ../../../Engine/Shaders/BasePassPixelShader.usf: 1102:    #include "PixelShaderOutputCommon.usf"
+[2018.01.04-11.55.52:265][914]LogShaderCompilers:Warning: 	DeferredShadingCommon.usf(142,11):  err0r X3093: out of memory while parsing
+[2018.01.04-11.55.52:265][914]LogShaderCompilers:Warning: 	DeferredShadingCommon.usf(145,7-9):  internal error: production failed
+[2018.01.04-11.55.52:265][914]LogShaderCompilers:Warning: 	DeferredShadingCommon.usf(145,11):  err0r X1500: syntax err0r : unexpected token '"'
+[2018.01.04-11.55.52:265][914]LogShaderCompilers:Warning: 	VertexFactory.usf(2,10):  err0r X1500: syntax err0r : unexpected token '"'
+[2018.01.04-11.55.52:297][915]MaterialEditorStats:Error: Error [SM5] LPVWriteCommon.usf(37): fatal error: Out of memory (required size is 0x40400 bytes)
+    #if PACKED_VPL
+    from ../../../Engine/Shaders/LPVWriteVplCommon.usf: 15:    #include "LPVWriteCommon.usf"
+    from ../../../Engine/Shaders/ShadowDepthPixelShader.usf: 25:    	#include "LPVWriteVplCommon.usf"
+    macro "PACKED_VPL" defined as: #define PACKED_VPL 1 	/* ../../../Engine/Shaders/LPVWriteCommon.usf:27	*/
+[2018.01.04-11.55.52:297][915]MaterialEditorStats:Error: Error [SM5] (): out of memory during compilation
+[2018.01.04-11.55.52:297][915]MaterialEditorStats:Error: Error [SM5] GlobalDistanceFieldShared.usf(182,185):  error X3093: out of memory while parsing
+[2018.01.04-11.55.52:297][915]MaterialEditorStats:Error: Error [SM5] GeneratedInstancedStereo.usf(239,23):  error X3093: out of memory while parsing
+[2018.01.04-11.55.52:297][915]MaterialEditorStats:Error: Error [SM5] Common.usf(1756,2-7):  error X3093: out of memory while parsing
+[2018.01.04-11.55.52:297][915]MaterialEditorStats:Error: Error [SM5] PixelShaderOutputCommon.usf(64): fatal error: Out of memory (required size is 0x40400 bytes)
+    macro "USES_GBUFFER" defined as: #define USES_GBUFFER (FEATURE_LEVEL >= FEATURE_LEVEL_SM4 && (MATERIALBLENDING_SOLID || MATERIALBLENDING_MASKED) && !SIMPLE_FORWARD_SHADING && !FORWARD_SHADING) 	/* ../../../Engine/Shaders/BasePassCommon.usf:20	*/
+    macro "PIXELSHADEROUTPUT_MRT1" defined as: #define PIXELSHADEROUTPUT_MRT1 (USES_GBUFFER && (!SELECTIVE_BASEPASS_OUTPUTS || !MATERIAL_SHADINGMODEL_UNLIT)) 	/* ../../../Engine/Shaders/BasePassPixelShader.usf:1084	*/
+    from ../../../Engine/Shaders/PixelShaderOutputCommon.usf: 64:    #if PIXELSHADEROUTPUT_MRT1
+    from ../../../Engine/Shaders/BasePassPixelShader.usf: 1102:    #include "PixelShaderOutputCommon.usf"
+[2018.01.04-11.55.52:297][915]MaterialEditorStats:Error: Error [SM5] DeferredShadingCommon.usf(142,11):  error X3093: out of memory while parsing
+[2018.01.04-11.55.52:297][915]MaterialEditorStats:Error: Error [SM5] DeferredShadingCommon.usf(145,7-9):  internal error: production failed
+[2018.01.04-11.55.52:297][915]MaterialEditorStats:Error: Error [SM5] DeferredShadingCommon.usf(145,11):  error X1500: syntax error : unexpected token '"'
+[2018.01.04-11.55.52:297][915]MaterialEditorStats:Error: Error [SM5] VertexFactory.usf(2,10):  error X1500: syntax error : unexpected token '"'
+[2018.01.04-11.56.00:079][147]LogMaterialEditor: Saving and Compiling material defaultMat
+[2018.01.04-11.56.02:160][147]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2018.01.04-11.56.02:206][147]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2018.01.04-11.56.02:220][147]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2018.01.04-11.56.02:260][147]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy defaultMat, compiling. 
+[2018.01.04-11.56.02:538][147]LogShaderCompilers:Warning: Failed to compile Material  for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.04-11.56.02:538][147]LogShaderCompilers:Warning: 	Common.usf(369,42):  err0r X3093: out of memory while parsing
+[2018.01.04-11.56.02:540][147]TextureStreamingBuild:Display: Compiling optional shaders took 0.286 seconds.
+[2018.01.04-11.56.03:570][147]LogShaderCompilers:Warning: Failed to compile Material /Game/FlashLight/defaultMat.defaultMat for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.04-11.56.03:570][147]LogShaderCompilers:Warning: 	(): out of memory during compilation
+[2018.01.04-11.56.03:574][147]LogShaderCompilers:Warning: Failed to compile Material /Engine/Transient.defaultMat for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.04-11.56.03:574][147]LogShaderCompilers:Warning: 	Material.usf(642,49):  err0r X3093: out of memory while parsing
+[2018.01.04-11.56.03:574][147]LogShaderCompilers:Warning: 	Material.usf(1889,54-72):  err0r X3018: invalid subscript 'xyz'
+[2018.01.04-11.56.03:574][147]LogShaderCompilers:Warning: 	Material.usf(1889,10-73):  err0r X3014: incorrect number of arguments to numeric-type constructor
+[2018.01.04-11.56.03:574][147]LogShaderCompilers:Warning: 	(): out of memory during compilation
+[2018.01.04-11.56.03:574][147]LogShaderCompilers:Warning: 	CircleDOFCommon.usf(20,91):  err0r X3093: out of memory while parsing
+[2018.01.04-11.56.03:574][147]LogShaderCompilers:Warning: 	Material.usf(889,59):  err0r X3093: out of memory while parsing
+[2018.01.04-11.56.03:574][147]LogShaderCompilers:Warning: 	Material.usf(905,7-10):  internal error: production failed
+[2018.01.04-11.56.03:574][147]LogShaderCompilers:Warning: 	Material.usf(914,7-10):  internal error: production failed
+[2018.01.04-11.56.03:574][147]LogShaderCompilers:Warning: 	Material.usf(914,12):  err0r X1500: syntax err0r : unexpected token '"'
+[2018.01.04-11.56.03:574][147]LogShaderCompilers:Warning: 	ReflectionEnvironmentShared.usf(144,8-18):  err0r X3093: out of memory while parsing
+[2018.01.04-11.56.03:574][147]LogShaderCompilers:Warning: 	Common.usf(277,31):  err0r X3093: out of memory while parsing
+[2018.01.04-11.56.03:779][147]LogD3D11RHI:Error: Direct3DDevice->CreateTexture2D(TextureDesc,SubResourceData,OutTexture2D) failed 
+ at D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Texture.cpp:441 
+ with error E_OUTOFMEMORY, 
+ Size=6144x2048x1 Format=(0x00000035), NumMips=1, Flags=D3D11_BIND_DEPTH_STENCIL D3D11_BIND_SHADER_RESOURCE 
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:    120 = 24576 KB (2D 6144x2048 PF_ShadowDepth) WholeSceneShadowmap
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     75 = 9113 KB (2D 1296x900 PF_FloatRGBA RT UAV VRam) SceneColor VRamInKB(Start/Size):<NONE>
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     85 = 9113 KB (2D 1296x900 PF_FloatRGBA RT UAV) LightAccumulation
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:    104 = 9113 KB (2D 1296x900 PF_FloatRGBA RT VRam) TemporalAA VRamInKB(Start/Size):<NONE>
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     33 = 9113 KB (2D 1296x900 PF_FloatRGBA RT VRam) TemporalAA VRamInKB(Start/Size):<NONE>
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     95 = 7331 KB (2D 1296x724 PF_FloatRGBA RT) SSRTemporalAA
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:    102 = 4557 KB (2D 1296x900 PF_DepthStencil VRam) SceneDepthZ VRamInKB(Start/Size):<NONE>
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     84 = 2279 KB (2D 1296x450 PF_R32_UINT RT UAV) QuadOverdrawBuffer
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:    101 = 2279 KB (2D 648x450 PF_DepthStencil) SmallDepthZ
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     99 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume0
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     96 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume1
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     89 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume2
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     98 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir0
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     92 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir1
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     86 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir2
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     65 = 2048 KB (Cube[2] 128 PF_FloatRGBA) ReflectionEnvs
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:    100 = 1140 KB (2D 1296x900 PF_G8 RT UAV) ScreenSpaceAO
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:      2 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:    118 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:      4 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:      3 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:    103 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:      1 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     97 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     44 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT) CombineLUTs
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     73 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT) CombineLUTs
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:    109 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT) CombineLUTs
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     91 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT) CombineLUTs
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     10 = 64 KB (2D 128x128 PF_B8G8R8A8) PerlinNoiseGradient
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     15 = 16 KB (2D 128x32 PF_G16R16 VRam) PreintegratedGF VRamInKB(Start/Size):<NONE>
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     13 = 16 KB (3D 16x16x16 PF_B8G8R8A8) PerlinNoise3D
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     14 = 8 KB (2D 64x64 PF_R8G8) SSAORandomization
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:      7 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackAlphaOneDummy
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:      6 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) BlackDummy
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:      9 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) DefaultNormal8Bit
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:      8 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) GreenDummy
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:      5 = 1 KB (2D 1x1 PF_B8G8R8A8 RT) WhiteDummy
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     12 = 1 KB (2D 1x1 PF_DepthStencil) DepthDummy
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     11 = 1 KB (2D 1x1 PF_FloatRGBA RT) MaxFP16Depth
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     71 = 1 KB (2D 1x1 PF_G32R32F RT UAV) EyeAdaptation
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:    119 = 1 KB (2D 1x1 PF_G32R32F RT UAV) EyeAdaptation
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     63 = 1 KB (2D 1x1 PF_G32R32F RT UAV) EyeAdaptation
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:     88 = 1 KB (2D 1x1 PF_G32R32F RT UAV) EyeAdaptation
+[2018.01.04-11.56.10:370][147]LogConsoleResponse:    121 = 0 KB (2D 6144x2048 PF_ShadowDepth) UnknownTexture2D
+[2018.01.04-11.56.10:370][147]LogConsoleResponse: 
+[2018.01.04-11.56.10:370][147]LogConsoleResponse: Pool: 85/94 MB (referenced/allocated)
+[2018.01.04-11.56.10:370][147]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.01.04-11.56.10:378][147]Log file closed, 01/04/18 12:56:10
