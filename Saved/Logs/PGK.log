@@ -835,3 +835,879 @@ LogInit: Object subsystem initialized
 [2018.01.13-14.09.31:993][582]LogSavePackage: Save=0.80ms
 [2018.01.13-14.09.31:993][582]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_BuiltData305ECD43410F789C577FB1A3AAE09B20.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
 [2018.01.13-14.09.31:994][582]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.01.13-14.13.49:754][371]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.016
+[2018.01.13-14.13.49:821][371]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/drzwi/Elektric] ([1] browsable assets)...
+[2018.01.13-14.13.49:877][371]OBJ SavePackage:     Rendered thumbnail for [Material /Game/import/drzwi/Elektric.Elektric]
+[2018.01.13-14.13.49:877][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/drzwi/Elektric]
+[2018.01.13-14.13.49:877][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/drzwi/Elektric" FILE="I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/Elektric_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.01.13-14.13.49:891][371]LogSavePackage: Save=12.08ms
+[2018.01.13-14.13.49:891][371]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/Elektric_Auto1B6D7C08F4A5678AF24E2C99375C475C0.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/Elektric_Auto1.uasset'
+[2018.01.13-14.13.49:892][371]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/Elektric_Auto1.uasset
+[2018.01.13-14.13.49:893][371]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/drzwi/door1/doorWood] ([1] browsable assets)...
+[2018.01.13-14.13.49:933][371]OBJ SavePackage:     Rendered thumbnail for [Material /Game/import/drzwi/door1/doorWood.doorWood]
+[2018.01.13-14.13.49:933][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/drzwi/door1/doorWood]
+[2018.01.13-14.13.49:933][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/drzwi/door1/doorWood" FILE="I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/doorWood_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.01.13-14.13.49:947][371]LogSavePackage: Save=12.96ms
+[2018.01.13-14.13.49:947][371]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/doorWood_Auto1A14D1F914AE6B61D089757809EE6B08D.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/doorWood_Auto1.uasset'
+[2018.01.13-14.13.49:948][371]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/doorWood_Auto1.uasset
+[2018.01.13-14.13.49:949][371]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/drzwi/door1/doorWood1] ([1] browsable assets)...
+[2018.01.13-14.13.49:957][371]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/import/drzwi/door1/doorWood1.doorWood1]
+[2018.01.13-14.13.49:957][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/drzwi/door1/doorWood1]
+[2018.01.13-14.13.49:958][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/drzwi/door1/doorWood1" FILE="I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/doorWood1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.01.13-14.13.49:973][371]LogSavePackage: Save=12.48ms
+[2018.01.13-14.13.49:973][371]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/doorWood1_Auto194C3B4EB4E088B4501BCADABF0EB82CA.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/doorWood1_Auto1.uasset'
+[2018.01.13-14.13.49:974][371]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/doorWood1_Auto1.uasset
+[2018.01.13-14.13.49:975][371]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/drzwi/door1/Hinges] ([1] browsable assets)...
+[2018.01.13-14.13.50:014][371]OBJ SavePackage:     Rendered thumbnail for [Material /Game/import/drzwi/door1/Hinges.Hinges]
+[2018.01.13-14.13.50:014][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/drzwi/door1/Hinges]
+[2018.01.13-14.13.50:014][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/drzwi/door1/Hinges" FILE="I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/Hinges_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.01.13-14.13.50:048][371]LogSavePackage: Save=13.16ms
+[2018.01.13-14.13.50:048][371]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/Hinges_Auto1AD5541274A5E6ACC1E4708B441797E0B.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/Hinges_Auto1.uasset'
+[2018.01.13-14.13.50:049][371]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/Hinges_Auto1.uasset
+[2018.01.13-14.13.50:050][371]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/drzwi/door1/Outlines] ([1] browsable assets)...
+[2018.01.13-14.13.50:090][371]OBJ SavePackage:     Rendered thumbnail for [Material /Game/import/drzwi/door1/Outlines.Outlines]
+[2018.01.13-14.13.50:090][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/drzwi/door1/Outlines]
+[2018.01.13-14.13.50:090][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/drzwi/door1/Outlines" FILE="I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/Outlines_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.01.13-14.13.50:103][371]LogSavePackage: Save=11.31ms
+[2018.01.13-14.13.50:103][371]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/Outlines_Auto16C0517E34A3BACF223D52FA12EE89EC5.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/Outlines_Auto1.uasset'
+[2018.01.13-14.13.50:104][371]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/Outlines_Auto1.uasset
+[2018.01.13-14.13.50:104][371]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/drzwi/door1/DoorHandle] ([1] browsable assets)...
+[2018.01.13-14.13.50:145][371]OBJ SavePackage:     Rendered thumbnail for [Material /Game/import/drzwi/door1/DoorHandle.DoorHandle]
+[2018.01.13-14.13.50:145][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/drzwi/door1/DoorHandle]
+[2018.01.13-14.13.50:145][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/drzwi/door1/DoorHandle" FILE="I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/DoorHandle_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.01.13-14.13.50:160][371]LogSavePackage: Save=13.12ms
+[2018.01.13-14.13.50:160][371]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/DoorHandle_Auto146AA901F4A3D61E576D2C59AA3DE2A3F.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/DoorHandle_Auto1.uasset'
+[2018.01.13-14.13.50:162][371]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door1/DoorHandle_Auto1.uasset
+[2018.01.13-14.13.50:163][371]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/import/drzwi/door3/Door_Color] ([1] browsable assets)...
+[2018.01.13-14.13.50:203][371]OBJ SavePackage:     Rendered thumbnail for [Material /Game/import/drzwi/door3/Door_Color.Door_Color]
+[2018.01.13-14.13.50:203][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/import/drzwi/door3/Door_Color]
+[2018.01.13-14.13.50:203][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/drzwi/door3/Door_Color" FILE="I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door3/Door_Color_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.01.13-14.13.50:218][371]LogSavePackage: Save=12.34ms
+[2018.01.13-14.13.50:218][371]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/Door_Color_Auto1B42AD7D84FC7FE4AD82AB29F156ADB48.tmp' to 'I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door3/Door_Color_Auto1.uasset'
+[2018.01.13-14.13.50:219][371]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Saved/Autosaves/Game/import/drzwi/door3/Door_Color_Auto1.uasset
+[2018.01.13-14.13.50:219][371]LogFileHelpers: Auto-saving content packages took 0.428
+[2018.01.13-14.34.39:316][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (drzwi_Box618)
+[2018.01.13-14.34.58:015][ 64]LogEditorViewport: Clicking on Actor (LMB): MatineeActor (MatineeActor4)
+[2018.01.13-14.35.14:705][379]LogEditorActor: Deleted Actor: MatineeActor
+[2018.01.13-14.35.15:596][379]LogEditorActor: Deleted Actor: MatineeActor
+[2018.01.13-14.35.15:608][379]LogEditorActor: Deleted 2 Actors (4.445 secs)
+[2018.01.13-14.35.16:528][395]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (drzwi_Box618)
+[2018.01.13-14.35.20:093][479]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (drzwi_Box619)
+[2018.01.13-14.35.20:675][490]Cmd: DELETE
+[2018.01.13-14.35.20:675][490]Cmd: ACTOR DELETE
+[2018.01.13-14.35.20:683][490]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.35.20:686][490]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.35.20:713][490]LogEditorActor: Deleted 2 Actors (0.038 secs)
+[2018.01.13-14.35.21:670][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (drzwi_Box618)
+[2018.01.13-14.35.22:407][528]Cmd: DELETE
+[2018.01.13-14.35.22:407][528]Cmd: ACTOR DELETE
+[2018.01.13-14.35.22:415][528]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.35.22:416][528]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.35.22:444][528]LogEditorActor: Deleted 2 Actors (0.037 secs)
+[2018.01.13-14.35.23:667][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (door7)
+[2018.01.13-14.35.26:856][632]Cmd: EDIT COPY
+[2018.01.13-14.35.27:143][639]Cmd: EDIT PASTE
+[2018.01.13-14.35.37:457][857]Cmd: EDIT COPY
+[2018.01.13-14.35.37:665][862]Cmd: EDIT PASTE
+[2018.01.13-14.35.53:062][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube37)
+[2018.01.13-14.36.30:596][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.13-14.36.30:781][ 49]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-14.36.30:782][ 49]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-14.36.30:796][ 49]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [4768.08] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 2 Warning(s) [in 98 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.36.30:797][ 49]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [4768.08] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.36.30:797][ 49]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [4768.08] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 4 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.36.30:942][ 49]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [4768.23] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 5 Warning(s) [in 145 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.36.30:942][ 49]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [4768.23] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 6 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.36.30:942][ 49]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [4768.23] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 7 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.36.32:106][ 49]LogSavePackage: Save=1445.71ms
+[2018.01.13-14.36.32:106][ 49]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap62C283874ED6EF42F22251A807E71536.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.01.13-14.36.32:110][ 49]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2018.01.13-14.36.32:133][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2018.01.13-14.36.32:137][ 49]LogSavePackage: Save=0.75ms
+[2018.01.13-14.36.32:137][ 49]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_BuiltData86C68C184FF782F341EC2B9D9D411CAB.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.01.13-14.36.32:138][ 49]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.01.13-14.38.26:879][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box8)
+[2018.01.13-14.38.42:613][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box8)
+[2018.01.13-14.39.26:461][652]EditorErrors: New page: Actor attachment
+[2018.01.13-14.39.33:015][810]EditorErrors: New page: Actor attachment
+[2018.01.13-14.39.57:149][282]Cmd: EDIT CUT
+[2018.01.13-14.39.57:164][282]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.39.57:190][282]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2018.01.13-14.40.03:872][434]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: umywalka_Box8.StaticMesh umywalka_Arch_056_0 
+[2018.01.13-14.40.11:702][594]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: umywalka_Box8.StaticMesh1 umywalka_Arch_056_0 
+[2018.01.13-14.40.26:472][941]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: umywalka_Box8.StaticMesh2 umywalka_Arch_056_0 
+[2018.01.13-14.41.06:029][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box8)
+[2018.01.13-14.41.23:185][106]LogActorFactory: Actor Factory created umywalka_Arch_056_2
+[2018.01.13-14.41.32:111][272]LogActorFactory: Actor Factory created umywalka_Arch_056_0
+[2018.01.13-14.41.52:008][656]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.41.52:060][656]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2018.01.13-14.41.54:518][708]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.41.54:532][708]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.01.13-14.41.55:242][724]LogMeshUtilities: Finished distance field build in 27.1s - 64x64x64 distance field, 4428 triangles, Range [-0.3, 0.8], umywalka_Arch_056_1
+[2018.01.13-14.42.34:479][545]LogActorFactory: Actor Factory created umywalka_Arch_056_1
+[2018.01.13-14.42.36:371][576]LogActorFactory: Actor Factory created umywalka_Arch_056_2
+[2018.01.13-14.42.55:502][973]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.42.55:539][973]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2018.01.13-14.42.57:335][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.42.57:365][ 12]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.01.13-14.42.59:040][ 48]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.42.59:074][ 48]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2018.01.13-14.43.07:194][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box03)
+[2018.01.13-14.43.30:794][718]LogActorFactory: Actor Factory created umywalka_Arch_056_0
+[2018.01.13-14.43.32:756][754]LogActorFactory: Actor Factory created umywalka_Arch_056_1
+[2018.01.13-14.43.34:584][786]LogActorFactory: Actor Factory created umywalka_Arch_056_2
+[2018.01.13-14.43.47:575][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box4)
+[2018.01.13-14.43.50:395][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box5)
+[2018.01.13-14.43.52:721][170]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box6)
+[2018.01.13-14.43.55:576][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box03)
+[2018.01.13-14.43.57:218][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box4)
+[2018.01.13-14.44.01:079][323]LogActorFactory: Actor Factory created umywalka_Arch_056_1
+[2018.01.13-14.44.02:933][354]LogActorFactory: Actor Factory created umywalka_Arch_056_0
+[2018.01.13-14.44.06:396][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box5)
+[2018.01.13-14.44.07:920][451]LogActorFactory: Actor Factory created umywalka_Arch_056_2
+[2018.01.13-14.44.10:556][497]LogActorFactory: Actor Factory created umywalka_Arch_056_1
+[2018.01.13-14.44.12:208][524]LogActorFactory: Actor Factory created umywalka_Arch_056_0
+[2018.01.13-14.44.15:410][591]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box6)
+[2018.01.13-14.44.17:147][620]LogActorFactory: Actor Factory created umywalka_Arch_056_2
+[2018.01.13-14.44.19:209][655]LogActorFactory: Actor Factory created umywalka_Arch_056_1
+[2018.01.13-14.44.30:719][903]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.44.30:757][903]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2018.01.13-14.44.32:624][946]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.44.32:655][946]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2018.01.13-14.44.34:141][980]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.44.34:172][980]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2018.01.13-14.44.35:301][  6]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.44.35:331][  6]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2018.01.13-14.44.36:590][ 35]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.44.36:622][ 35]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2018.01.13-14.44.37:745][ 61]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.44.37:775][ 61]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2018.01.13-14.44.38:953][ 88]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.44.38:985][ 88]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2018.01.13-14.44.40:030][112]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.44.40:064][112]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2018.01.13-14.44.41:187][138]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.44.41:216][138]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.01.13-14.44.42:311][163]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.44.42:341][163]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2018.01.13-14.44.43:429][188]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.44.43:460][188]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2018.01.13-14.44.44:516][212]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.44.44:543][212]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.01.13-14.45.00:322][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box16)
+[2018.01.13-14.45.02:738][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box17)
+[2018.01.13-14.45.05:157][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box18)
+[2018.01.13-14.45.15:587][976]LogActorFactory: Actor Factory created umywalka_Arch_056_0
+[2018.01.13-14.45.17:784][ 23]LogActorFactory: Actor Factory created umywalka_Arch_056_1
+[2018.01.13-14.45.20:001][ 71]LogActorFactory: Actor Factory created umywalka_Arch_056_2
+[2018.01.13-14.45.24:568][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box16)
+[2018.01.13-14.45.26:227][216]LogActorFactory: Actor Factory created umywalka_Arch_056_0
+[2018.01.13-14.45.28:185][255]LogActorFactory: Actor Factory created umywalka_Arch_056_1
+[2018.01.13-14.45.29:745][284]LogActorFactory: Actor Factory created umywalka_Arch_056_2
+[2018.01.13-14.45.33:572][372]LogActorFactory: Actor Factory created umywalka_Arch_056_0
+[2018.01.13-14.45.35:256][401]LogActorFactory: Actor Factory created umywalka_Arch_056_1
+[2018.01.13-14.45.37:055][436]LogActorFactory: Actor Factory created umywalka_Arch_056_2
+[2018.01.13-14.45.41:986][553]LogActorFactory: Actor Factory created umywalka_Arch_056_0
+[2018.01.13-14.45.43:685][585]LogActorFactory: Actor Factory created umywalka_Arch_056_1
+[2018.01.13-14.45.45:573][620]LogActorFactory: Actor Factory created umywalka_Arch_056_2
+[2018.01.13-14.45.52:433][799]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.45.52:462][799]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.01.13-14.45.53:980][840]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.45.54:007][840]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.01.13-14.46.02:776][ 80]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.46.02:803][ 80]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2018.01.13-14.46.03:912][110]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.46.03:937][110]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2018.01.13-14.46.04:767][132]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.46.04:797][132]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.01.13-14.46.05:620][154]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.46.05:663][154]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2018.01.13-14.46.06:611][180]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.46.06:640][180]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2018.01.13-14.46.07:527][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.46.07:555][204]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.01.13-14.46.08:405][227]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.46.08:434][227]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.01.13-14.46.09:437][254]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.46.09:467][254]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2018.01.13-14.46.10:325][277]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.46.10:351][277]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2018.01.13-14.46.11:241][301]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-14.46.11:267][301]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2018.01.13-14.46.15:154][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.13-14.46.15:288][406]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-14.46.15:288][406]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-14.46.15:301][406]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5352.59] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 2 Warning(s) [in 51 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.46.15:301][406]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5352.59] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.46.15:302][406]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5352.59] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 4 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.46.15:438][406]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5352.73] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 5 Warning(s) [in 136 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.46.15:438][406]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5352.73] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 6 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.46.15:438][406]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5352.73] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 7 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.46.16:943][406]LogSavePackage: Save=1729.53ms
+[2018.01.13-14.46.16:943][406]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMapC17FCAB240A42C959D6847B7B9209647.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.01.13-14.46.16:947][406]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2018.01.13-14.46.16:973][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2018.01.13-14.46.16:978][406]LogSavePackage: Save=0.85ms
+[2018.01.13-14.46.16:978][406]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_BuiltDataA3918BBA497B97E25A0E00A9913E786A.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.01.13-14.46.16:979][406]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.01.13-14.46.59:836][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.13-14.46.59:958][412]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-14.46.59:958][412]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-14.46.59:970][412]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5397.26] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 2 Warning(s) [in 50 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.46.59:971][412]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5397.26] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.46.59:971][412]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5397.26] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 4 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.47.00:112][412]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5397.40] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 5 Warning(s) [in 141 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.47.00:112][412]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5397.40] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 6 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.47.00:112][412]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5397.40] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 7 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.47.01:162][412]LogSavePackage: Save=1278.97ms
+[2018.01.13-14.47.01:162][412]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMapFAD8C08F42140A5084AC07BBA2196E53.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.01.13-14.47.01:164][412]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2018.01.13-14.47.01:186][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2018.01.13-14.47.01:190][412]LogSavePackage: Save=0.75ms
+[2018.01.13-14.47.01:190][412]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_BuiltDataD9592B9E4F8C5B32A92938A30825CE40.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.01.13-14.47.01:191][412]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.01.13-14.47.09:089][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (umywalka_Box5)
+[2018.01.13-14.47.12:201][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door4)
+[2018.01.13-14.47.16:701][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2018.01.13-14.47.18:813][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.13-14.47.18:919][788]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-14.47.18:919][788]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-14.47.18:930][788]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5416.22] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 2 Warning(s) [in 45 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.47.18:931][788]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5416.22] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.47.18:931][788]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5416.22] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 4 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.47.19:054][788]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5416.34] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 5 Warning(s) [in 122 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.47.19:054][788]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5416.34] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 6 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.47.19:054][788]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5416.34] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 7 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.47.20:142][788]LogSavePackage: Save=1288.77ms
+[2018.01.13-14.47.20:142][788]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap42B67A1449606A8517245997E427EB59.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.01.13-14.47.20:145][788]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2018.01.13-14.47.20:167][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2018.01.13-14.47.20:171][788]LogSavePackage: Save=1.17ms
+[2018.01.13-14.47.20:171][788]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_BuiltData326B2CFE4E12B8573EEF3E8F91185DCA.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.01.13-14.47.20:172][788]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.01.13-14.54.32:716][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.13-14.54.32:856][ 62]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-14.54.32:856][ 62]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-14.54.32:865][ 62]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5850.15] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 2 Warning(s) [in 35 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.54.32:865][ 62]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5850.15] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.54.32:865][ 62]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5850.15] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 4 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.54.32:960][ 62]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5850.25] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 5 Warning(s) [in 94 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.54.32:960][ 62]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5850.25] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 6 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.54.32:960][ 62]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [5850.25] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 7 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-14.54.34:162][ 62]LogSavePackage: Save=1355.80ms
+[2018.01.13-14.54.34:162][ 62]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap5CBE5DD347E85A3104DBEDAAD85A19A5.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.01.13-14.54.34:168][ 62]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2018.01.13-14.54.34:229][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2018.01.13-14.54.34:234][ 62]LogSavePackage: Save=0.91ms
+[2018.01.13-14.54.34:234][ 62]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_BuiltData6198A1324F7C8297797040B0A8957938.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.01.13-14.54.34:235][ 62]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.01.13-14.54.43:158][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.01.13-14.54.55:293][519]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2018.01.13-14.55.11:107][853]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2018.01.13-14.55.16:686][974]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.01.13-14.55.23:210][105]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.13-14.55.23:226][105]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-14.55.23:226][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-14.55.23:226][105]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2018, 4:55:23 PM)
+[2018.01.13-14.55.23:226][105]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.13-14.55.23:285][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059055s)
+[2018.01.13-14.55.23:289][105]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.13-14.55.23:289][105]LogPlayLevel: PIE: World Init took: (0.004184s)
+[2018.01.13-14.55.23:290][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.063896s)
+[2018.01.13-14.55.23:310][105]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.13-14.55.23:338][105]LogInit: FAudioDevice initialized.
+[2018.01.13-14.55.23:369][105]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.13-14.55.23:386][105]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.01.13-15.55.23
+[2018.01.13-14.55.23:387][105]LogWorld: Bringing up level for play took: 0.016200
+[2018.01.13-14.55.23:388][105]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.13-14.55.23:389][105]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.564
+[2018.01.13-14.55.23:390][105]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-14.55.43:614][653]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-14.55.43:730][653]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-14.55.54:680][829]LogMaterial: Missing cached shader map for material M_Metal_Chrome, compiling. 
+[2018.01.13-14.56.14:560][288]LogMaterial: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
+[2018.01.13-14.57.40:626][ 81]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.13-14.57.40:673][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-14.57.40:674][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-14.57.40:674][ 81]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2018, 4:57:40 PM)
+[2018.01.13-14.57.40:674][ 81]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.13-14.57.40:841][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.166788s)
+[2018.01.13-14.57.40:844][ 81]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.13-14.57.40:845][ 81]LogPlayLevel: PIE: World Init took: (0.003267s)
+[2018.01.13-14.57.40:846][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.171195s)
+[2018.01.13-14.57.40:898][ 81]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.13-14.57.40:974][ 81]LogInit: FAudioDevice initialized.
+[2018.01.13-14.57.41:021][ 81]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.13-14.57.41:066][ 81]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.01.13-15.57.41
+[2018.01.13-14.57.41:069][ 81]LogWorld: Bringing up level for play took: 0.044167
+[2018.01.13-14.57.41:070][ 81]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.13-14.57.41:074][ 81]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.121
+[2018.01.13-14.57.41:074][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-14.57.59:444][500]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-14.57.59:587][500]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-14.58.00:982][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi)
+[2018.01.13-14.58.15:314][742]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi2)
+[2018.01.13-14.58.19:838][815]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi2)
+[2018.01.13-14.58.25:155][907]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi)
+[2018.01.13-14.58.27:113][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi2)
+[2018.01.13-14.58.29:328][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi)
+[2018.01.13-14.58.31:425][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi2)
+[2018.01.13-14.58.37:314][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi)
+[2018.01.13-14.58.38:659][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi2)
+[2018.01.13-14.58.40:524][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi)
+[2018.01.13-14.58.45:795][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi2)
+[2018.01.13-14.59.06:193][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor1)
+[2018.01.13-14.59.11:594][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi2)
+[2018.01.13-14.59.20:333][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi)
+[2018.01.13-14.59.21:654][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi2)
+[2018.01.13-14.59.23:937][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi)
+[2018.01.13-14.59.24:977][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi2)
+[2018.01.13-14.59.30:076][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi)
+[2018.01.13-14.59.31:576][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi2)
+[2018.01.13-14.59.40:641][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi)
+[2018.01.13-14.59.43:873][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_winda_kor1)
+[2018.01.13-14.59.48:674][760]Cmd: TRANSACTION UNDO
+[2018.01.13-14.59.48:674][760]LogEditorTransaction: Undo Move Actors
+[2018.01.13-14.59.50:211][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi)
+[2018.01.13-14.59.54:518][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi2)
+[2018.01.13-15.00.05:250][135]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (podloga_kor1)
+[2018.01.13-15.00.06:521][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2018.01.13-15.00.10:093][222]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_drzwi2)
+[2018.01.13-15.00.13:027][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_sciana2)
+[2018.01.13-15.00.19:533][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (winda_sciana)
+[2018.01.13-15.00.44:202][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor9)
+[2018.01.13-15.00.57:318][114]LogActorFactory: Actor Factory created Plane
+[2018.01.13-15.00.59:159][139]LogActorFactory: Actor Factory created Plane
+[2018.01.13-15.02.02:416][ 73]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.13-15.02.02:451][ 73]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-15.02.02:451][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-15.02.02:451][ 73]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2018, 5:02:02 PM)
+[2018.01.13-15.02.02:451][ 73]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.13-15.02.02:577][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.125737s)
+[2018.01.13-15.02.02:580][ 73]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.13-15.02.02:580][ 73]LogPlayLevel: PIE: World Init took: (0.003125s)
+[2018.01.13-15.02.02:581][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.129745s)
+[2018.01.13-15.02.02:622][ 73]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.13-15.02.02:685][ 73]LogInit: FAudioDevice initialized.
+[2018.01.13-15.02.02:724][ 73]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.13-15.02.02:757][ 73]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.01.13-16.02.02
+[2018.01.13-15.02.02:760][ 73]LogWorld: Bringing up level for play took: 0.032571
+[2018.01.13-15.02.02:761][ 73]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.13-15.02.02:763][ 73]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.81
+[2018.01.13-15.02.02:764][ 73]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-15.02.42:906][ 31]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-15.02.43:055][ 31]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-15.02.47:034][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane15)
+[2018.01.13-15.02.48:988][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane5)
+[2018.01.13-15.02.54:757][275]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (sciana_kor9)
+[2018.01.13-15.02.56:257][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2018.01.13-15.03.00:259][369]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.13-15.03.00:274][369]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-15.03.00:274][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-15.03.00:274][369]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2018, 5:03:00 PM)
+[2018.01.13-15.03.00:274][369]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.13-15.03.00:333][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058201s)
+[2018.01.13-15.03.00:335][369]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.13-15.03.00:335][369]LogPlayLevel: PIE: World Init took: (0.002232s)
+[2018.01.13-15.03.00:336][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.061100s)
+[2018.01.13-15.03.00:352][369]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.13-15.03.00:377][369]LogInit: FAudioDevice initialized.
+[2018.01.13-15.03.00:415][369]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.13-15.03.00:444][369]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.01.13-16.03.00
+[2018.01.13-15.03.00:445][369]LogWorld: Bringing up level for play took: 0.027606
+[2018.01.13-15.03.00:446][369]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.13-15.03.00:447][369]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.494
+[2018.01.13-15.03.00:448][369]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-15.03.12:382][643]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-15.03.12:535][643]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-15.03.14:067][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.13-15.03.14:202][661]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-15.03.14:202][661]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-15.03.14:215][661]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6371.50] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 2 Warning(s) [in 50 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.03.14:215][661]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6371.50] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.03.14:215][661]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6371.50] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 4 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.03.14:358][661]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6371.65] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 5 Warning(s) [in 142 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.03.14:358][661]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6371.65] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 6 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.03.14:359][661]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6371.65] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 7 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.03.15:990][661]LogSavePackage: Save=1860.97ms
+[2018.01.13-15.03.15:990][661]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMapE3E844B44D05CD31C711C8B93E527107.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.01.13-15.03.15:994][661]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2018.01.13-15.03.16:016][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2018.01.13-15.03.16:020][661]LogSavePackage: Save=0.81ms
+[2018.01.13-15.03.16:020][661]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_BuiltDataE702D6034B01B19B266F26B9492D0387.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.01.13-15.03.16:022][661]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.01.13-15.03.36:002][ 47]LogActorFactory: Actor Factory created Plane
+[2018.01.13-15.03.39:300][102]LogActorFactory: Actor Factory created Plane
+[2018.01.13-15.03.39:886][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2018.01.13-15.03.41:602][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.01.13-15.03.42:728][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.01.13-15.03.43:496][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.01.13-15.03.44:145][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.01.13-15.03.44:753][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.01.13-15.03.45:279][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.01.13-15.03.48:164][264]Cmd: TRANSACTION UNDO
+[2018.01.13-15.03.48:164][264]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.13-15.03.48:760][275]Cmd: TRANSACTION UNDO
+[2018.01.13-15.03.48:760][275]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.13-15.03.49:543][291]Cmd: TRANSACTION UNDO
+[2018.01.13-15.03.49:544][291]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.13-15.03.50:288][306]Cmd: TRANSACTION UNDO
+[2018.01.13-15.03.50:288][306]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.13-15.03.51:022][321]Cmd: TRANSACTION UNDO
+[2018.01.13-15.03.51:023][321]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.13-15.03.51:761][336]Cmd: TRANSACTION UNDO
+[2018.01.13-15.03.51:761][336]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.13-15.03.52:873][358]Cmd: TRANSACTION UNDO
+[2018.01.13-15.03.52:873][358]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.13-15.03.57:099][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2018.01.13-15.04.02:447][534]LogActorFactory: Actor Factory created Plane
+[2018.01.13-15.04.50:038][478]Cmd: TRANSACTION UNDO
+[2018.01.13-15.04.50:039][478]LogEditorTransaction: Undo Rotate Components
+[2018.01.13-15.04.50:715][490]Cmd: TRANSACTION UNDO
+[2018.01.13-15.04.50:715][490]LogEditorTransaction: Undo Rotate Components
+[2018.01.13-15.04.51:375][503]Cmd: TRANSACTION UNDO
+[2018.01.13-15.04.51:375][503]LogEditorTransaction: Undo Move Components
+[2018.01.13-15.04.52:081][516]Cmd: TRANSACTION UNDO
+[2018.01.13-15.04.52:081][516]LogEditorTransaction: Undo Move Components
+[2018.01.13-15.04.53:580][546]Cmd: TRANSACTION UNDO
+[2018.01.13-15.04.53:580][546]LogEditorTransaction: Undo Add Component
+[2018.01.13-15.04.56:218][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2018.01.13-15.04.57:718][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane16)
+[2018.01.13-15.04.58:608][636]Cmd: DELETE
+[2018.01.13-15.04.58:608][636]Cmd: ACTOR DELETE
+[2018.01.13-15.04.58:616][636]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.13-15.04.58:659][636]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2018.01.13-15.05.00:134][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2018.01.13-15.05.03:060][706]LogActorFactory: Actor Factory created Plane
+[2018.01.13-15.05.37:573][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2018.01.13-15.05.38:226][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane15)
+[2018.01.13-15.05.42:582][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2018.01.13-15.05.48:577][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2018.01.13-15.05.50:358][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2018.01.13-15.06.01:696][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.13-15.06.01:818][771]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-15.06.01:818][771]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-15.06.01:831][771]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6539.12] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 2 Warning(s) [in 55 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.06.01:832][771]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6539.12] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.06.01:832][771]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6539.12] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 4 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.06.01:980][771]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6539.27] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 5 Warning(s) [in 148 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.06.01:981][771]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6539.27] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 6 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.06.01:981][771]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6539.27] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 7 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.06.03:192][771]LogSavePackage: Save=1453.93ms
+[2018.01.13-15.06.03:192][771]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap11B7CA28412844593621849E2266ADC2.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.01.13-15.06.03:196][771]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2018.01.13-15.06.03:218][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2018.01.13-15.06.03:222][771]LogSavePackage: Save=0.88ms
+[2018.01.13-15.06.03:222][771]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_BuiltDataA8FFBC7E41CAD3DC8BF1A0B40B192112.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.01.13-15.06.03:223][771]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.01.13-15.06.09:466][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor1)
+[2018.01.13-15.06.10:333][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2018.01.13-15.06.46:009][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.01.13-15.06.48:346][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor1)
+[2018.01.13-15.06.55:122][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2018.01.13-15.06.59:414][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor1)
+[2018.01.13-15.07.16:449][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.01.13-15.07.18:796][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.01.13-15.07.20:741][377]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube18)
+[2018.01.13-15.07.28:820][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor1)
+[2018.01.13-15.07.32:390][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor8)
+[2018.01.13-15.07.33:608][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor1)
+[2018.01.13-15.07.36:749][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor8)
+[2018.01.13-15.07.37:760][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor1)
+[2018.01.13-15.07.45:281][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor8)
+[2018.01.13-15.07.50:218][  2]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor1)
+[2018.01.13-15.08.03:595][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor8)
+[2018.01.13-15.08.16:579][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor6)
+[2018.01.13-15.08.22:794][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor6)
+[2018.01.13-15.08.23:887][719]Cmd: TRANSACTION UNDO
+[2018.01.13-15.08.23:887][719]LogEditorTransaction: Undo Clicking on Actors
+[2018.01.13-15.08.24:716][737]Cmd: TRANSACTION UNDO
+[2018.01.13-15.08.24:716][737]LogEditorTransaction: Undo Move Actors
+[2018.01.13-15.08.25:232][748]Cmd: TRANSACTION UNDO
+[2018.01.13-15.08.25:232][748]LogEditorTransaction: Undo Move Actors
+[2018.01.13-15.08.25:842][762]Cmd: TRANSACTION UNDO
+[2018.01.13-15.08.25:842][762]LogEditorTransaction: Undo Move Actors
+[2018.01.13-15.08.28:612][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.01.13-15.08.31:636][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor8)
+[2018.01.13-15.08.52:435][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (sciana_kor1)
+[2018.01.13-15.08.54:236][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.13-15.08.54:376][360]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-15.08.54:376][360]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-15.08.54:388][360]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6711.68] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 2 Warning(s) [in 50 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.08.54:389][360]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6711.68] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.08.54:389][360]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6711.68] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 4 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.08.54:524][360]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6711.81] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 5 Warning(s) [in 134 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.08.54:524][360]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6711.81] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 6 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.08.54:524][360]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6711.81] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 7 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.08.56:063][360]LogSavePackage: Save=1760.52ms
+[2018.01.13-15.08.56:064][360]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap1987F663497BF6F40A2DF98A7DC7CB23.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.01.13-15.08.56:067][360]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2018.01.13-15.08.56:089][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2018.01.13-15.08.56:094][360]LogSavePackage: Save=0.77ms
+[2018.01.13-15.08.56:094][360]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_BuiltData42A6AA5C4DB1D5B443F1A0BD27FCA8A3.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.01.13-15.08.56:095][360]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.01.13-15.09.03:929][522]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.13-15.09.03:972][522]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-15.09.03:972][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-15.09.03:972][522]PIE: New page: PIE session: FirstPersonExampleMap (Jan 13, 2018, 5:09:03 PM)
+[2018.01.13-15.09.03:972][522]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.13-15.09.04:146][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.173097s)
+[2018.01.13-15.09.04:151][522]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.13-15.09.04:152][522]LogPlayLevel: PIE: World Init took: (0.005921s)
+[2018.01.13-15.09.04:152][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.180055s)
+[2018.01.13-15.09.04:210][522]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.13-15.09.04:293][522]LogInit: FAudioDevice initialized.
+[2018.01.13-15.09.04:338][522]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.13-15.09.04:377][522]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.01.13-16.09.04
+[2018.01.13-15.09.04:380][522]LogWorld: Bringing up level for play took: 0.038952
+[2018.01.13-15.09.04:381][522]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.13-15.09.04:384][522]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.431
+[2018.01.13-15.09.04:385][522]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-15.09.31:959][163]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-15.09.32:111][163]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.13-15.09.33:797][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.13-15.09.33:907][193]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-15.09.33:907][193]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-15.09.33:919][193]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6751.21] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 2 Warning(s) [in 50 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.09.33:920][193]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6751.21] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.09.33:920][193]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6751.21] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 4 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.09.34:054][193]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6751.34] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 5 Warning(s) [in 134 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.09.34:055][193]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6751.34] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 6 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.09.34:055][193]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6751.34] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 7 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.09.35:220][193]LogSavePackage: Save=1385.17ms
+[2018.01.13-15.09.35:220][193]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMapC54C449141B16C0941FE16B68FC6BCB2.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.01.13-15.09.35:222][193]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2018.01.13-15.09.35:244][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2018.01.13-15.09.35:249][193]LogSavePackage: Save=0.88ms
+[2018.01.13-15.09.35:249][193]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_BuiltDataFDB205064C5C18EB81B44CA9031BB279.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.01.13-15.09.35:250][193]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.01.13-15.10.06:665][772]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Fire5)
+[2018.01.13-15.12.45:929][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.13-15.12.46:047][240]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-15.12.46:047][240]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning Node  Unknown  is not referencing a valid level actor
+[2018.01.13-15.12.46:059][240]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6943.35] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 2 Warning(s) [in 50 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.12.46:060][240]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6943.35] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.12.46:060][240]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6943.35] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 4 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.12.46:194][240]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6943.48] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 5 Warning(s) [in 134 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.12.46:194][240]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6943.48] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 6 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.12.46:195][240]LogBlueprint:Warning: [Compiler PersistentLevel.FirstPersonExampleMap] Warning [6943.48] Compile of PersistentLevel.FirstPersonExampleMap successful, but with 7 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap)
+[2018.01.13-15.12.47:273][240]LogSavePackage: Save=1299.49ms
+[2018.01.13-15.12.47:273][240]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap7E0740CF4217661ECE2F229BD7FE1E29.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.01.13-15.12.47:276][240]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2018.01.13-15.12.47:298][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2018.01.13-15.12.47:303][240]LogSavePackage: Save=1.22ms
+[2018.01.13-15.12.47:303][240]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_BuiltData9C061635404ADEBB4B7C26BD2C352E55.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.01.13-15.12.47:304][240]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.01.13-15.12.52:102][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/drzwi/door1/DoorHandle" FILE="I:/Projekt/PGK/Content/import/drzwi/door1/DoorHandle.uasset" SILENT=true
+[2018.01.13-15.12.52:116][301]LogSavePackage: Save=13.34ms
+[2018.01.13-15.12.52:116][301]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/DoorHandle374A01AA4DF5C48A29B1D885B999B0C5.tmp' to 'I:/Projekt/PGK/Content/import/drzwi/door1/DoorHandle.uasset'
+[2018.01.13-15.12.52:118][301]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/drzwi/door1/DoorHandle.uasset
+[2018.01.13-15.12.52:174][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/drzwi/door1/doorWood" FILE="I:/Projekt/PGK/Content/import/drzwi/door1/doorWood.uasset" SILENT=true
+[2018.01.13-15.12.52:201][301]LogSavePackage: Save=25.04ms
+[2018.01.13-15.12.52:201][301]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/doorWoodDF3B17D84EB4AD8C7382D0A7F31A07BF.tmp' to 'I:/Projekt/PGK/Content/import/drzwi/door1/doorWood.uasset'
+[2018.01.13-15.12.52:205][301]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/drzwi/door1/doorWood.uasset
+[2018.01.13-15.12.52:223][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/drzwi/door1/doorWood1" FILE="I:/Projekt/PGK/Content/import/drzwi/door1/doorWood1.uasset" SILENT=true
+[2018.01.13-15.12.52:480][301]LogSavePackage: Save=255.83ms
+[2018.01.13-15.12.52:480][301]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/doorWood187A657BF4EF0374E1FE82897399A70CF.tmp' to 'I:/Projekt/PGK/Content/import/drzwi/door1/doorWood1.uasset'
+[2018.01.13-15.12.52:484][301]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/drzwi/door1/doorWood1.uasset
+[2018.01.13-15.12.52:535][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/drzwi/door1/Hinges" FILE="I:/Projekt/PGK/Content/import/drzwi/door1/Hinges.uasset" SILENT=true
+[2018.01.13-15.12.52:560][301]LogSavePackage: Save=23.72ms
+[2018.01.13-15.12.52:560][301]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/HingesBE34FC284BF272560C837BBB7C13CAB9.tmp' to 'I:/Projekt/PGK/Content/import/drzwi/door1/Hinges.uasset'
+[2018.01.13-15.12.52:563][301]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/drzwi/door1/Hinges.uasset
+[2018.01.13-15.12.52:623][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/drzwi/door1/Outlines" FILE="I:/Projekt/PGK/Content/import/drzwi/door1/Outlines.uasset" SILENT=true
+[2018.01.13-15.12.52:704][301]LogSavePackage: Save=34.73ms
+[2018.01.13-15.12.52:704][301]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/Outlines2788F49A4822B1482E1ADDA64D500B49.tmp' to 'I:/Projekt/PGK/Content/import/drzwi/door1/Outlines.uasset'
+[2018.01.13-15.12.52:707][301]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/drzwi/door1/Outlines.uasset
+[2018.01.13-15.12.52:765][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/drzwi/door3/Door_Color" FILE="I:/Projekt/PGK/Content/import/drzwi/door3/Door_Color.uasset" SILENT=true
+[2018.01.13-15.12.52:788][301]LogSavePackage: Save=21.10ms
+[2018.01.13-15.12.52:788][301]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/Door_Color0CE53CDC456B0752AC5B8AA0844C3B5D.tmp' to 'I:/Projekt/PGK/Content/import/drzwi/door3/Door_Color.uasset'
+[2018.01.13-15.12.52:791][301]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/drzwi/door3/Door_Color.uasset
+[2018.01.13-15.12.52:843][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/drzwi/Elektric" FILE="I:/Projekt/PGK/Content/import/drzwi/Elektric.uasset" SILENT=true
+[2018.01.13-15.12.52:866][301]LogSavePackage: Save=20.90ms
+[2018.01.13-15.12.52:866][301]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/ElektricB2873B834677454C9C7848AAF1126CD0.tmp' to 'I:/Projekt/PGK/Content/import/drzwi/Elektric.uasset'
+[2018.01.13-15.12.52:869][301]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/drzwi/Elektric.uasset
+[2018.01.13-15.12.52:977][301]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.13-15.12.53:276][302]Cmd: QUIT_EDITOR
+[2018.01.13-15.12.53:679][302]LogExit: Preparing to exit.
+[2018.01.13-15.12.54:272][302]LogExit: Editor shut down
+[2018.01.13-15.12.54:286][302]LogExit: Transaction tracking system shut down
+[2018.01.13-15.12.54:454][302]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.13-15.12.54:455][302]LogExit: Object subsystem successfully closed.
+[2018.01.13-15.12.54:483][302]LogD3D11RHI: Shutdown
+[2018.01.13-15.12.54:483][302]LogD3D11RHI: CleanupD3DDevice
+[2018.01.13-15.12.54:660][302]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.13-15.12.54:671][302]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (528)
+[2018.01.13-15.12.54:671][302]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2018.01.13-15.12.54:703][302]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.01.13-15.12.54:703][302]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.01.13-15.12.54:703][302]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.01.13-15.12.54:703][302]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.01.13-15.12.54:703][302]LogDirectoryWatcher: A directory notification for 'P:/silnik/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.13-15.12.54:705][302]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.01.13-15.12.54:705][302]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.01.13-15.12.54:705][302]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.01.13-15.12.54:705][302]LogDirectoryWatcher: A directory notification for 'I:/Projekt/PGK/Content/Collections/' was aborted.
+[2018.01.13-15.12.54:706][302]LogDirectoryWatcher: A directory notification for 'I:/Projekt/PGK/Content/Developers/Robert/Collections/' was aborted.
+[2018.01.13-15.12.54:706][302]LogDirectoryWatcher: A directory notification for 'I:/Projekt/PGK/Saved/Collections/' was aborted.
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.01.13-15.12.54:706][302]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.01.13-15.12.54:707][302]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.01.13-15.12.54:707][302]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.01.13-15.12.54:707][302]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.01.13-15.12.54:707][302]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.01.13-15.12.54:707][302]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.01.13-15.12.54:707][302]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.01.13-15.12.55:014][302]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.01.13-15.12.55:014][302]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.01.13-15.12.55:014][302]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.01.13-15.12.55:014][302]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.01.13-15.12.55:018][302]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.01.13-15.12.55:061][302]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.01.13-15.12.55:061][302]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.01.13-15.12.55:061][302]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.01.13-15.12.55:061][302]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.01.13-15.12.55:061][302]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.01.13-15.12.55:061][302]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.01.13-15.12.55:061][302]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.01.13-15.12.55:061][302]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.01.13-15.12.55:061][302]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.01.13-15.12.55:061][302]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.01.13-15.12.55:062][302]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.01.13-15.12.55:075][302]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.01.13-15.12.55:076][302]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.01.13-15.12.55:076][302]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.01.13-15.12.55:076][302]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.01.13-15.12.55:076][302]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.01.13-15.12.55:076][302]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.01.13-15.12.55:076][302]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.01.13-15.12.55:076][302]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.01.13-15.12.55:076][302]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.01.13-15.12.55:076][302]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.01.13-15.12.55:076][302]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.01.13-15.12.55:076][302]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.01.13-15.12.55:076][302]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.01.13-15.12.55:077][302]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.01.13-15.12.55:077][302]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.01.13-15.12.55:078][302]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.01.13-15.12.55:079][302]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.01.13-15.12.55:079][302]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.01.13-15.12.55:079][302]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.01.13-15.12.55:079][302]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.01.13-15.12.55:080][302]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.01.13-15.12.55:080][302]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.01.13-15.12.55:080][302]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.01.13-15.12.55:080][302]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.01.13-15.12.55:181][302]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.01.13-15.12.55:281][302]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.01.13-15.12.55:281][302]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.01.13-15.12.55:281][302]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.01.13-15.12.55:281][302]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.01.13-15.12.55:281][302]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.01.13-15.12.55:281][302]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.01.13-15.12.55:284][302]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.01.13-15.12.55:285][302]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.01.13-15.12.55:285][302]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.01.13-15.12.55:285][302]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.01.13-15.12.55:290][302]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.01.13-15.12.55:290][302]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.01.13-15.12.55:290][302]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.01.13-15.12.55:290][302]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.01.13-15.12.55:290][302]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.01.13-15.12.55:290][302]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.01.13-15.12.55:291][302]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.01.13-15.12.55:291][302]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.01.13-15.12.55:291][302]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.01.13-15.12.55:291][302]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.01.13-15.12.55:291][302]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.01.13-15.12.55:291][302]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.01.13-15.12.55:291][302]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.01.13-15.12.55:291][302]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.01.13-15.12.55:291][302]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.01.13-15.12.55:291][302]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.01.13-15.12.55:291][302]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.01.13-15.12.55:292][302]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.01.13-15.12.55:292][302]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.01.13-15.12.55:299][302]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.01.13-15.12.55:299][302]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.01.13-15.12.55:299][302]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.01.13-15.12.55:299][302]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.01.13-15.12.55:299][302]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.01.13-15.12.55:299][302]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.01.13-15.12.55:471][302]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.13-15.12.55:471][302]LogDirectoryWatcher: A directory notification for 'I:/Projekt/PGK/Content/' was aborted.
+[2018.01.13-15.12.55:471][302]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.13-15.12.55:471][302]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.13-15.12.55:477][302]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.01.13-15.12.55:479][302]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.01.13-15.12.55:479][302]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.01.13-15.12.55:479][302]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.13-15.12.55:479][302]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.13-15.12.55:479][302]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.13-15.12.55:479][302]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.13-15.12.55:479][302]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.13-15.12.55:479][302]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.13-15.12.55:538][302]LogDerivedDataCache: Shutdown
+[2018.01.13-15.12.55:538][302]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.13-15.12.55:538][302]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.13-15.12.55:538][302]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.13-15.12.55:538][302]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.13-15.12.55:538][302]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.13-15.12.55:538][302]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.13-15.12.55:538][302]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.13-15.12.55:538][302]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.13-15.12.55:539][302]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.13-15.12.55:540][302]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.13-15.12.55:540][302]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.13-15.12.55:540][302]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.13-15.12.55:540][302]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAD7EE395-48C4-124C-1BF8-8B9EE016170C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=29637ffe4c58a1c3c8e01ea6909a8eb4%7C4b55de0784454aa7bd2b02757aa35777%7C0a577216-477d-4061-b982-e092ed939e1e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.13-15.12.55:544][302]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.13-15.12.55:548][302]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.13-15.12.55:548][302]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.13-15.12.55:548][302]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.13-15.12.55:548][302]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.13-15.12.55:548][302]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.13-15.12.55:549][302]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.13-15.12.55:549][302]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.13-15.12.55:549][302]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.13-15.12.55:552][302]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.13-15.12.55:552][302]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.13-15.12.55:552][302]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.13-15.12.55:552][302]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.13-15.12.55:552][302]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.13-15.12.55:552][302]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.13-15.12.55:552][302]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.13-15.12.55:552][302]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.13-15.12.55:552][302]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.13-15.12.55:552][302]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.13-15.12.55:557][302]LogExit: Exiting.
+[2018.01.13-15.12.55:586][302]Log file closed, 01/13/18 16:12:55
