@@ -1,0 +1,763 @@
+﻿Log file open, 01/13/18 10:20:31
+LogInit:Display: Running engine for game: PGK
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(767464236) SRandInit(767464236).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.146974
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: P:/silnik/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.13-09.20.32:441][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.13-09.20.32:441][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.13-09.20.32:495][  0]LogInit: Computer: GROBKOMP
+[2018.01.13-09.20.32:495][  0]LogInit: User: Robert
+[2018.01.13-09.20.32:495][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.13-09.20.32:495][  0]LogInit: High frequency timer resolution =2.249998 MHz
+[2018.01.13-09.20.32:497][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.01.13-09.20.32:497][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.13-09.20.32:497][  0]LogMemory: Process Physical Memory: 275.74 MB used, 275.74 MB peak
+[2018.01.13-09.20.32:497][  0]LogMemory: Process Virtual Memory: 266.74 MB used, 266.74 MB peak
+[2018.01.13-09.20.32:497][  0]LogMemory: Physical Memory: 5169.80 MB used,  2940.40 MB free, 8110.20 MB total
+[2018.01.13-09.20.32:497][  0]LogMemory: Virtual Memory: 663.04 MB used,  2940.40 MB free, 134217728.00 MB total
+[2018.01.13-09.20.32:623][  0]LogInit: Using OS detected language (pl-PL).
+[2018.01.13-09.20.32:623][  0]LogInit: Using OS detected locale (pl-PL).
+[2018.01.13-09.20.32:630][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2018.01.13-09.20.32:630][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the locale.
+[2018.01.13-09.20.34:605][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.13-09.20.35:892][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.01.13-09.20.35:892][  0]LogD3D11RHI:       2017/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.13-09.20.35:910][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.01.13-09.20.35:910][  0]LogD3D11RHI:       128/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.13-09.20.35:915][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.13-09.20.35:915][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.13-09.20.35:915][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.13-09.20.35:925][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.13-09.20.35:925][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.01.13-09.20.35:925][  0]LogWindows: EnumDisplayDevices:
+[2018.01.13-09.20.35:927][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.01.13-09.20.35:927][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.01.13-09.20.35:927][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.01.13-09.20.35:927][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.01.13-09.20.35:927][  0]LogWindows:    4. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.01.13-09.20.35:927][  0]LogWindows:    5. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.01.13-09.20.35:928][  0]LogWindows:    6. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.01.13-09.20.35:928][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.13-09.20.35:928][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.01.13-09.20.35:928][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.13-09.20.35:928][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.13-09.20.35:928][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.13-09.20.37:141][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.13-09.20.37:520][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.13-09.20.37:523][  0]LogShaderCompilers: Guid format shader working directory is 33 characters bigger than the processId version (I:/Projekt/PGK/Intermediate/Shaders/WorkingDirectory/8292/).
+[2018.01.13-09.20.37:524][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Robert/AppData/Local/Temp/UnrealShaderWorkingDir/D72E6EE648D34BC80890A59841AAFF17/'.
+[2018.01.13-09.20.37:524][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.13-09.20.39:676][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.13-09.20.39:765][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.13-09.20.39:854][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.13-09.20.39:942][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.13-09.20.40:031][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.13-09.20.40:120][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.13-09.20.40:209][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.13-09.20.40:297][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.13-09.20.40:381][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.13-09.20.40:468][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.13-09.20.40:553][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.13-09.20.40:639][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.13-09.20.40:724][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.13-09.20.40:809][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.13-09.20.40:900][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.13-09.20.41:109][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.13-09.20.41:109][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.13-09.20.41:193][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.13-09.20.41:369][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.13-09.20.41:432][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.13-09.20.41:518][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.13-09.20.41:604][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.13-09.20.41:690][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.13-09.20.41:786][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.13-09.20.41:786][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.13-09.20.42:708][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.13-09.20.42:886][  0]LogDerivedDataCache: Loaded boot cache 0.18s 100MB C:/Users/Robert/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.13-09.20.42:887][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Robert/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.13-09.20.42:887][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/Projekt/PGK/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.13-09.20.42:887][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.13-09.20.42:887][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file I:/Projekt/PGK/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.13-09.20.42:887][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.13-09.20.42:920][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.13-09.20.42:935][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Robert/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.13-09.20.42:956][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.13-09.20.42:956][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.13-09.20.42:957][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.13-09.20.42:957][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.13-09.20.43:641][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.13-09.20.43:781][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.13-09.20.44:112][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.13-09.20.44:188][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.13-09.20.44:285][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.13-09.20.44:285][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.13-09.20.44:285][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.13-09.20.45:683][  0]LogNetVersion: PGK , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3392332418)
+[2018.01.13-09.20.45:779][  0]LogAssetRegistry: FAssetRegistry took 0.0306 seconds to start up
+[2018.01.13-09.20.45:867][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.032260 seconds
+[2018.01.13-09.20.45:877][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.13-09.20.45:877][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.01.13-09.20.45:877][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.13-09.20.45:987][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.13-09.20.51:243][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.13-09.20.51:314][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.13-09.20.52:310][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.13-09.20.53:063][  0]SourceControl: Info Source control is disabled
+[2018.01.13-09.20.53:065][  0]SourceControl: Info Source control is disabled
+[2018.01.13-09.20.53:154][  0]SourceControl: Info Source control is disabled
+[2018.01.13-09.20.53:249][  0]SourceControl: Info Source control is disabled
+[2018.01.13-09.20.54:671][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.13-09.20.55:941][  0]LogEngine: Initializing Engine...
+[2018.01.13-09.20.55:942][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.13-09.20.56:321][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.13-09.20.56:321][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.13-09.20.56:555][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.13-09.20.56:573][  0]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.13-09.20.56:675][  0]LogInit: FAudioDevice initialized.
+[2018.01.13-09.20.56:770][  0]LogDerivedDataCache: Saved boot cache 0.10s 100MB C:/Users/Robert/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.13-09.20.56:793][  0]LogInit: Texture streaming: Enabled
+[2018.01.13-09.20.56:950][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.13-09.20.57:345][  0]LogInit: Transaction tracking system initialized
+[2018.01.13-09.20.57:882][  0]BlueprintLog: New page: Editor Load
+[2018.01.13-09.20.59:477][  0]LocalizationService: Info Localization service is disabled
+[2018.01.13-09.21.00:659][  0]LogConsoleResponse:Display: 
+[2018.01.13-09.21.01:323][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.13-09.21.01:323][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.13-09.21.02:050][  0]LogFileCache: Scanning file cache for directory 'I:/Projekt/PGK/Content/' took 0.07s
+[2018.01.13-09.21.03:454][  0]SourceControl: Info Source control is disabled
+[2018.01.13-09.21.03:454][  0]Cmd: MAP LOAD FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.13-09.21.03:455][  0]LightingResults: New page: Lighting Build
+[2018.01.13-09.21.03:526][  0]MapCheck: New page: Map Check
+[2018.01.13-09.21.03:526][  0]LightingResults: New page: Lighting Build
+[2018.01.13-09.21.17:752][  0]LogMaterial: Missing cached shader map for material st_tile, compiling. 
+[2018.01.13-09.21.17:774][  0]LogMaterial:Warning: Failed to compile Material /Game/import/kibel/st_tile.st_tile for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.13-09.21.17:775][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/import/kibel/Dirt_map.Dirt_map
+[2018.01.13-09.21.20:597][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.13-09.21.22:168][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.13-09.21.22:209][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.13-09.21.22:352][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 142.302ms to complete.
+[2018.01.13-09.21.22:352][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 18.898
+[2018.01.13-09.21.23:317][  0]LogCollectionManager: Loaded 0 collections in 0.004311 seconds
+[2018.01.13-09.21.23:582][  0]LogFileCache: Scanning file cache for directory 'I:/Projekt/PGK/Saved/Collections/' took 0.01s
+[2018.01.13-09.21.23:582][  0]LogFileCache: Scanning file cache for directory 'I:/Projekt/PGK/Content/Developers/Robert/Collections/' took 0.01s
+[2018.01.13-09.21.23:582][  0]LogFileCache: Scanning file cache for directory 'I:/Projekt/PGK/Content/Collections/' took 0.01s
+[2018.01.13-09.21.23:582][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2018.01.13-09.21.23:615][  0]LogContentBrowser: Native class hierarchy populated in 0.0309 seconds. Added 2329 classes and 491 folders.
+[2018.01.13-09.21.23:893][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2018.01.13-09.21.25:070][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2018.01.13-09.21.25:211][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.01.13-09.21.25:481][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.13-09.21.25:578][  0]LogSlate: Took 0.000468 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.13-09.21.25:584][  0]LogSlate: Took 0.000933 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.13-09.21.25:608][  0]LogSlate: Took 0.013986 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.13-09.21.26:117][  0]LogRenderer: Reallocating scene render targets to support 1180x600 NumSamples 1 (Frame:1).
+[2018.01.13-09.21.26:718][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.13-09.21.26:829][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.01.13-09.21.26:829][  0]LogLoad: (Engine Initialization) Total time: 57.75 seconds
+[2018.01.13-09.21.26:829][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.56 seconds
+[2018.01.13-09.21.26:829][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.13-09.21.26:952][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.13-09.21.34:511][  0]LogOcInput: OculusInput pre-init called
+[2018.01.13-09.21.34:511][  0]LogHMD: Starting GearVRController plugin
+[2018.01.13-09.21.34:629][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.13-09.21.34:920][  0]LogSlate: Took 0.126493 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.13-09.21.35:780][  4]LogAssetRegistry: Asset discovery search completed in 50.0245 seconds
+[2018.01.13-09.21.35:785][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.13-09.21.35:785][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
+[2018.01.13-09.21.37:614][ 21]LogSlate: Took 0.000816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.13-09.21.40:025][ 38]LogFileCache: Retrieving MD5 hashes for directory 'I:/Projekt/PGK/Content/' took 5.50s
+[2018.01.13-09.21.40:426][ 41]AssetReimport: New page: Outstanding source content changes 11:21:40 AM
+[2018.01.13-09.21.40:560][ 42]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 I:/Projekt/PGK/Content/import/bed/BunkFBX.fbx)
+[2018.01.13-09.21.41:364][ 42]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.01.13-09.21.41:364][ 42]LogFbx: ItemName: NodeAttribute, ItemCount : 2
+[2018.01.13-09.21.41:364][ 42]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.01.13-09.21.41:364][ 42]LogFbx: ItemName: Model, ItemCount : 3
+[2018.01.13-09.21.41:364][ 42]LogFbx: ItemName: Material, ItemCount : 4
+[2018.01.13-09.21.41:508][ 42]LogFbx: Loading FBX Scene from I:/Projekt/PGK/Content/import/bed/BunkFBX.fbx
+[2018.01.13-09.21.41:627][ 42]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.13-09.21.43:823][ 42]LogFbx: Loading FBX Scene from I:/Projekt/PGK/Content/import/bed/BunkFBX.fbx
+[2018.01.13-09.21.43:855][ 42]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.13-09.21.43:927][ 42]LogLinker: Can't find file '/Game/import/bed/Main'
+[2018.01.13-09.21.43:928][ 42]LogLinker: Can't find file '/Game/import/bed/Main'
+[2018.01.13-09.21.43:975][ 42]LogMaterial: Missing cached shader map for material Main, compiling. 
+[2018.01.13-09.21.44:124][ 42]LogLinker: Can't find file '/Game/import/bed/Bed'
+[2018.01.13-09.21.44:124][ 42]LogLinker: Can't find file '/Game/import/bed/Bed'
+[2018.01.13-09.21.44:189][ 42]LogMaterial: Missing cached shader map for material Bed, compiling. 
+[2018.01.13-09.21.44:235][ 42]LogLinker: Can't find file '/Game/import/bed/Drawer'
+[2018.01.13-09.21.44:235][ 42]LogLinker: Can't find file '/Game/import/bed/Drawer'
+[2018.01.13-09.21.44:330][ 42]LogMaterial: Missing cached shader map for material Drawer, compiling. 
+[2018.01.13-09.21.44:357][ 42]LogLinker: Can't find file '/Game/import/bed/Metal'
+[2018.01.13-09.21.44:357][ 42]LogLinker: Can't find file '/Game/import/bed/Metal'
+[2018.01.13-09.21.44:385][ 42]LogMaterial: Missing cached shader map for material Metal, compiling. 
+[2018.01.13-09.21.49:559][ 42]LogStaticMesh: Building static mesh BunkFBX...
+[2018.01.13-09.21.49:664][ 42]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.22.16:311][ 42]LogStaticMesh: Built static mesh [26.75s] /Game/import/bed/BunkFBX.BunkFBX
+[2018.01.13-09.22.42:342][ 42]LogMeshUtilities: Finished distance field build in 25.9s - 64x64x64 distance field, 24182 triangles, Range [-0.1, 0.6], BunkFBX
+[2018.01.13-09.22.42:788][ 43]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/krew.png)
+[2018.01.13-09.22.44:868][ 44]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/krew2.png)
+[2018.01.13-09.22.45:413][ 45]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/krew3.png)
+[2018.01.13-09.22.45:799][ 46]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/plama-krwi-krwawy-odcisk.png)
+[2018.01.13-09.22.45:893][ 46]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/winda_kolor.jpg)
+[2018.01.13-09.22.46:274][ 47]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 I:/Projekt/PGK/Content/import/wardrobe/wardrobe.fbx)
+[2018.01.13-09.22.46:290][ 47]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.01.13-09.22.46:290][ 47]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.01.13-09.22.46:290][ 47]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.01.13-09.22.46:290][ 47]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.01.13-09.22.46:290][ 47]LogFbx: ItemName: Material, ItemCount : 1
+[2018.01.13-09.22.46:290][ 47]LogFbx: ItemName: Model, ItemCount : 1
+[2018.01.13-09.22.46:316][ 47]LogFbx: Loading FBX Scene from I:/Projekt/PGK/Content/import/wardrobe/wardrobe.fbx
+[2018.01.13-09.22.46:356][ 47]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.13-09.24.12:581][ 47]LogFbx: Loading FBX Scene from I:/Projekt/PGK/Content/import/wardrobe/wardrobe.fbx
+[2018.01.13-09.24.12:596][ 47]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.13-09.24.12:602][ 47]LogLinker: Can't find file '/Game/import/wardrobe/lambert2'
+[2018.01.13-09.24.12:602][ 47]LogLinker: Can't find file '/Game/import/wardrobe/lambert2'
+[2018.01.13-09.24.12:609][ 47]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.01.13-09.24.12:710][ 47]LogStaticMesh: Building static mesh wardrobe...
+[2018.01.13-09.24.12:710][ 47]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.12:898][ 47]LogStaticMesh: Built static mesh [0.19s] /Game/import/wardrobe/wardrobe.wardrobe
+[2018.01.13-09.24.13:089][ 47]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 180 triangles, Range [-0.0, 0.3], wardrobe
+[2018.01.13-09.24.13:193][ 48]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 I:/Projekt/PGK/Content/import/wardrobe/wardrobe1.FBX)
+[2018.01.13-09.24.13:225][ 48]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.01.13-09.24.13:226][ 48]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.01.13-09.24.13:226][ 48]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.01.13-09.24.13:226][ 48]LogFbx: ItemName: Model, ItemCount : 45
+[2018.01.13-09.24.13:226][ 48]LogFbx: ItemName: NodeAttribute, ItemCount : 7
+[2018.01.13-09.24.13:226][ 48]LogFbx: ItemName: Geometry, ItemCount : 37
+[2018.01.13-09.24.13:226][ 48]LogFbx: ItemName: Material, ItemCount : 3
+[2018.01.13-09.24.13:237][ 48]LogFbx: Loading FBX Scene from I:/Projekt/PGK/Content/import/wardrobe/wardrobe1.FBX
+[2018.01.13-09.24.13:481][ 48]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.13-09.24.14:816][ 48]LogFbx: Loading FBX Scene from I:/Projekt/PGK/Content/import/wardrobe/wardrobe1.FBX
+[2018.01.13-09.24.15:023][ 48]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.13-09.24.15:083][ 48]LogLinker: Can't find file '/Game/import/wardrobe/w__2'
+[2018.01.13-09.24.15:083][ 48]LogLinker: Can't find file '/Game/import/wardrobe/w__2'
+[2018.01.13-09.24.15:105][ 48]LogMaterial: Missing cached shader map for material w__2, compiling. 
+[2018.01.13-09.24.15:169][ 48]LogStaticMesh: Building static mesh wardrobe1_Loft24...
+[2018.01.13-09.24.15:185][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.20:202][ 48]LogStaticMesh: Built static mesh [5.05s] /Game/import/wardrobe/wardrobe1_Loft24.wardrobe1_Loft24
+[2018.01.13-09.24.20:370][ 48]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x24 distance field, 5204 triangles, Range [-0.1, 0.4], wardrobe1_Loft24
+[2018.01.13-09.24.20:370][ 48]LogStaticMesh: Building static mesh wardrobe1_Loft25...
+[2018.01.13-09.24.20:392][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.29:223][ 48]LogStaticMesh: Built static mesh [8.86s] /Game/import/wardrobe/wardrobe1_Loft25.wardrobe1_Loft25
+[2018.01.13-09.24.29:413][ 48]LogStaticMesh: Building static mesh wardrobe1_Loft26...
+[2018.01.13-09.24.29:416][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.30:374][ 48]LogMeshUtilities: Finished distance field build in 0.2s - 9x9x26 distance field, 8228 triangles, Range [-0.1, 0.6], wardrobe1_Loft25
+[2018.01.13-09.24.30:374][ 48]LogStaticMesh: Built static mesh [0.96s] /Game/import/wardrobe/wardrobe1_Loft26.wardrobe1_Loft26
+[2018.01.13-09.24.30:445][ 48]LogStaticMesh: Building static mesh wardrobe1_Loft27...
+[2018.01.13-09.24.30:448][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.31:477][ 48]LogMeshUtilities: Finished distance field build in 0.3s - 8x9x47 distance field, 1172 triangles, Range [-0.0, 0.4], wardrobe1_Loft26
+[2018.01.13-09.24.31:477][ 48]LogStaticMesh: Built static mesh [1.03s] /Game/import/wardrobe/wardrobe1_Loft27.wardrobe1_Loft27
+[2018.01.13-09.24.31:608][ 48]LogStaticMesh: Building static mesh wardrobe1_Rectangle2...
+[2018.01.13-09.24.31:609][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.31:964][ 48]LogMeshUtilities: Finished distance field build in 0.4s - 10x10x47 distance field, 1172 triangles, Range [-0.0, 0.4], wardrobe1_Loft27
+[2018.01.13-09.24.31:964][ 48]LogStaticMesh: Built static mesh [0.38s] /Game/import/wardrobe/wardrobe1_Rectangle2.wardrobe1_Rectangle2
+[2018.01.13-09.24.32:040][ 48]LogStaticMesh: Building static mesh wardrobe1_Loft28...
+[2018.01.13-09.24.32:058][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.36:738][ 48]LogStaticMesh: Built static mesh [4.71s] /Game/import/wardrobe/wardrobe1_Loft28.wardrobe1_Loft28
+[2018.01.13-09.24.36:870][ 48]LogStaticMesh: Building static mesh wardrobe1_Loft29...
+[2018.01.13-09.24.36:874][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.37:809][ 48]LogStaticMesh: Built static mesh [0.95s] /Game/import/wardrobe/wardrobe1_Loft29.wardrobe1_Loft29
+[2018.01.13-09.24.37:892][ 48]LogStaticMesh: Building static mesh wardrobe1_Loft30...
+[2018.01.13-09.24.37:896][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.38:878][ 48]LogMeshUtilities: Finished distance field build in 6.7s - 64x64x22 distance field, 438 triangles, Range [-0.0, 0.5], wardrobe1_Rectangle2
+[2018.01.13-09.24.38:878][ 48]LogStaticMesh: Built static mesh [0.99s] /Game/import/wardrobe/wardrobe1_Loft30.wardrobe1_Loft30
+[2018.01.13-09.24.39:000][ 48]LogStaticMesh: Building static mesh wardrobe1_Loft31...
+[2018.01.13-09.24.39:016][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.44:414][ 48]LogMeshUtilities: Finished distance field build in 0.3s - 8x9x47 distance field, 1172 triangles, Range [-0.0, 0.4], wardrobe1_Loft30
+[2018.01.13-09.24.44:414][ 48]LogStaticMesh: Built static mesh [5.42s] /Game/import/wardrobe/wardrobe1_Loft31.wardrobe1_Loft31
+[2018.01.13-09.24.44:575][ 48]LogStaticMesh: Building static mesh wardrobe1_Loft32...
+[2018.01.13-09.24.44:597][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.53:528][ 48]LogMeshUtilities: Finished distance field build in 0.2s - 8x8x24 distance field, 5204 triangles, Range [-0.1, 0.4], wardrobe1_Loft31
+[2018.01.13-09.24.53:528][ 48]LogStaticMesh: Built static mesh [8.95s] /Game/import/wardrobe/wardrobe1_Loft32.wardrobe1_Loft32
+[2018.01.13-09.24.53:688][ 48]LogStaticMesh: Building static mesh wardrobe1_Rectangle0...
+[2018.01.13-09.24.53:689][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.54:085][ 48]LogMeshUtilities: Finished distance field build in 0.3s - 9x9x26 distance field, 8228 triangles, Range [-0.1, 0.6], wardrobe1_Loft32
+[2018.01.13-09.24.54:085][ 48]LogStaticMesh: Built static mesh [0.40s] /Game/import/wardrobe/wardrobe1_Rectangle0.wardrobe1_Rectangle0
+[2018.01.13-09.24.54:203][ 48]LogStaticMesh: Building static mesh wardrobe1_Rectangle1...
+[2018.01.13-09.24.54:203][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.54:246][ 48]LogStaticMesh: Built static mesh [0.04s] /Game/import/wardrobe/wardrobe1_Rectangle1.wardrobe1_Rectangle1
+[2018.01.13-09.24.54:311][ 48]LogStaticMesh: Building static mesh wardrobe1_Rectangle3...
+[2018.01.13-09.24.54:311][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.54:392][ 48]LogStaticMesh: Built static mesh [0.08s] /Game/import/wardrobe/wardrobe1_Rectangle3.wardrobe1_Rectangle3
+[2018.01.13-09.24.54:425][ 48]LogStaticMesh: Building static mesh wardrobe1_Rectangle4...
+[2018.01.13-09.24.54:425][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.54:517][ 48]LogStaticMesh: Built static mesh [0.09s] /Game/import/wardrobe/wardrobe1_Rectangle4.wardrobe1_Rectangle4
+[2018.01.13-09.24.54:537][ 48]LogLinker: Can't find file '/Game/import/wardrobe/_Black_'
+[2018.01.13-09.24.54:538][ 48]LogLinker: Can't find file '/Game/import/wardrobe/_Black_'
+[2018.01.13-09.24.54:550][ 48]LogMaterial: Missing cached shader map for material _Black_, compiling. 
+[2018.01.13-09.24.54:643][ 48]LogStaticMesh: Building static mesh wardrobe1_Line23...
+[2018.01.13-09.24.54:646][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.55:842][ 48]LogStaticMesh: Built static mesh [1.20s] /Game/import/wardrobe/wardrobe1_Line23.wardrobe1_Line23
+[2018.01.13-09.24.55:920][ 48]LogStaticMesh: Building static mesh wardrobe1_Cylinder17...
+[2018.01.13-09.24.55:921][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.55:980][ 48]LogStaticMesh: Built static mesh [0.07s] /Game/import/wardrobe/wardrobe1_Cylinder17.wardrobe1_Cylinder17
+[2018.01.13-09.24.56:037][ 48]LogStaticMesh: Building static mesh wardrobe1_Cylinder18...
+[2018.01.13-09.24.56:037][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.56:094][ 48]LogStaticMesh: Built static mesh [0.06s] /Game/import/wardrobe/wardrobe1_Cylinder18.wardrobe1_Cylinder18
+[2018.01.13-09.24.56:123][ 48]LogStaticMesh: Building static mesh wardrobe1_Line24...
+[2018.01.13-09.24.56:126][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.57:221][ 48]LogStaticMesh: Built static mesh [1.10s] /Game/import/wardrobe/wardrobe1_Line24.wardrobe1_Line24
+[2018.01.13-09.24.57:313][ 48]LogStaticMesh: Building static mesh wardrobe1_Line25...
+[2018.01.13-09.24.57:317][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.58:384][ 48]LogStaticMesh: Built static mesh [1.07s] /Game/import/wardrobe/wardrobe1_Line25.wardrobe1_Line25
+[2018.01.13-09.24.58:475][ 48]LogStaticMesh: Building static mesh wardrobe1_Cylinder19...
+[2018.01.13-09.24.58:475][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.58:535][ 48]LogStaticMesh: Built static mesh [0.08s] /Game/import/wardrobe/wardrobe1_Cylinder19.wardrobe1_Cylinder19
+[2018.01.13-09.24.58:557][ 48]LogStaticMesh: Building static mesh wardrobe1_Cylinder20...
+[2018.01.13-09.24.58:558][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.58:622][ 48]LogStaticMesh: Built static mesh [0.06s] /Game/import/wardrobe/wardrobe1_Cylinder20.wardrobe1_Cylinder20
+[2018.01.13-09.24.58:654][ 48]LogStaticMesh: Building static mesh wardrobe1_Line26...
+[2018.01.13-09.24.58:658][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.24.59:718][ 48]LogStaticMesh: Built static mesh [1.06s] /Game/import/wardrobe/wardrobe1_Line26.wardrobe1_Line26
+[2018.01.13-09.24.59:796][ 48]LogStaticMesh: Building static mesh wardrobe1_Line27...
+[2018.01.13-09.24.59:799][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.00:881][ 48]LogStaticMesh: Built static mesh [1.08s] /Game/import/wardrobe/wardrobe1_Line27.wardrobe1_Line27
+[2018.01.13-09.25.00:952][ 48]LogStaticMesh: Building static mesh wardrobe1_Line28...
+[2018.01.13-09.25.00:955][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.02:126][ 48]LogStaticMesh: Built static mesh [1.22s] /Game/import/wardrobe/wardrobe1_Line28.wardrobe1_Line28
+[2018.01.13-09.25.02:208][ 48]LogStaticMesh: Building static mesh wardrobe1_Cylinder21...
+[2018.01.13-09.25.02:208][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.02:276][ 48]LogStaticMesh: Built static mesh [0.07s] /Game/import/wardrobe/wardrobe1_Cylinder21.wardrobe1_Cylinder21
+[2018.01.13-09.25.02:310][ 48]LogStaticMesh: Building static mesh wardrobe1_Cylinder22...
+[2018.01.13-09.25.02:310][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.02:366][ 48]LogStaticMesh: Built static mesh [0.06s] /Game/import/wardrobe/wardrobe1_Cylinder22.wardrobe1_Cylinder22
+[2018.01.13-09.25.02:407][ 48]LogStaticMesh: Building static mesh wardrobe1_Line29...
+[2018.01.13-09.25.02:410][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.03:465][ 48]LogStaticMesh: Built static mesh [1.07s] /Game/import/wardrobe/wardrobe1_Line29.wardrobe1_Line29
+[2018.01.13-09.25.03:570][ 48]LogStaticMesh: Building static mesh wardrobe1_Line30...
+[2018.01.13-09.25.03:573][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.04:649][ 48]LogMeshUtilities: Finished distance field build in 9.8s - 64x64x22 distance field, 438 triangles, Range [-0.0, 0.5], wardrobe1_Rectangle0
+[2018.01.13-09.25.04:649][ 48]LogStaticMesh: Built static mesh [1.10s] /Game/import/wardrobe/wardrobe1_Line30.wardrobe1_Line30
+[2018.01.13-09.25.04:682][ 48]LogStaticMesh: Building static mesh wardrobe1_Cylinder23...
+[2018.01.13-09.25.04:682][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.04:741][ 48]LogStaticMesh: Built static mesh [0.06s] /Game/import/wardrobe/wardrobe1_Cylinder23.wardrobe1_Cylinder23
+[2018.01.13-09.25.04:759][ 48]LogStaticMesh: Building static mesh wardrobe1_Cylinder24...
+[2018.01.13-09.25.04:760][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.04:817][ 48]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x15 distance field, 1024 triangles, Range [0.0, 0.7], wardrobe1_Line30
+[2018.01.13-09.25.04:817][ 48]LogStaticMesh: Built static mesh [0.06s] /Game/import/wardrobe/wardrobe1_Cylinder24.wardrobe1_Cylinder24
+[2018.01.13-09.25.04:887][ 48]LogStaticMesh: Building static mesh wardrobe1_Rectangle5...
+[2018.01.13-09.25.04:897][ 48]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 72 triangles, Range [-0.1, 0.3], wardrobe1_Cylinder24
+[2018.01.13-09.25.04:897][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.08:225][ 48]LogStaticMesh: Built static mesh [3.34s] /Game/import/wardrobe/wardrobe1_Rectangle5.wardrobe1_Rectangle5
+[2018.01.13-09.25.08:321][ 48]LogStaticMesh: Building static mesh wardrobe1_Shape09...
+[2018.01.13-09.25.08:321][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.08:364][ 48]LogStaticMesh: Built static mesh [0.04s] /Game/import/wardrobe/wardrobe1_Shape09.wardrobe1_Shape09
+[2018.01.13-09.25.08:401][ 48]LogStaticMesh: Building static mesh wardrobe1_Rectangle6...
+[2018.01.13-09.25.08:416][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.13:804][ 48]LogMeshUtilities: Finished distance field build in 4.0s - 27x64x32 distance field, 3216 triangles, Range [-0.0, 1.0], wardrobe1_Rectangle5
+[2018.01.13-09.25.13:804][ 48]LogStaticMesh: Built static mesh [5.41s] /Game/import/wardrobe/wardrobe1_Rectangle6.wardrobe1_Rectangle6
+[2018.01.13-09.25.13:913][ 48]LogLinker: Can't find file '/Game/import/wardrobe/Mat_chrom'
+[2018.01.13-09.25.13:913][ 48]LogLinker: Can't find file '/Game/import/wardrobe/Mat_chrom'
+[2018.01.13-09.25.13:933][ 48]LogMaterial: Missing cached shader map for material Mat_chrom, compiling. 
+[2018.01.13-09.25.14:027][ 48]LogStaticMesh: Building static mesh wardrobe1_Shape16...
+[2018.01.13-09.25.14:100][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.42:311][ 48]LogMeshUtilities: Finished distance field build in 3.7s - 28x64x28 distance field, 4954 triangles, Range [-0.0, 1.0], wardrobe1_Rectangle6
+[2018.01.13-09.25.42:311][ 48]LogStaticMesh: Built static mesh [28.28s] /Game/import/wardrobe/wardrobe1_Shape16.wardrobe1_Shape16
+[2018.01.13-09.25.42:734][ 48]LogStaticMesh: Building static mesh wardrobe1_Rectangle7...
+[2018.01.13-09.25.42:745][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.46:737][ 48]LogMeshUtilities: Finished distance field build in 0.5s - 8x42x16 distance field, 22780 triangles, Range [-0.0, 1.0], wardrobe1_Shape16
+[2018.01.13-09.25.46:737][ 48]LogStaticMesh: Built static mesh [4.00s] /Game/import/wardrobe/wardrobe1_Rectangle7.wardrobe1_Rectangle7
+[2018.01.13-09.25.46:828][ 48]LogStaticMesh: Building static mesh wardrobe1_Rectangle8...
+[2018.01.13-09.25.46:838][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.50:733][ 48]LogStaticMesh: Built static mesh [3.92s] /Game/import/wardrobe/wardrobe1_Rectangle8.wardrobe1_Rectangle8
+[2018.01.13-09.25.50:919][ 48]LogStaticMesh: Building static mesh wardrobe1_Rectangle9...
+[2018.01.13-09.25.50:939][ 48]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.25.58:352][ 48]LogMeshUtilities: Finished distance field build in 5.7s - 30x58x64 distance field, 4080 triangles, Range [-0.0, 1.0], wardrobe1_Rectangle7
+[2018.01.13-09.25.58:353][ 48]LogStaticMesh: Built static mesh [7.45s] /Game/import/wardrobe/wardrobe1_Rectangle9.wardrobe1_Rectangle9
+[2018.01.13-09.25.58:644][ 49]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 I:/Projekt/PGK/Content/import/wardrobe/wardrobe2.FBX)
+[2018.01.13-09.25.58:687][ 49]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.01.13-09.25.58:687][ 49]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.01.13-09.25.58:687][ 49]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.01.13-09.25.58:687][ 49]LogFbx: ItemName: Model, ItemCount : 25
+[2018.01.13-09.25.58:687][ 49]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2018.01.13-09.25.58:687][ 49]LogFbx: ItemName: Geometry, ItemCount : 24
+[2018.01.13-09.25.58:687][ 49]LogFbx: ItemName: Material, ItemCount : 2
+[2018.01.13-09.25.58:687][ 49]LogFbx: ItemName: Texture, ItemCount : 4
+[2018.01.13-09.25.58:687][ 49]LogFbx: ItemName: Video, ItemCount : 4
+[2018.01.13-09.25.58:698][ 49]LogFbx: Loading FBX Scene from I:/Projekt/PGK/Content/import/wardrobe/wardrobe2.FBX
+[2018.01.13-09.25.58:929][ 49]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.13-09.26.05:258][ 49]LogMeshUtilities: Finished distance field build in 6.9s - 22x64x39 distance field, 7440 triangles, Range [-0.0, 1.0], wardrobe1_Rectangle9
+[2018.01.13-09.26.42:646][ 49]LogFbx: Loading FBX Scene from I:/Projekt/PGK/Content/import/wardrobe/wardrobe2.FBX
+[2018.01.13-09.26.42:996][ 49]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.13-09.26.43:012][ 49]LogLinker: Can't find file '/Game/import/wardrobe/standart_metal'
+[2018.01.13-09.26.43:012][ 49]LogLinker: Can't find file '/Game/import/wardrobe/standart_metal'
+[2018.01.13-09.26.43:015][ 49]LogLinker: Can't find file '/Game/import/wardrobe/METAL_6'
+[2018.01.13-09.26.43:016][ 49]LogLinker: Can't find file '/Game/import/wardrobe/METAL_6'
+[2018.01.13-09.26.43:073][ 49]LogMaterial: Missing cached shader map for material standart_metal, compiling. 
+[2018.01.13-09.26.43:250][ 49]LogStaticMesh: Building static mesh wardrobe2__022...
+[2018.01.13-09.26.43:335][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.27.14:325][ 49]LogStaticMesh: Built static mesh [31.09s] /Game/import/wardrobe/wardrobe2__022.wardrobe2__022
+[2018.01.13-09.27.14:863][ 49]LogStaticMesh: Building static mesh wardrobe2__023...
+[2018.01.13-09.27.14:948][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.27.52:497][ 49]LogMeshUtilities: Finished distance field build in 20.8s - 59x64x64 distance field, 27360 triangles, Range [-0.1, 0.8], wardrobe2__022
+[2018.01.13-09.27.52:497][ 49]LogStaticMesh: Built static mesh [37.63s] /Game/import/wardrobe/wardrobe2__023.wardrobe2__023
+[2018.01.13-09.27.53:239][ 49]LogStaticMesh: Building static mesh wardrobe2__021...
+[2018.01.13-09.27.53:415][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.28.30:944][ 49]LogMeshUtilities: Finished distance field build in 23.0s - 59x64x64 distance field, 27360 triangles, Range [-0.1, 0.6], wardrobe2__023
+[2018.01.13-09.28.30:944][ 49]LogStaticMesh: Built static mesh [37.73s] /Game/import/wardrobe/wardrobe2__021.wardrobe2__021
+[2018.01.13-09.28.31:431][ 49]LogLinker: Can't find file '/Game/import/wardrobe/st_wood'
+[2018.01.13-09.28.31:431][ 49]LogLinker: Can't find file '/Game/import/wardrobe/st_wood'
+[2018.01.13-09.28.31:433][ 49]LogLinker: Can't find file '/Game/import/wardrobe/PALLADAA'
+[2018.01.13-09.28.31:434][ 49]LogLinker: Can't find file '/Game/import/wardrobe/PALLADAA'
+[2018.01.13-09.28.31:440][ 49]LogMaterial: Missing cached shader map for material st_wood, compiling. 
+[2018.01.13-09.28.31:555][ 49]LogStaticMesh: Building static mesh wardrobe2_Rectangl10...
+[2018.01.13-09.28.31:559][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.28.33:120][ 49]LogStaticMesh: Built static mesh [1.57s] /Game/import/wardrobe/wardrobe2_Rectangl10.wardrobe2_Rectangl10
+[2018.01.13-09.28.33:212][ 49]LogStaticMesh: Building static mesh wardrobe2_Box2131637...
+[2018.01.13-09.28.33:212][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.28.33:248][ 49]LogStaticMesh: Built static mesh [0.04s] /Game/import/wardrobe/wardrobe2_Box2131637.wardrobe2_Box2131637
+[2018.01.13-09.28.33:315][ 49]LogStaticMesh: Building static mesh wardrobe2_Box2131635...
+[2018.01.13-09.28.33:315][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.28.33:349][ 49]LogStaticMesh: Built static mesh [0.06s] /Game/import/wardrobe/wardrobe2_Box2131635.wardrobe2_Box2131635
+[2018.01.13-09.28.33:404][ 49]LogStaticMesh: Building static mesh wardrobe2_Line202926...
+[2018.01.13-09.28.33:405][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.28.33:586][ 49]LogStaticMesh: Built static mesh [0.20s] /Game/import/wardrobe/wardrobe2_Line202926.wardrobe2_Line202926
+[2018.01.13-09.28.33:741][ 49]LogStaticMesh: Building static mesh wardrobe2__024...
+[2018.01.13-09.28.33:861][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.07:818][ 49]LogMeshUtilities: Finished distance field build in 21.9s - 59x64x64 distance field, 27360 triangles, Range [-0.1, 0.6], wardrobe2__021
+[2018.01.13-09.29.07:818][ 49]LogStaticMesh: Built static mesh [34.08s] /Game/import/wardrobe/wardrobe2__024.wardrobe2__024
+[2018.01.13-09.29.08:266][ 49]LogStaticMesh: Building static mesh wardrobe2_Rectangl12...
+[2018.01.13-09.29.08:270][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.09:430][ 49]LogStaticMesh: Built static mesh [1.16s] /Game/import/wardrobe/wardrobe2_Rectangl12.wardrobe2_Rectangl12
+[2018.01.13-09.29.09:512][ 49]LogStaticMesh: Building static mesh wardrobe2_Rectangl11...
+[2018.01.13-09.29.09:516][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.10:686][ 49]LogStaticMesh: Built static mesh [1.17s] /Game/import/wardrobe/wardrobe2_Rectangl11.wardrobe2_Rectangl11
+[2018.01.13-09.29.10:767][ 49]LogStaticMesh: Building static mesh wardrobe2_Rectangle9...
+[2018.01.13-09.29.10:770][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.11:977][ 49]LogStaticMesh: Built static mesh [1.24s] /Game/import/wardrobe/wardrobe2_Rectangle9.wardrobe2_Rectangle9
+[2018.01.13-09.29.12:047][ 49]LogStaticMesh: Building static mesh wardrobe2_Box2131633...
+[2018.01.13-09.29.12:047][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.12:077][ 49]LogStaticMesh: Built static mesh [0.03s] /Game/import/wardrobe/wardrobe2_Box2131633.wardrobe2_Box2131633
+[2018.01.13-09.29.12:137][ 49]LogStaticMesh: Building static mesh wardrobe2_Rectangle8...
+[2018.01.13-09.29.12:139][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.12:387][ 49]LogStaticMesh: Built static mesh [0.25s] /Game/import/wardrobe/wardrobe2_Rectangle8.wardrobe2_Rectangle8
+[2018.01.13-09.29.12:422][ 49]LogStaticMesh: Building static mesh wardrobe2_Box2131634...
+[2018.01.13-09.29.12:422][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.12:455][ 49]LogStaticMesh: Built static mesh [0.03s] /Game/import/wardrobe/wardrobe2_Box2131634.wardrobe2_Box2131634
+[2018.01.13-09.29.12:479][ 49]LogStaticMesh: Building static mesh wardrobe2_Line202925...
+[2018.01.13-09.29.12:480][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.12:868][ 49]LogStaticMesh: Built static mesh [0.39s] /Game/import/wardrobe/wardrobe2_Line202925.wardrobe2_Line202925
+[2018.01.13-09.29.13:026][ 49]LogStaticMesh: Building static mesh wardrobe2_Obj_375...
+[2018.01.13-09.29.13:091][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.36:175][ 49]LogMeshUtilities: Finished distance field build in 18.6s - 59x64x64 distance field, 27360 triangles, Range [-0.1, 0.6], wardrobe2__024
+[2018.01.13-09.29.36:175][ 49]LogStaticMesh: Built static mesh [23.16s] /Game/import/wardrobe/wardrobe2_Obj_375.wardrobe2_Obj_375
+[2018.01.13-09.29.36:605][ 49]LogStaticMesh: Building static mesh wardrobe2_Box2131638...
+[2018.01.13-09.29.36:605][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.36:643][ 49]LogStaticMesh: Built static mesh [0.04s] /Game/import/wardrobe/wardrobe2_Box2131638.wardrobe2_Box2131638
+[2018.01.13-09.29.36:786][ 49]LogStaticMesh: Building static mesh wardrobe2_Box2131639...
+[2018.01.13-09.29.36:786][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.36:833][ 49]LogStaticMesh: Built static mesh [0.05s] /Game/import/wardrobe/wardrobe2_Box2131639.wardrobe2_Box2131639
+[2018.01.13-09.29.36:859][ 49]LogStaticMesh: Building static mesh wardrobe2_Box2131610...
+[2018.01.13-09.29.36:859][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.36:900][ 49]LogStaticMesh: Built static mesh [0.04s] /Game/import/wardrobe/wardrobe2_Box2131610.wardrobe2_Box2131610
+[2018.01.13-09.29.36:941][ 49]LogStaticMesh: Building static mesh wardrobe2_Box2131611...
+[2018.01.13-09.29.36:942][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.36:980][ 49]LogStaticMesh: Built static mesh [0.05s] /Game/import/wardrobe/wardrobe2_Box2131611.wardrobe2_Box2131611
+[2018.01.13-09.29.37:003][ 49]LogStaticMesh: Building static mesh wardrobe2_Box2131612...
+[2018.01.13-09.29.37:003][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.37:041][ 49]LogStaticMesh: Built static mesh [0.04s] /Game/import/wardrobe/wardrobe2_Box2131612.wardrobe2_Box2131612
+[2018.01.13-09.29.37:102][ 49]LogStaticMesh: Building static mesh wardrobe2_Box2131613...
+[2018.01.13-09.29.37:103][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.37:140][ 49]LogStaticMesh: Built static mesh [0.04s] /Game/import/wardrobe/wardrobe2_Box2131613.wardrobe2_Box2131613
+[2018.01.13-09.29.37:180][ 49]LogStaticMesh: Building static mesh wardrobe2_Box2131614...
+[2018.01.13-09.29.37:180][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.37:216][ 49]LogStaticMesh: Built static mesh [0.04s] /Game/import/wardrobe/wardrobe2_Box2131614.wardrobe2_Box2131614
+[2018.01.13-09.29.37:255][ 49]LogStaticMesh: Building static mesh wardrobe2_Box2131615...
+[2018.01.13-09.29.37:255][ 49]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.29.37:292][ 49]LogStaticMesh: Built static mesh [0.05s] /Game/import/wardrobe/wardrobe2_Box2131615.wardrobe2_Box2131615
+[2018.01.13-09.29.37:664][ 50]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.FBX)
+[2018.01.13-09.29.37:675][ 50]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.01.13-09.29.37:675][ 50]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.01.13-09.29.37:675][ 50]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.01.13-09.29.37:675][ 50]LogFbx: ItemName: Model, ItemCount : 5
+[2018.01.13-09.29.37:675][ 50]LogFbx: ItemName: NodeAttribute, ItemCount : 1
+[2018.01.13-09.29.37:675][ 50]LogFbx: ItemName: Geometry, ItemCount : 4
+[2018.01.13-09.29.37:675][ 50]LogFbx: ItemName: Material, ItemCount : 2
+[2018.01.13-09.29.37:675][ 50]LogFbx: ItemName: Texture, ItemCount : 4
+[2018.01.13-09.29.37:675][ 50]LogFbx: ItemName: AnimationCurve, ItemCount : 12
+[2018.01.13-09.29.37:675][ 50]LogFbx: ItemName: AnimationCurveNode, ItemCount : 4
+[2018.01.13-09.29.37:675][ 50]LogFbx: ItemName: Video, ItemCount : 4
+[2018.01.13-09.29.37:692][ 50]LogFbx: Loading FBX Scene from I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.FBX
+[2018.01.13-09.29.37:747][ 50]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.13-09.30.03:484][ 50]LogMeshUtilities: Finished distance field build in 27.2s - 64x64x64 distance field, 19968 triangles, Range [-0.0, 0.9], wardrobe2_Obj_375
+[2018.01.13-09.30.38:791][ 50]LogFbx: Loading FBX Scene from I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.FBX
+[2018.01.13-09.30.38:868][ 50]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.13-09.30.38:888][ 50]LogFbx: =================================================
+[2018.01.13-09.30.38:888][ 50]LogFbx: Dumping Node START [handle-ma2] 
+[2018.01.13-09.30.38:888][ 50]LogFbx: 	Total Deformer Count -1887238528.
+[2018.01.13-09.30.38:888][ 50]LogFbx: 	Attribute () Type (4).
+[2018.01.13-09.30.38:888][ 50]LogFbx: 		[Node Attribute Child 1] handle-ma2 (Type Mesh).
+[2018.01.13-09.30.38:888][ 50]LogFbx: Dumping Node END [handle-ma2]
+[2018.01.13-09.30.38:889][ 50]LogFbx: =================================================
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node START [handle-ma3] 
+[2018.01.13-09.30.38:889][ 50]LogFbx: 	Total Deformer Count -1887238528.
+[2018.01.13-09.30.38:889][ 50]LogFbx: 	Attribute () Type (4).
+[2018.01.13-09.30.38:889][ 50]LogFbx: 		[Node Attribute Child 1] handle-ma3 (Type Mesh).
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node END [handle-ma3]
+[2018.01.13-09.30.38:889][ 50]LogFbx: =================================================
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node START [handle-ma4] 
+[2018.01.13-09.30.38:889][ 50]LogFbx: 	Total Deformer Count -1887238528.
+[2018.01.13-09.30.38:889][ 50]LogFbx: 	Attribute () Type (4).
+[2018.01.13-09.30.38:889][ 50]LogFbx: 		[Node Attribute Child 1] handle-ma4 (Type Mesh).
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node END [handle-ma4]
+[2018.01.13-09.30.38:889][ 50]LogFbx: =================================================
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node START [cupboard-m] 
+[2018.01.13-09.30.38:889][ 50]LogFbx: 	Total Deformer Count -1887238528.
+[2018.01.13-09.30.38:889][ 50]LogFbx: 	Attribute () Type (4).
+[2018.01.13-09.30.38:889][ 50]LogFbx: 		[Node Attribute Child 1] cupboard-m (Type Mesh).
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node END [cupboard-m]
+[2018.01.13-09.30.38:889][ 50]LogFbx: =================================================
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node START [handle-ma2] 
+[2018.01.13-09.30.38:889][ 50]LogFbx: 	Total Deformer Count -1887238528.
+[2018.01.13-09.30.38:889][ 50]LogFbx: 	Attribute () Type (4).
+[2018.01.13-09.30.38:889][ 50]LogFbx: 		[Node Attribute Child 1] handle-ma2 (Type Mesh).
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node END [handle-ma2]
+[2018.01.13-09.30.38:889][ 50]LogFbx: =================================================
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node START [handle-ma3] 
+[2018.01.13-09.30.38:889][ 50]LogFbx: 	Total Deformer Count -1887238528.
+[2018.01.13-09.30.38:889][ 50]LogFbx: 	Attribute () Type (4).
+[2018.01.13-09.30.38:889][ 50]LogFbx: 		[Node Attribute Child 1] handle-ma3 (Type Mesh).
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node END [handle-ma3]
+[2018.01.13-09.30.38:889][ 50]LogFbx: =================================================
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node START [handle-ma4] 
+[2018.01.13-09.30.38:889][ 50]LogFbx: 	Total Deformer Count -1887238528.
+[2018.01.13-09.30.38:889][ 50]LogFbx: 	Attribute () Type (4).
+[2018.01.13-09.30.38:889][ 50]LogFbx: 		[Node Attribute Child 1] handle-ma4 (Type Mesh).
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node END [handle-ma4]
+[2018.01.13-09.30.38:889][ 50]LogFbx: =================================================
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node START [cupboard-m] 
+[2018.01.13-09.30.38:889][ 50]LogFbx: 	Total Deformer Count -1887238528.
+[2018.01.13-09.30.38:889][ 50]LogFbx: 	Attribute () Type (4).
+[2018.01.13-09.30.38:889][ 50]LogFbx: 		[Node Attribute Child 1] cupboard-m (Type Mesh).
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node END [cupboard-m]
+[2018.01.13-09.30.38:889][ 50]LogFbx: =================================================
+[2018.01.13-09.30.38:889][ 50]LogFbx: Dumping Node START [cupboard-m] 
+[2018.01.13-09.30.38:890][ 50]LogFbx: 	Total Deformer Count -1887238528.
+[2018.01.13-09.30.38:890][ 50]LogFbx: 	Attribute () Type (4).
+[2018.01.13-09.30.38:890][ 50]LogFbx: 		[Node Attribute Child 1] cupboard-m (Type Mesh).
+[2018.01.13-09.30.38:890][ 50]LogFbx: Dumping Node END [cupboard-m]
+[2018.01.13-09.30.38:890][ 50]LogFbx: =================================================
+[2018.01.13-09.30.38:890][ 50]LogFbx: Dumping Node START [handle-ma2] 
+[2018.01.13-09.30.38:890][ 50]LogFbx: 	Total Deformer Count -1887238528.
+[2018.01.13-09.30.38:890][ 50]LogFbx: 	Attribute () Type (4).
+[2018.01.13-09.30.38:890][ 50]LogFbx: 		[Node Attribute Child 1] handle-ma2 (Type Mesh).
+[2018.01.13-09.30.38:890][ 50]LogFbx: Dumping Node END [handle-ma2]
+[2018.01.13-09.30.38:890][ 50]LogFbx: =================================================
+[2018.01.13-09.30.38:890][ 50]LogFbx: Dumping Node START [handle-ma3] 
+[2018.01.13-09.30.38:890][ 50]LogFbx: 	Total Deformer Count -1887238528.
+[2018.01.13-09.30.38:890][ 50]LogFbx: 	Attribute () Type (4).
+[2018.01.13-09.30.38:890][ 50]LogFbx: 		[Node Attribute Child 1] handle-ma3 (Type Mesh).
+[2018.01.13-09.30.38:890][ 50]LogFbx: Dumping Node END [handle-ma3]
+[2018.01.13-09.30.38:890][ 50]LogFbx: =================================================
+[2018.01.13-09.30.38:890][ 50]LogFbx: Dumping Node START [handle-ma4] 
+[2018.01.13-09.30.38:890][ 50]LogFbx: 	Total Deformer Count -1887238528.
+[2018.01.13-09.30.38:890][ 50]LogFbx: 	Attribute () Type (4).
+[2018.01.13-09.30.38:890][ 50]LogFbx: 		[Node Attribute Child 1] handle-ma4 (Type Mesh).
+[2018.01.13-09.30.38:890][ 50]LogFbx: Dumping Node END [handle-ma4]
+[2018.01.13-09.30.38:906][ 50]LogLinker: Can't find file '/Game/import/wardrobe/st_gold'
+[2018.01.13-09.30.38:906][ 50]LogLinker: Can't find file '/Game/import/wardrobe/st_gold'
+[2018.01.13-09.30.38:913][ 50]LogMaterial: Missing cached shader map for material st_gold, compiling. 
+[2018.01.13-09.30.39:005][ 50]LogLinker: Can't find file '/Game/import/wardrobe/GOLD356'
+[2018.01.13-09.30.39:005][ 50]LogLinker: Can't find file '/Game/import/wardrobe/GOLD356'
+[2018.01.13-09.30.39:026][ 50]LogMaterial: Missing cached shader map for material st_gold, compiling. 
+[2018.01.13-09.30.39:117][ 50]LogLinker: Can't find file '/Game/import/wardrobe/box'
+[2018.01.13-09.30.39:117][ 50]LogLinker: Can't find file '/Game/import/wardrobe/box'
+[2018.01.13-09.30.39:133][ 50]LogMaterial: Missing cached shader map for material box, compiling. 
+[2018.01.13-09.30.39:182][ 50]LogLinker: Can't find file '/Game/import/wardrobe/WOOD_291'
+[2018.01.13-09.30.39:182][ 50]LogLinker: Can't find file '/Game/import/wardrobe/WOOD_291'
+[2018.01.13-09.30.39:187][ 50]LogMaterial: Missing cached shader map for material box, compiling. 
+[2018.01.13-09.30.40:149][ 50]LogSkeletalMesh: Section 0: 4423 vertices, 3 active bones
+[2018.01.13-09.30.40:150][ 50]LogSkeletalMesh: Section 1: 10491 vertices, 1 active bones
+[2018.01.13-09.30.40:177][ 50]LogSkeletalMesh: Section 0: Material=0, 5616 triangles
+[2018.01.13-09.30.40:177][ 50]LogSkeletalMesh: Section 1: Material=1, 9280 triangles
+[2018.01.13-09.30.40:202][ 50]LogLinker: Can't find file '/Game/import/wardrobe/wardrobe3_Skeleton'
+[2018.01.13-09.30.40:202][ 50]LogLinker: Can't find file '/Game/import/wardrobe/wardrobe3_Skeleton'
+[2018.01.13-09.30.40:228][ 50]LogLinker: Can't find file '/Game/import/wardrobe/wardrobe3_PhysicsAsset'
+[2018.01.13-09.30.40:228][ 50]LogLinker: Can't find file '/Game/import/wardrobe/wardrobe3_PhysicsAsset'
+[2018.01.13-09.30.40:452][ 51]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 I:/Projekt/PGK/Content/import/wardrobe/wardrobe4.FBX)
+[2018.01.13-09.30.40:458][ 51]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.01.13-09.30.40:458][ 51]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.01.13-09.30.40:458][ 51]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.01.13-09.30.40:458][ 51]LogFbx: ItemName: Model, ItemCount : 1
+[2018.01.13-09.30.40:458][ 51]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.01.13-09.30.40:458][ 51]LogFbx: ItemName: Material, ItemCount : 1
+[2018.01.13-09.30.40:469][ 51]LogFbx: Loading FBX Scene from I:/Projekt/PGK/Content/import/wardrobe/wardrobe4.FBX
+[2018.01.13-09.30.40:483][ 51]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.13-09.30.41:797][ 51]LogFbx: Loading FBX Scene from I:/Projekt/PGK/Content/import/wardrobe/wardrobe4.FBX
+[2018.01.13-09.30.41:812][ 51]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.13-09.30.41:817][ 51]LogLinker: Can't find file '/Game/import/wardrobe/None'
+[2018.01.13-09.30.41:817][ 51]LogLinker: Can't find file '/Game/import/wardrobe/None'
+[2018.01.13-09.30.41:823][ 51]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.01.13-09.30.41:933][ 51]LogStaticMesh: Building static mesh wardrobe4...
+[2018.01.13-09.30.41:936][ 51]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.13-09.30.42:538][ 51]LogStaticMesh: Built static mesh [0.67s] /Game/import/wardrobe/wardrobe4.wardrobe4
+[2018.01.13-09.31.10:375][ 51]LogMeshUtilities: Finished distance field build in 30.0s - 64x64x64 distance field, 44 triangles, Range [-0.0, 0.5], wardrobe2_Box2131615
+[2018.01.13-09.31.15:449][ 51]LogMeshUtilities: Finished distance field build in 5.0s - 17x55x64 distance field, 444 triangles, Range [-0.1, 0.5], wardrobe4
+[2018.01.13-09.31.15:563][ 52]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/bed/Textures/Bed.png)
+[2018.01.13-09.31.15:958][ 53]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/bed/Textures/Drawer.jpg)
+[2018.01.13-09.31.20:566][ 54]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/bed/Textures/Main.png)
+[2018.01.13-09.31.20:855][ 55]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/bed/Textures/Metal.png)
+[2018.01.13-09.31.21:311][ 56]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.13-09.31.21:680][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/bed/BunkFBX" FILE="I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset" SILENT=true
+[2018.01.13-09.31.21:840][ 56]LogSavePackage: Save=121.20ms
+[2018.01.13-09.31.21:840][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/BunkFBX99D399004FA58438E0055DA560C56E61.tmp' to 'I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset'
+[2018.01.13-09.31.21:865][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset
+[2018.01.13-09.31.22:004][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/krew" FILE="I:/Projekt/PGK/Content/import/plane/krew.uasset" SILENT=true
+[2018.01.13-09.31.22:106][ 56]LogSavePackage: Save=100.41ms
+[2018.01.13-09.31.22:106][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/krew2BFE8EF0482D78236FB0229FE8C39051.tmp' to 'I:/Projekt/PGK/Content/import/plane/krew.uasset'
+[2018.01.13-09.31.22:110][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/krew.uasset
+[2018.01.13-09.31.22:286][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/krew2" FILE="I:/Projekt/PGK/Content/import/plane/krew2.uasset" SILENT=true
+[2018.01.13-09.31.22:338][ 56]LogSavePackage: Save=50.00ms
+[2018.01.13-09.31.22:338][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/krew28D70CF914F1EBF7DD17D48A427A8A87D.tmp' to 'I:/Projekt/PGK/Content/import/plane/krew2.uasset'
+[2018.01.13-09.31.22:342][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/krew2.uasset
+[2018.01.13-09.31.22:537][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/krew3" FILE="I:/Projekt/PGK/Content/import/plane/krew3.uasset" SILENT=true
+[2018.01.13-09.31.22:679][ 56]LogSavePackage: Save=139.83ms
+[2018.01.13-09.31.22:679][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/krew393A428954C50A650BE749CB9C0FDAC02.tmp' to 'I:/Projekt/PGK/Content/import/plane/krew3.uasset'
+[2018.01.13-09.31.22:682][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/krew3.uasset
+[2018.01.13-09.31.22:850][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/plama-krwi-krwawy-odcisk" FILE="I:/Projekt/PGK/Content/import/plane/plama-krwi-krwawy-odcisk.uasset" SILENT=true
+[2018.01.13-09.31.22:863][ 56]LogSavePackage: Save=10.99ms
+[2018.01.13-09.31.22:863][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/plama-krwi-krwawy-odcisk0D6F61214928923482CA3399BF0D9A1D.tmp' to 'I:/Projekt/PGK/Content/import/plane/plama-krwi-krwawy-odcisk.uasset'
+[2018.01.13-09.31.22:866][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/plama-krwi-krwawy-odcisk.uasset
+[2018.01.13-09.31.23:025][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/winda_kolor" FILE="I:/Projekt/PGK/Content/import/plane/winda_kolor.uasset" SILENT=true
+[2018.01.13-09.31.23:088][ 56]LogSavePackage: Save=60.71ms
+[2018.01.13-09.31.23:088][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/winda_kolorD4DA078846DF1B438DC919941A6F2D78.tmp' to 'I:/Projekt/PGK/Content/import/plane/winda_kolor.uasset'
+[2018.01.13-09.31.23:091][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/winda_kolor.uasset
+[2018.01.13-09.31.23:279][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/wardrobe/wardrobe" FILE="I:/Projekt/PGK/Content/import/wardrobe/wardrobe.uasset" SILENT=true
+[2018.01.13-09.31.23:316][ 56]LogSavePackage: Save=25.39ms
+[2018.01.13-09.31.23:316][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/wardrobe0E415BFC4C511A02185CEEA0547F4583.tmp' to 'I:/Projekt/PGK/Content/import/wardrobe/wardrobe.uasset'
+[2018.01.13-09.31.23:320][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/wardrobe/wardrobe.uasset
+[2018.01.13-09.31.23:411][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/wardrobe/wardrobe1" FILE="I:/Projekt/PGK/Content/import/wardrobe/wardrobe1.uasset" SILENT=true
+[2018.01.13-09.31.23:414][ 56]LogSavePackage: Save=1.35ms
+[2018.01.13-09.31.23:414][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/wardrobe16487096948730A4DE976519D75754342.tmp' to 'I:/Projekt/PGK/Content/import/wardrobe/wardrobe1.uasset'
+[2018.01.13-09.31.23:416][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/wardrobe/wardrobe1.uasset
+[2018.01.13-09.31.23:561][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/wardrobe/wardrobe2" FILE="I:/Projekt/PGK/Content/import/wardrobe/wardrobe2.uasset" SILENT=true
+[2018.01.13-09.31.23:564][ 56]LogSavePackage: Save=1.40ms
+[2018.01.13-09.31.23:564][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/wardrobe2ADE2431D4875622A94E5E0943D244B47.tmp' to 'I:/Projekt/PGK/Content/import/wardrobe/wardrobe2.uasset'
+[2018.01.13-09.31.23:565][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/wardrobe/wardrobe2.uasset
+[2018.01.13-09.31.23:983][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/wardrobe/wardrobe3" FILE="I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset" SILENT=true
+[2018.01.13-09.31.24:103][ 56]LogSavePackage: Save=116.96ms
+[2018.01.13-09.31.24:103][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/wardrobe380ECD92E49B7B73D1A613598B34F1EA1.tmp' to 'I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset'
+[2018.01.13-09.31.24:106][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset
+[2018.01.13-09.31.24:262][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/wardrobe/wardrobe4" FILE="I:/Projekt/PGK/Content/import/wardrobe/wardrobe4.uasset" SILENT=true
+[2018.01.13-09.31.24:300][ 56]LogSavePackage: Save=24.97ms
+[2018.01.13-09.31.24:300][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/wardrobe4D0CB36A04633964DD3683186D1B9A2EA.tmp' to 'I:/Projekt/PGK/Content/import/wardrobe/wardrobe4.uasset'
+[2018.01.13-09.31.24:303][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/wardrobe/wardrobe4.uasset
+[2018.01.13-09.31.24:449][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/bed/Textures/Bed" FILE="I:/Projekt/PGK/Content/import/bed/Textures/Bed.uasset" SILENT=true
+[2018.01.13-09.31.24:532][ 56]LogSavePackage: Save=80.77ms
+[2018.01.13-09.31.24:532][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/Bed57F59AF04F77F4A25F074ABDFAFD7826.tmp' to 'I:/Projekt/PGK/Content/import/bed/Textures/Bed.uasset'
+[2018.01.13-09.31.24:535][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/bed/Textures/Bed.uasset
+[2018.01.13-09.31.24:718][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/bed/Textures/Drawer" FILE="I:/Projekt/PGK/Content/import/bed/Textures/Drawer.uasset" SILENT=true
+[2018.01.13-09.31.26:222][ 56]LogSavePackage: Save=1501.93ms
+[2018.01.13-09.31.26:222][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/DrawerF4CF296D4ED731092F4BC6A86A18C2AE.tmp' to 'I:/Projekt/PGK/Content/import/bed/Textures/Drawer.uasset'
+[2018.01.13-09.31.26:225][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/bed/Textures/Drawer.uasset
+[2018.01.13-09.31.26:395][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/bed/Textures/Main" FILE="I:/Projekt/PGK/Content/import/bed/Textures/Main.uasset" SILENT=true
+[2018.01.13-09.31.26:476][ 56]LogSavePackage: Save=79.51ms
+[2018.01.13-09.31.26:476][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/MainCEE16DA644AF64FE66C1C6AD4FEF451D.tmp' to 'I:/Projekt/PGK/Content/import/bed/Textures/Main.uasset'
+[2018.01.13-09.31.26:479][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/bed/Textures/Main.uasset
+[2018.01.13-09.31.26:664][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/bed/Textures/Metal" FILE="I:/Projekt/PGK/Content/import/bed/Textures/Metal.uasset" SILENT=true
+[2018.01.13-09.31.26:746][ 56]LogSavePackage: Save=79.61ms
+[2018.01.13-09.31.26:746][ 56]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/Metal36E18740407BADF0C21C91ABFBF0D8A1.tmp' to 'I:/Projekt/PGK/Content/import/bed/Textures/Metal.uasset'
+[2018.01.13-09.31.26:749][ 56]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/bed/Textures/Metal.uasset
+[2018.01.13-09.31.29:782][ 79]AssetReimport: Info Importing new asset /Game/import/bed/BunkFBX.
+[2018.01.13-09.31.29:782][ 79]AssetReimport: Info Importing new asset /Game/import/plane/krew.
+[2018.01.13-09.31.29:782][ 79]AssetReimport: Info Importing new asset /Game/import/plane/krew2.
+[2018.01.13-09.31.29:782][ 79]AssetReimport: Info Importing new asset /Game/import/plane/krew3.
+[2018.01.13-09.31.29:782][ 79]AssetReimport: Info Importing new asset /Game/import/plane/plama-krwi-krwawy-odcisk.
+[2018.01.13-09.31.29:782][ 79]AssetReimport: Info Importing new asset /Game/import/plane/winda_kolor.
+[2018.01.13-09.31.29:782][ 79]AssetReimport: Info Importing new asset /Game/import/wardrobe/wardrobe.
+[2018.01.13-09.31.29:783][ 79]AssetReimport: Info Importing new asset /Game/import/wardrobe/wardrobe1.
+[2018.01.13-09.31.29:783][ 79]AssetReimport: Info Importing new asset /Game/import/wardrobe/wardrobe2.
+[2018.01.13-09.31.29:783][ 79]AssetReimport: Info Importing new asset /Game/import/wardrobe/wardrobe3.
+[2018.01.13-09.31.29:783][ 79]AssetReimport: Info Importing new asset /Game/import/wardrobe/wardrobe4.
+[2018.01.13-09.31.29:783][ 79]AssetReimport: Info Importing new asset /Game/import/bed/Textures/Bed.
+[2018.01.13-09.31.29:783][ 79]AssetReimport: Info Importing new asset /Game/import/bed/Textures/Drawer.
+[2018.01.13-09.31.29:783][ 79]AssetReimport: Info Importing new asset /Game/import/bed/Textures/Main.
+[2018.01.13-09.31.29:783][ 79]AssetReimport: Info Importing new asset /Game/import/bed/Textures/Metal.
+[2018.01.13-09.31.47:176][254]LogMeshUtilities: Finished distance field build in 31.6s - 64x64x64 distance field, 44 triangles, Range [-0.0, 0.7], wardrobe2_Box2131614
+[2018.01.13-09.32.10:887][615]LogMeshUtilities: Finished distance field build in 23.5s - 64x64x64 distance field, 44 triangles, Range [-0.0, 0.5], wardrobe2_Box2131613
+[2018.01.13-09.32.30:265][952]LogMeshUtilities: Finished distance field build in 19.2s - 64x64x64 distance field, 44 triangles, Range [-0.0, 0.5], wardrobe2_Box2131612
+[2018.01.13-09.32.50:749][308]LogMeshUtilities: Finished distance field build in 20.4s - 64x64x64 distance field, 44 triangles, Range [-0.0, 0.5], wardrobe2_Box2131611
+[2018.01.13-09.33.09:864][642]LogMeshUtilities: Finished distance field build in 19.0s - 64x64x64 distance field, 44 triangles, Range [-0.0, 0.5], wardrobe2_Box2131610
+[2018.01.13-09.33.29:587][985]LogMeshUtilities: Finished distance field build in 19.6s - 64x64x64 distance field, 44 triangles, Range [-0.0, 0.5], wardrobe2_Box2131639
+[2018.01.13-09.33.49:718][335]LogMeshUtilities: Finished distance field build in 20.0s - 64x64x64 distance field, 44 triangles, Range [-0.0, 0.5], wardrobe2_Box2131638
+[2018.01.13-09.34.08:945][670]LogMeshUtilities: Finished distance field build in 19.1s - 64x64x64 distance field, 372 triangles, Range [-0.0, 1.0], wardrobe2_Line202925
+[2018.01.13-09.34.27:621][994]LogMeshUtilities: Finished distance field build in 18.5s - 64x64x64 distance field, 44 triangles, Range [-0.0, 1.0], wardrobe2_Box2131634
+[2018.01.13-09.34.48:221][349]LogMeshUtilities: Finished distance field build in 20.5s - 64x64x64 distance field, 366 triangles, Range [-0.0, 0.8], wardrobe2_Rectangle8
+[2018.01.13-09.35.08:062][694]LogMeshUtilities: Finished distance field build in 19.7s - 64x64x64 distance field, 44 triangles, Range [-0.0, 1.0], wardrobe2_Box2131633
+[2018.01.13-09.35.29:467][ 66]LogMeshUtilities: Finished distance field build in 21.3s - 64x64x64 distance field, 1226 triangles, Range [-0.0, 1.0], wardrobe2_Rectangle9
+[2018.01.13-09.35.51:362][446]LogMeshUtilities: Finished distance field build in 21.8s - 64x64x64 distance field, 1226 triangles, Range [-0.0, 1.0], wardrobe2_Rectangl11
+[2018.01.13-09.36.13:361][820]LogMeshUtilities: Finished distance field build in 21.9s - 64x64x64 distance field, 1226 triangles, Range [-0.0, 0.9], wardrobe2_Rectangl12
+[2018.01.13-09.36.35:893][211]LogMeshUtilities: Finished distance field build in 22.4s - 64x64x64 distance field, 244 triangles, Range [-0.0, 0.6], wardrobe2_Line202926
+[2018.01.13-09.36.58:452][601]LogMeshUtilities: Finished distance field build in 22.4s - 64x64x64 distance field, 44 triangles, Range [-0.0, 1.0], wardrobe2_Box2131635
+[2018.01.13-09.37.21:546][999]LogMeshUtilities: Finished distance field build in 23.0s - 64x64x64 distance field, 44 triangles, Range [-0.0, 1.0], wardrobe2_Box2131637
+[2018.01.13-09.37.47:742][450]LogMeshUtilities: Finished distance field build in 26.1s - 64x64x64 distance field, 1226 triangles, Range [-0.0, 1.0], wardrobe2_Rectangl10
+[2018.01.13-09.37.57:539][617]LogMeshUtilities: Finished distance field build in 9.7s - 30x58x64 distance field, 4080 triangles, Range [-0.0, 1.0], wardrobe1_Rectangle8
+[2018.01.13-09.38.21:582][ 27]LogMeshUtilities: Finished distance field build in 23.9s - 64x64x53 distance field, 64 triangles, Range [-0.2, 0.4], wardrobe1_Shape09
+[2018.01.13-09.38.21:711][ 30]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 72 triangles, Range [-0.1, 0.3], wardrobe1_Cylinder23
+[2018.01.13-09.38.21:942][ 33]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x15 distance field, 1024 triangles, Range [0.0, 0.7], wardrobe1_Line29
+[2018.01.13-09.38.22:087][ 36]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 72 triangles, Range [-0.1, 0.3], wardrobe1_Cylinder22
+[2018.01.13-09.38.22:265][ 39]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 72 triangles, Range [-0.1, 0.3], wardrobe1_Cylinder21
+[2018.01.13-09.38.22:455][ 42]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x15 distance field, 1024 triangles, Range [0.0, 0.7], wardrobe1_Line28
+[2018.01.13-09.38.22:635][ 45]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x15 distance field, 1024 triangles, Range [0.0, 0.7], wardrobe1_Line27
+[2018.01.13-09.38.22:815][ 49]LogMeshUtilities: Finished distance field build in 0.1s - 8x15x8 distance field, 1024 triangles, Range [-0.0, 0.6], wardrobe1_Line26
+[2018.01.13-09.38.23:021][ 52]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 72 triangles, Range [-0.1, 0.5], wardrobe1_Cylinder20
+[2018.01.13-09.38.23:190][ 55]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 72 triangles, Range [-0.1, 0.5], wardrobe1_Cylinder19
+[2018.01.13-09.38.23:395][ 59]LogMeshUtilities: Finished distance field build in 0.1s - 8x15x8 distance field, 1024 triangles, Range [-0.0, 0.6], wardrobe1_Line25
+[2018.01.13-09.38.23:636][ 63]LogMeshUtilities: Finished distance field build in 0.1s - 8x15x8 distance field, 1024 triangles, Range [-0.0, 0.6], wardrobe1_Line24
+[2018.01.13-09.38.23:836][ 66]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 72 triangles, Range [-0.1, 0.5], wardrobe1_Cylinder18
+[2018.01.13-09.38.23:995][ 69]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 72 triangles, Range [-0.1, 0.5], wardrobe1_Cylinder17
+[2018.01.13-09.38.24:205][ 73]LogMeshUtilities: Finished distance field build in 0.1s - 8x15x8 distance field, 1024 triangles, Range [-0.0, 1.0], wardrobe1_Line23
+[2018.01.13-09.38.39:294][324]LogMeshUtilities: Finished distance field build in 14.9s - 34x64x64 distance field, 116 triangles, Range [-0.0, 1.0], wardrobe1_Rectangle4
+[2018.01.13-09.38.50:974][519]LogMeshUtilities: Finished distance field build in 11.6s - 34x64x64 distance field, 116 triangles, Range [-0.0, 0.7], wardrobe1_Rectangle3
+[2018.01.13-09.39.12:645][820]LogMeshUtilities: Finished distance field build in 21.6s - 64x64x64 distance field, 64 triangles, Range [-0.2, 0.5], wardrobe1_Rectangle1
+[2018.01.13-09.39.13:173][826]LogMeshUtilities: Finished distance field build in 0.3s - 10x10x47 distance field, 1172 triangles, Range [-0.0, 0.4], wardrobe1_Loft29
+[2018.01.13-09.39.19:845][902]LogMeshUtilities: Finished distance field build in 6.5s - 64x64x24 distance field, 5040 triangles, Range [-0.0, 0.5], wardrobe1_Loft28
+[2018.01.13-09.39.35:098][142]LogActorFactory: Actor Factory created Plane
+[2018.01.13-09.39.36:078][151]LogActorFactory: Actor Factory created Plane
+[2018.01.13-09.39.49:636][375]LogMaterial: Missing cached shader map for material krew_Mat, compiling. 
