@@ -1,0 +1,972 @@
+﻿Log file open, 01/15/18 09:05:46
+LogInit:Display: Running engine for game: PGK
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1512417695) SRandInit(1512417696).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.159005
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: P:/silnik/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.15-08.05.47:376][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.15-08.05.47:376][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.15-08.05.47:425][  0]LogInit: Computer: GROBKOMP
+[2018.01.15-08.05.47:425][  0]LogInit: User: Robert
+[2018.01.15-08.05.47:425][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.15-08.05.47:425][  0]LogInit: High frequency timer resolution =2.249998 MHz
+[2018.01.15-08.05.47:426][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.01.15-08.05.47:426][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.15-08.05.47:426][  0]LogMemory: Process Physical Memory: 275.84 MB used, 275.84 MB peak
+[2018.01.15-08.05.47:426][  0]LogMemory: Process Virtual Memory: 266.71 MB used, 266.71 MB peak
+[2018.01.15-08.05.47:426][  0]LogMemory: Physical Memory: 3702.81 MB used,  4407.39 MB free, 8110.20 MB total
+[2018.01.15-08.05.47:426][  0]LogMemory: Virtual Memory: 663.03 MB used,  4407.39 MB free, 134217728.00 MB total
+[2018.01.15-08.05.47:551][  0]LogInit: Using OS detected language (pl-PL).
+[2018.01.15-08.05.47:551][  0]LogInit: Using OS detected locale (pl-PL).
+[2018.01.15-08.05.47:558][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2018.01.15-08.05.47:559][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the locale.
+[2018.01.15-08.05.49:549][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.15-08.05.50:867][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.01.15-08.05.50:867][  0]LogD3D11RHI:       2017/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.15-08.05.50:884][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.01.15-08.05.50:884][  0]LogD3D11RHI:       128/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.15-08.05.50:890][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.15-08.05.50:890][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.15-08.05.50:890][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.15-08.05.50:900][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.15-08.05.50:900][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.01.15-08.05.50:900][  0]LogWindows: EnumDisplayDevices:
+[2018.01.15-08.05.50:900][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.01.15-08.05.50:901][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.01.15-08.05.50:901][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.01.15-08.05.50:902][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.01.15-08.05.50:902][  0]LogWindows:    4. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.01.15-08.05.50:903][  0]LogWindows:    5. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.01.15-08.05.50:903][  0]LogWindows:    6. 'NVIDIA GeForce GTX 960M' (P:0 D:0)
+[2018.01.15-08.05.50:903][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.15-08.05.50:903][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.01.15-08.05.50:903][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.15-08.05.50:903][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.15-08.05.50:903][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.15-08.05.52:122][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.15-08.05.52:545][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.15-08.05.52:548][  0]LogShaderCompilers: Guid format shader working directory is 33 characters bigger than the processId version (I:/Projekt/PGK/Intermediate/Shaders/WorkingDirectory/4592/).
+[2018.01.15-08.05.52:548][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Robert/AppData/Local/Temp/UnrealShaderWorkingDir/43EB9F274FDD8B543C387E87BFE60FDB/'.
+[2018.01.15-08.05.52:548][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.15-08.05.54:708][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.15-08.05.54:802][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.15-08.05.54:895][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.15-08.05.54:990][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.15-08.05.55:083][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.15-08.05.55:178][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.15-08.05.55:275][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.15-08.05.55:368][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.15-08.05.55:449][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.15-08.05.55:542][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.15-08.05.55:637][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.15-08.05.55:729][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.15-08.05.55:823][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.15-08.05.55:912][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.15-08.05.56:003][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.15-08.05.56:186][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.15-08.05.56:186][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.15-08.05.56:258][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.15-08.05.56:408][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.15-08.05.56:462][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.15-08.05.56:556][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.15-08.05.56:645][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.15-08.05.56:736][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.15-08.05.56:828][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.15-08.05.56:829][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.15-08.05.57:735][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.15-08.05.57:921][  0]LogDerivedDataCache: Loaded boot cache 0.18s 100MB C:/Users/Robert/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.15-08.05.57:921][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Robert/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.15-08.05.57:921][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/Projekt/PGK/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.15-08.05.57:921][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.15-08.05.57:921][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file I:/Projekt/PGK/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.15-08.05.57:921][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.15-08.05.57:958][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.15-08.05.57:974][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Robert/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.15-08.05.58:037][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.15-08.05.58:038][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.15-08.05.58:039][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.15-08.05.58:039][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.15-08.05.58:737][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.15-08.05.58:917][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.15-08.05.59:236][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.15-08.05.59:316][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.15-08.05.59:411][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.15-08.05.59:411][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.15-08.05.59:411][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.15-08.06.00:885][  0]LogNetVersion: PGK , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3392332418)
+[2018.01.15-08.06.00:982][  0]LogAssetRegistry: FAssetRegistry took 0.0313 seconds to start up
+[2018.01.15-08.06.01:060][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.041884 seconds
+[2018.01.15-08.06.01:070][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.15-08.06.01:070][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.01.15-08.06.01:070][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.15-08.06.01:176][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.15-08.06.06:147][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.15-08.06.06:220][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.15-08.06.07:252][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.15-08.06.08:041][  0]SourceControl: Info Source control is disabled
+[2018.01.15-08.06.08:043][  0]SourceControl: Info Source control is disabled
+[2018.01.15-08.06.08:140][  0]SourceControl: Info Source control is disabled
+[2018.01.15-08.06.08:236][  0]SourceControl: Info Source control is disabled
+[2018.01.15-08.06.09:569][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.15-08.06.10:731][  0]LogEngine: Initializing Engine...
+[2018.01.15-08.06.10:733][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.15-08.06.11:111][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.15-08.06.11:111][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.15-08.06.11:339][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.15-08.06.11:361][  0]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.15-08.06.11:498][  0]LogInit: FAudioDevice initialized.
+[2018.01.15-08.06.11:602][  0]LogDerivedDataCache: Saved boot cache 0.10s 100MB C:/Users/Robert/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.15-08.06.11:629][  0]LogInit: Texture streaming: Enabled
+[2018.01.15-08.06.11:798][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.15-08.06.12:195][  0]LogInit: Transaction tracking system initialized
+[2018.01.15-08.06.12:745][  0]BlueprintLog: New page: Editor Load
+[2018.01.15-08.06.14:454][  0]LocalizationService: Info Localization service is disabled
+[2018.01.15-08.06.15:683][  0]LogConsoleResponse:Display: 
+[2018.01.15-08.06.16:739][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.15-08.06.16:739][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.15-08.06.17:495][  0]LogFileCache: Scanning file cache for directory 'I:/Projekt/PGK/Content/' took 0.18s
+[2018.01.15-08.06.18:820][  0]SourceControl: Info Source control is disabled
+[2018.01.15-08.06.18:821][  0]Cmd: MAP LOAD FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.15-08.06.18:864][  0]LightingResults: New page: Lighting Build
+[2018.01.15-08.06.18:938][  0]MapCheck: New page: Map Check
+[2018.01.15-08.06.18:938][  0]LightingResults: New page: Lighting Build
+[2018.01.15-08.06.23:132][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Bed'
+[2018.01.15-08.06.23:133][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Bed' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.06.23:133][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Bed
+[2018.01.15-08.06.23:133][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Drawer'
+[2018.01.15-08.06.23:133][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Drawer' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.06.23:133][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Drawer
+[2018.01.15-08.06.23:133][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Main'
+[2018.01.15-08.06.23:133][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Main' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.06.23:133][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Main
+[2018.01.15-08.06.23:133][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Metal'
+[2018.01.15-08.06.23:133][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Metal' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.06.23:133][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Metal
+[2018.01.15-08.06.23:134][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Bed'
+[2018.01.15-08.06.23:134][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Bed' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.06.23:134][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Bed
+[2018.01.15-08.06.23:134][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Drawer'
+[2018.01.15-08.06.23:134][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Drawer' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.06.23:134][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Drawer
+[2018.01.15-08.06.23:134][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Main'
+[2018.01.15-08.06.23:134][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Main' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.06.23:134][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Main
+[2018.01.15-08.06.23:134][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Metal'
+[2018.01.15-08.06.23:134][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Metal' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.06.23:135][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Metal
+[2018.01.15-08.06.23:661][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/lambert2'
+[2018.01.15-08.06.23:662][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/lambert2' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe.uasset.
+[2018.01.15-08.06.23:662][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe : Can't find file for asset. /Game/import/wardrobe/lambert2
+[2018.01.15-08.06.23:662][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/lambert2'
+[2018.01.15-08.06.23:662][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/lambert2' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe.uasset.
+[2018.01.15-08.06.23:662][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe : Can't find file for asset. /Game/import/wardrobe/lambert2
+[2018.01.15-08.06.23:700][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/box'
+[2018.01.15-08.06.23:700][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/box' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.06.23:700][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/box
+[2018.01.15-08.06.23:701][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/st_gold'
+[2018.01.15-08.06.23:701][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/st_gold' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.06.23:701][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/st_gold
+[2018.01.15-08.06.23:701][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/box'
+[2018.01.15-08.06.23:701][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/box' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.06.23:701][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/box
+[2018.01.15-08.06.23:701][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/st_gold'
+[2018.01.15-08.06.23:701][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/st_gold' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.06.23:701][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/st_gold
+[2018.01.15-08.06.23:701][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_PhysicsAsset'
+[2018.01.15-08.06.23:702][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_PhysicsAsset' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.06.23:702][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/wardrobe3_PhysicsAsset
+[2018.01.15-08.06.23:702][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_Skeleton'
+[2018.01.15-08.06.23:702][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_Skeleton' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.06.23:702][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/wardrobe3_Skeleton
+[2018.01.15-08.06.23:702][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_PhysicsAsset'
+[2018.01.15-08.06.23:702][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_PhysicsAsset' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.06.23:702][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/wardrobe3_PhysicsAsset
+[2018.01.15-08.06.23:703][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_Skeleton'
+[2018.01.15-08.06.23:703][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_Skeleton' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.06.23:703][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/wardrobe3_Skeleton
+[2018.01.15-08.06.23:715][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/None'
+[2018.01.15-08.06.23:715][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/None' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe4.uasset.
+[2018.01.15-08.06.23:715][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe4 : Can't find file for asset. /Game/import/wardrobe/None
+[2018.01.15-08.06.23:715][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/None'
+[2018.01.15-08.06.23:715][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/None' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe4.uasset.
+[2018.01.15-08.06.23:715][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe4 : Can't find file for asset. /Game/import/wardrobe/None
+[2018.01.15-08.06.27:634][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/None'
+[2018.01.15-08.06.27:634][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/None.Material_0 Referenced by wardrobe4
+[2018.01.15-08.06.27:634][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/None' while loading NULL.
+[2018.01.15-08.06.27:634][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/None.Material_0 Referenced by wardrobe4
+[2018.01.15-08.06.27:741][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_Skeleton'
+[2018.01.15-08.06.27:741][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/wardrobe3_Skeleton.wardrobe3_Skeleton Referenced by wardrobe3
+[2018.01.15-08.06.27:741][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_Skeleton' while loading NULL.
+[2018.01.15-08.06.27:741][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/wardrobe3_Skeleton.wardrobe3_Skeleton Referenced by wardrobe3
+[2018.01.15-08.06.27:742][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_PhysicsAsset'
+[2018.01.15-08.06.27:742][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/wardrobe3_PhysicsAsset.wardrobe3_PhysicsAsset Referenced by wardrobe3
+[2018.01.15-08.06.27:742][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_PhysicsAsset' while loading NULL.
+[2018.01.15-08.06.27:742][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/wardrobe3_PhysicsAsset.wardrobe3_PhysicsAsset Referenced by wardrobe3
+[2018.01.15-08.06.27:742][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/st_gold'
+[2018.01.15-08.06.27:742][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/st_gold.st_gold Referenced by wardrobe3
+[2018.01.15-08.06.27:742][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/st_gold' while loading NULL.
+[2018.01.15-08.06.27:742][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/st_gold.st_gold Referenced by wardrobe3
+[2018.01.15-08.06.27:742][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/box'
+[2018.01.15-08.06.27:742][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/box.box Referenced by wardrobe3
+[2018.01.15-08.06.27:742][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/box' while loading NULL.
+[2018.01.15-08.06.27:743][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/box.box Referenced by wardrobe3
+[2018.01.15-08.06.27:934][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/lambert2'
+[2018.01.15-08.06.27:934][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/lambert2.lambert2 Referenced by wardrobe
+[2018.01.15-08.06.27:934][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/lambert2' while loading NULL.
+[2018.01.15-08.06.27:934][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/lambert2.lambert2 Referenced by wardrobe
+[2018.01.15-08.06.29:078][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Main'
+[2018.01.15-08.06.29:078][  0]LoadErrors: Info Failed to load /Game/import/bed/Main.Main Referenced by BunkFBX
+[2018.01.15-08.06.29:078][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Main' while loading NULL.
+[2018.01.15-08.06.29:078][  0]LoadErrors: Info Failed to load /Game/import/bed/Main.Main Referenced by BunkFBX
+[2018.01.15-08.06.29:078][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Bed'
+[2018.01.15-08.06.29:078][  0]LoadErrors: Info Failed to load /Game/import/bed/Bed.Bed Referenced by BunkFBX
+[2018.01.15-08.06.29:078][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Bed' while loading NULL.
+[2018.01.15-08.06.29:078][  0]LoadErrors: Info Failed to load /Game/import/bed/Bed.Bed Referenced by BunkFBX
+[2018.01.15-08.06.29:078][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Drawer'
+[2018.01.15-08.06.29:078][  0]LoadErrors: Info Failed to load /Game/import/bed/Drawer.Drawer Referenced by BunkFBX
+[2018.01.15-08.06.29:079][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Drawer' while loading NULL.
+[2018.01.15-08.06.29:079][  0]LoadErrors: Info Failed to load /Game/import/bed/Drawer.Drawer Referenced by BunkFBX
+[2018.01.15-08.06.29:079][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Metal'
+[2018.01.15-08.06.29:079][  0]LoadErrors: Info Failed to load /Game/import/bed/Metal.Metal Referenced by BunkFBX
+[2018.01.15-08.06.29:079][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Metal' while loading NULL.
+[2018.01.15-08.06.29:079][  0]LoadErrors: Info Failed to load /Game/import/bed/Metal.Metal Referenced by BunkFBX
+[2018.01.15-08.06.36:890][  0]LogMaterial: Missing cached shader map for material st_tile, compiling. 
+[2018.01.15-08.06.36:909][  0]LogMaterial:Warning: Failed to compile Material /Game/import/kibel/st_tile.st_tile for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.15-08.06.36:909][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/import/kibel/Dirt_map.Dirt_map
+[2018.01.15-08.06.42:729][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.15-08.06.45:121][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.15-08.06.45:197][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.15-08.06.45:352][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 155.094ms to complete.
+[2018.01.15-08.06.45:352][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 26.532
+[2018.01.15-08.06.46:151][  0]LogCollectionManager: Loaded 0 collections in 0.003979 seconds
+[2018.01.15-08.06.46:636][  0]LogFileCache: Scanning file cache for directory 'I:/Projekt/PGK/Saved/Collections/' took 0.01s
+[2018.01.15-08.06.46:636][  0]LogFileCache: Scanning file cache for directory 'I:/Projekt/PGK/Content/Developers/Robert/Collections/' took 0.01s
+[2018.01.15-08.06.46:636][  0]LogFileCache: Scanning file cache for directory 'I:/Projekt/PGK/Content/Collections/' took 0.01s
+[2018.01.15-08.06.46:636][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2018.01.15-08.06.46:702][  0]LogContentBrowser: Native class hierarchy populated in 0.0472 seconds. Added 2329 classes and 491 folders.
+[2018.01.15-08.06.46:934][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.01.15-08.06.48:130][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.01.15-08.06.48:307][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.01.15-08.06.49:650][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.15-08.06.49:724][  0]LogSlate: Took 0.000468 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.15-08.06.49:729][  0]LogSlate: Took 0.001106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.15-08.06.49:810][  0]LogSlate: Took 0.017219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.15-08.06.50:351][  0]LogRenderer: Reallocating scene render targets to support 1180x672 NumSamples 1 (Frame:1).
+[2018.01.15-08.06.51:527][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.15-08.06.51:628][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.01.15-08.06.51:628][  0]LogLoad: (Engine Initialization) Total time: 69.47 seconds
+[2018.01.15-08.06.51:628][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.45 seconds
+[2018.01.15-08.06.51:628][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.15-08.06.51:696][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.15-08.06.51:697][  0]LogOcInput: OculusInput pre-init called
+[2018.01.15-08.06.51:697][  0]LogHMD: Starting GearVRController plugin
+[2018.01.15-08.06.51:912][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.15-08.06.52:425][  0]LogSlate: Took 0.007213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.15-08.06.52:489][  1]LogFileCache: Retrieving MD5 hashes for directory 'I:/Projekt/PGK/Content/' took 0.78s
+[2018.01.15-08.06.52:776][  3]LogAssetRegistry: Asset discovery search completed in 51.8172 seconds
+[2018.01.15-08.06.52:781][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.15-08.06.52:781][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
+[2018.01.15-08.07.30:776][683]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.15-08.07.31:099][683]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.15-08.07.31:099][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.15-08.07.31:230][683]PIE: New page: PIE session: FirstPersonExampleMap (Jan 15, 2018, 10:07:31 AM)
+[2018.01.15-08.07.31:230][683]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.01.15-08.07.31:431][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.201230s)
+[2018.01.15-08.07.31:433][683]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.15-08.07.31:434][683]LogPlayLevel: PIE: World Init took: (0.002410s)
+[2018.01.15-08.07.31:434][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.204500s)
+[2018.01.15-08.07.31:504][683]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.15-08.07.31:548][683]LogInit: FAudioDevice initialized.
+[2018.01.15-08.07.31:640][683]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.15-08.07.31:694][683]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.01.15-09.07.31
+[2018.01.15-08.07.31:696][683]LogWorld: Bringing up level for play took: 0.027940
+[2018.01.15-08.07.31:853][683]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2018.01.15-08.07.31:855][683]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.228
+[2018.01.15-08.07.31:856][683]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.15-08.07.41:172][859]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.15-08.07.41:292][859]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.01.15-08.07.45:738][918]LogSlate: Took 0.000754 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.15-08.07.47:068][918]LogAIModule: Creating AISystem for world MenuLevel
+[2018.01.15-08.07.47:075][918]LogSlate: Took 0.000372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.15-08.07.47:133][918]Cmd: MAP LOAD FILE="I:/Projekt/PGK/Content/Maps/MenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.15-08.07.47:133][918]LightingResults: New page: Lighting Build
+[2018.01.15-08.07.47:134][918]LoadErrors: New page: Loading map: MenuLevel.umap
+[2018.01.15-08.07.47:157][918]MapCheck: New page: Map Check
+[2018.01.15-08.07.47:157][918]LightingResults: New page: Lighting Build
+[2018.01.15-08.07.47:333][918]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.15-08.07.47:392][918]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.15-08.07.47:549][918]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 156.561ms to complete.
+[2018.01.15-08.07.47:550][918]LogFileHelpers: Loading map 'MenuLevel' took 0.418
+[2018.01.15-08.07.50:034][984]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.15-08.07.50:061][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2018.01.15-08.07.50:061][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.15-08.07.50:061][984]PIE: New page: PIE session: MenuLevel (Jan 15, 2018, 10:07:50 AM)
+[2018.01.15-08.07.50:061][984]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MenuLevel
+[2018.01.15-08.07.50:063][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001669s)
+[2018.01.15-08.07.50:064][984]LogAIModule: Creating AISystem for world MenuLevel
+[2018.01.15-08.07.50:064][984]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2018.01.15-08.07.50:064][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MenuLevel.MenuLevel to /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.002938s)
+[2018.01.15-08.07.50:089][984]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.15-08.07.50:135][984]LogInit: FAudioDevice initialized.
+[2018.01.15-08.07.50:178][984]LogLoad: Game class is 'FirstPersonMenu_C'
+[2018.01.15-08.07.50:182][984]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2018.01.15-09.07.50
+[2018.01.15-08.07.50:182][984]LogWorld: Bringing up level for play took: 0.002076
+[2018.01.15-08.07.50:274][984]LogHardwareCursor:Error: Failed to load cursor 'I:/Projekt/PGK/Content/None'.  If you included a file extension or the size information '_WidthxHeight' remove them.
+[2018.01.15-08.07.50:274][984]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MenuLevel 0.191
+[2018.01.15-08.07.50:275][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2018.01.15-08.10.02:347][949]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2018.01.15-08.10.02:378][949]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2018.01.15-08.10.02:399][949]Cmd: MEM
+[2018.01.15-08.10.02:453][949]LogMemory: Platform Memory Stats for Windows
+[2018.01.15-08.10.02:453][949]LogMemory: Process Physical Memory: 1361.48 MB used, 1465.46 MB peak
+[2018.01.15-08.10.02:453][949]LogMemory: Process Virtual Memory: 1845.27 MB used, 2452.55 MB peak
+[2018.01.15-08.10.02:453][949]LogMemory: Physical Memory: 4163.84 MB used,  3946.37 MB free, 8110.20 MB total
+[2018.01.15-08.10.02:453][949]LogMemory: Virtual Memory: 2934.48 MB used,  3946.37 MB free, 134217728.00 MB total
+[2018.01.15-08.10.02:453][949]LogMemory: 
+[2018.01.15-08.10.02:453][949]Allocator Stats for TBB: (not implemented)
+[2018.01.15-08.10.07:735][949]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.15-08.10.07:736][949]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.15-08.10.07:778][949]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2018.01.15-09.10.07
+[2018.01.15-08.10.07:780][949]LogWorld: Bringing up level for play took: 0.041244
+[2018.01.15-08.10.07:780][949]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.15-08.10.07:782][949]LogLoad: Took 5.404584 seconds to LoadMap(/Game/FirstPersonBP/Maps/FirstPersonExampleMap)
+[2018.01.15-08.23.17:526][858]LogNet: Browse: /Game/Maps/MenuLevel
+[2018.01.15-08.23.17:558][858]LogLoad: LoadMap: /Game/Maps/MenuLevel
+[2018.01.15-08.23.17:624][858]Cmd: MEM
+[2018.01.15-08.23.17:652][858]LogMemory: Platform Memory Stats for Windows
+[2018.01.15-08.23.17:652][858]LogMemory: Process Physical Memory: 1690.36 MB used, 1850.79 MB peak
+[2018.01.15-08.23.17:652][858]LogMemory: Process Virtual Memory: 2572.47 MB used, 2672.07 MB peak
+[2018.01.15-08.23.17:652][858]LogMemory: Physical Memory: 4218.15 MB used,  3892.05 MB free, 8110.20 MB total
+[2018.01.15-08.23.17:652][858]LogMemory: Virtual Memory: 3636.67 MB used,  3892.05 MB free, 134217728.00 MB total
+[2018.01.15-08.23.17:652][858]LogMemory: 
+[2018.01.15-08.23.17:652][858]Allocator Stats for TBB: (not implemented)
+[2018.01.15-08.23.17:652][858]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MenuLevel
+[2018.01.15-08.23.17:655][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003088s)
+[2018.01.15-08.23.17:657][858]LogAIModule: Creating AISystem for world MenuLevel
+[2018.01.15-08.23.17:657][858]LogPlayLevel: PIE: World Init took: (0.001940s)
+[2018.01.15-08.23.17:658][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MenuLevel.MenuLevel to /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.005730s)
+[2018.01.15-08.23.17:658][858]LogLoad: Game class is 'FirstPersonMenu_C'
+[2018.01.15-08.23.17:665][858]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 0) at 2018.01.15-09.23.17
+[2018.01.15-08.23.17:665][858]LogWorld: Bringing up level for play took: 0.002518
+[2018.01.15-08.23.17:666][858]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.15-08.23.17:724][858]LogHardwareCursor:Error: Failed to load cursor 'I:/Projekt/PGK/Content/None'.  If you included a file extension or the size information '_WidthxHeight' remove them.
+[2018.01.15-08.23.17:724][858]LogLoad: Took 0.166090 seconds to LoadMap(/Game/Maps/UEDPIE_0_MenuLevel)
+[2018.01.15-08.23.34:679][368]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2018.01.15-08.23.34:748][368]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2018.01.15-08.25.52:338][509]LogSlate: Took 0.000480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.15-08.25.55:428][553]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.15-08.25.55:457][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2018.01.15-08.25.55:457][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.15-08.25.55:457][553]PIE: New page: PIE session: MenuLevel (Jan 15, 2018, 10:25:55 AM)
+[2018.01.15-08.25.55:457][553]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MenuLevel
+[2018.01.15-08.25.55:460][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002469s)
+[2018.01.15-08.25.55:461][553]LogAIModule: Creating AISystem for world MenuLevel
+[2018.01.15-08.25.55:461][553]LogPlayLevel: PIE: World Init took: (0.001391s)
+[2018.01.15-08.25.55:461][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MenuLevel.MenuLevel to /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.004180s)
+[2018.01.15-08.25.55:485][553]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.15-08.25.55:531][553]LogInit: FAudioDevice initialized.
+[2018.01.15-08.25.55:571][553]LogLoad: Game class is 'FirstPersonMenu_C'
+[2018.01.15-08.25.55:575][553]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 0) at 2018.01.15-09.25.55
+[2018.01.15-08.25.55:576][553]LogWorld: Bringing up level for play took: 0.002342
+[2018.01.15-08.25.55:611][553]LogHardwareCursor:Error: Failed to load cursor 'I:/Projekt/PGK/Content/None'.  If you included a file extension or the size information '_WidthxHeight' remove them.
+[2018.01.15-08.25.55:611][553]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MenuLevel -0.472
+[2018.01.15-08.25.55:612][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2018.01.15-08.26.04:792][692]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2018.01.15-08.26.04:856][692]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2018.01.15-08.26.04:876][692]Cmd: MEM
+[2018.01.15-08.26.04:893][692]LogMemory: Platform Memory Stats for Windows
+[2018.01.15-08.26.04:893][692]LogMemory: Process Physical Memory: 1688.23 MB used, 1850.79 MB peak
+[2018.01.15-08.26.04:893][692]LogMemory: Process Virtual Memory: 2569.63 MB used, 2672.07 MB peak
+[2018.01.15-08.26.04:893][692]LogMemory: Physical Memory: 4294.17 MB used,  3816.03 MB free, 8110.20 MB total
+[2018.01.15-08.26.04:893][692]LogMemory: Virtual Memory: 3620.38 MB used,  3816.03 MB free, 134217728.00 MB total
+[2018.01.15-08.26.04:893][692]LogMemory: 
+[2018.01.15-08.26.04:893][692]Allocator Stats for TBB: (not implemented)
+[2018.01.15-08.26.05:350][692]LogLinker:Warning: Can't find file '/Game/import/bed/Bed'
+[2018.01.15-08.26.05:350][692]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Bed' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.26.05:350][692]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Bed
+[2018.01.15-08.26.05:351][692]LogLinker:Warning: Can't find file '/Game/import/bed/Drawer'
+[2018.01.15-08.26.05:351][692]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Drawer' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.26.05:351][692]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Drawer
+[2018.01.15-08.26.05:351][692]LogLinker:Warning: Can't find file '/Game/import/bed/Main'
+[2018.01.15-08.26.05:351][692]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Main' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.26.05:351][692]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Main
+[2018.01.15-08.26.05:351][692]LogLinker:Warning: Can't find file '/Game/import/bed/Metal'
+[2018.01.15-08.26.05:351][692]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Metal' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.26.05:351][692]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Metal
+[2018.01.15-08.26.05:352][692]LogLinker:Warning: Can't find file '/Game/import/bed/Bed'
+[2018.01.15-08.26.05:352][692]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Bed' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.26.05:352][692]LogLinker:Warning: Can't find file '/Game/import/bed/Drawer'
+[2018.01.15-08.26.05:352][692]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Drawer' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.26.05:352][692]LogLinker:Warning: Can't find file '/Game/import/bed/Main'
+[2018.01.15-08.26.05:352][692]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Main' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.26.05:352][692]LogLinker:Warning: Can't find file '/Game/import/bed/Metal'
+[2018.01.15-08.26.05:352][692]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Metal' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.26.05:399][692]LogLinker:Warning: Can't find file '/Game/import/wardrobe/lambert2'
+[2018.01.15-08.26.05:399][692]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/lambert2' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe.uasset.
+[2018.01.15-08.26.05:399][692]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe : Can't find file for asset. /Game/import/wardrobe/lambert2
+[2018.01.15-08.26.05:399][692]LogLinker:Warning: Can't find file '/Game/import/wardrobe/lambert2'
+[2018.01.15-08.26.05:399][692]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/lambert2' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe.uasset.
+[2018.01.15-08.26.05:402][692]LogLinker:Warning: Can't find file '/Game/import/wardrobe/box'
+[2018.01.15-08.26.05:402][692]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/box' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.26.05:402][692]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/box
+[2018.01.15-08.26.05:402][692]LogLinker:Warning: Can't find file '/Game/import/wardrobe/st_gold'
+[2018.01.15-08.26.05:402][692]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/st_gold' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.26.05:402][692]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/st_gold
+[2018.01.15-08.26.05:402][692]LogLinker:Warning: Can't find file '/Game/import/wardrobe/box'
+[2018.01.15-08.26.05:402][692]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/box' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.26.05:403][692]LogLinker:Warning: Can't find file '/Game/import/wardrobe/st_gold'
+[2018.01.15-08.26.05:403][692]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/st_gold' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.26.05:403][692]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_PhysicsAsset'
+[2018.01.15-08.26.05:403][692]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_PhysicsAsset' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.26.05:403][692]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/wardrobe3_PhysicsAsset
+[2018.01.15-08.26.05:403][692]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_Skeleton'
+[2018.01.15-08.26.05:403][692]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_Skeleton' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.26.05:403][692]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/wardrobe3_Skeleton
+[2018.01.15-08.26.05:404][692]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_PhysicsAsset'
+[2018.01.15-08.26.05:404][692]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_PhysicsAsset' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.26.05:404][692]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_Skeleton'
+[2018.01.15-08.26.05:404][692]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_Skeleton' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.26.05:406][692]LogLinker:Warning: Can't find file '/Game/import/wardrobe/None'
+[2018.01.15-08.26.05:406][692]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/None' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe4.uasset.
+[2018.01.15-08.26.05:406][692]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe4 : Can't find file for asset. /Game/import/wardrobe/None
+[2018.01.15-08.26.05:406][692]LogLinker:Warning: Can't find file '/Game/import/wardrobe/None'
+[2018.01.15-08.26.05:406][692]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/None' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe4.uasset.
+[2018.01.15-08.26.06:037][692]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.15-08.26.06:037][692]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.01.15-08.26.06:077][692]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.01.15-09.26.06
+[2018.01.15-08.26.06:080][692]LogWorld: Bringing up level for play took: 0.039212
+[2018.01.15-08.26.06:080][692]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.15-08.26.06:082][692]LogLoad: Took 1.226153 seconds to LoadMap(/Game/FirstPersonBP/Maps/FirstPersonExampleMap)
+[2018.01.15-08.27.17:991][414]LogNet: Browse: /Game/Maps/MenuLevel
+[2018.01.15-08.27.18:089][414]LogLoad: LoadMap: /Game/Maps/MenuLevel
+[2018.01.15-08.27.18:148][414]Cmd: MEM
+[2018.01.15-08.27.18:172][414]LogMemory: Platform Memory Stats for Windows
+[2018.01.15-08.27.18:172][414]LogMemory: Process Physical Memory: 1704.95 MB used, 1855.28 MB peak
+[2018.01.15-08.27.18:172][414]LogMemory: Process Virtual Memory: 2543.20 MB used, 2884.22 MB peak
+[2018.01.15-08.27.18:172][414]LogMemory: Physical Memory: 4318.75 MB used,  3791.45 MB free, 8110.20 MB total
+[2018.01.15-08.27.18:172][414]LogMemory: Virtual Memory: 3697.63 MB used,  3791.45 MB free, 134217728.00 MB total
+[2018.01.15-08.27.18:172][414]LogMemory: 
+[2018.01.15-08.27.18:172][414]Allocator Stats for TBB: (not implemented)
+[2018.01.15-08.27.18:172][414]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MenuLevel
+[2018.01.15-08.27.18:175][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002544s)
+[2018.01.15-08.27.18:176][414]LogAIModule: Creating AISystem for world MenuLevel
+[2018.01.15-08.27.18:177][414]LogPlayLevel: PIE: World Init took: (0.001596s)
+[2018.01.15-08.27.18:177][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MenuLevel.MenuLevel to /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.004588s)
+[2018.01.15-08.27.18:177][414]LogLoad: Game class is 'FirstPersonMenu_C'
+[2018.01.15-08.27.18:183][414]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 0) at 2018.01.15-09.27.18
+[2018.01.15-08.27.18:183][414]LogWorld: Bringing up level for play took: 0.002123
+[2018.01.15-08.27.18:184][414]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.15-08.27.18:235][414]LogHardwareCursor:Error: Failed to load cursor 'I:/Projekt/PGK/Content/None'.  If you included a file extension or the size information '_WidthxHeight' remove them.
+[2018.01.15-08.27.18:235][414]LogLoad: Took 0.146085 seconds to LoadMap(/Game/Maps/UEDPIE_0_MenuLevel)
+[2018.01.15-08.27.43:031][788]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2018.01.15-08.27.43:133][788]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel' with GeneratedClass '/Game/Maps/MenuLevel.MenuLevel_C' with ClassGeneratedBy '/Game/Maps/MenuLevel.MenuLevel:PersistentLevel.MenuLevel'
+[2018.01.15-08.27.51:740][878]LogLinker:Warning: Can't find file '/Game/import/bed/Bed'
+[2018.01.15-08.27.51:740][878]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Bed' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.27.51:741][878]LogLinker:Warning: Can't find file '/Game/import/bed/Drawer'
+[2018.01.15-08.27.51:741][878]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Drawer' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.27.51:741][878]LogLinker:Warning: Can't find file '/Game/import/bed/Main'
+[2018.01.15-08.27.51:741][878]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Main' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.27.51:741][878]LogLinker:Warning: Can't find file '/Game/import/bed/Metal'
+[2018.01.15-08.27.51:741][878]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Metal' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.27.51:741][878]LogLinker:Warning: Can't find file '/Game/import/bed/Bed'
+[2018.01.15-08.27.51:741][878]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Bed' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.27.51:742][878]LogLinker:Warning: Can't find file '/Game/import/bed/Drawer'
+[2018.01.15-08.27.51:742][878]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Drawer' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.27.51:742][878]LogLinker:Warning: Can't find file '/Game/import/bed/Main'
+[2018.01.15-08.27.51:742][878]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Main' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.27.51:742][878]LogLinker:Warning: Can't find file '/Game/import/bed/Metal'
+[2018.01.15-08.27.51:742][878]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Metal' while loading I:/Projekt/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.15-08.27.51:794][878]LogLinker:Warning: Can't find file '/Game/import/wardrobe/lambert2'
+[2018.01.15-08.27.51:794][878]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/lambert2' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe.uasset.
+[2018.01.15-08.27.51:794][878]LogLinker:Warning: Can't find file '/Game/import/wardrobe/lambert2'
+[2018.01.15-08.27.51:794][878]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/lambert2' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe.uasset.
+[2018.01.15-08.27.51:797][878]LogLinker:Warning: Can't find file '/Game/import/wardrobe/box'
+[2018.01.15-08.27.51:797][878]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/box' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.27.51:797][878]LogLinker:Warning: Can't find file '/Game/import/wardrobe/st_gold'
+[2018.01.15-08.27.51:797][878]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/st_gold' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.27.51:797][878]LogLinker:Warning: Can't find file '/Game/import/wardrobe/box'
+[2018.01.15-08.27.51:797][878]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/box' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.27.51:798][878]LogLinker:Warning: Can't find file '/Game/import/wardrobe/st_gold'
+[2018.01.15-08.27.51:798][878]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/st_gold' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.27.51:798][878]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_PhysicsAsset'
+[2018.01.15-08.27.51:798][878]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_PhysicsAsset' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.27.51:798][878]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_Skeleton'
+[2018.01.15-08.27.51:798][878]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_Skeleton' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.27.51:799][878]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_PhysicsAsset'
+[2018.01.15-08.27.51:799][878]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_PhysicsAsset' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.27.51:799][878]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_Skeleton'
+[2018.01.15-08.27.51:799][878]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_Skeleton' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.15-08.27.51:801][878]LogLinker:Warning: Can't find file '/Game/import/wardrobe/None'
+[2018.01.15-08.27.51:801][878]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/None' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe4.uasset.
+[2018.01.15-08.27.51:801][878]LogLinker:Warning: Can't find file '/Game/import/wardrobe/None'
+[2018.01.15-08.27.51:801][878]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/None' while loading I:/Projekt/PGK/Content/import/wardrobe/wardrobe4.uasset.
+[2018.01.15-08.27.52:218][878]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.15-08.27.52:331][878]Cmd: MAP LOAD FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.15-08.27.52:332][878]LightingResults: New page: Lighting Build
+[2018.01.15-08.27.52:333][878]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2018.01.15-08.27.52:334][878]MapCheck: New page: Map Check
+[2018.01.15-08.27.52:334][878]LightingResults: New page: Lighting Build
+[2018.01.15-08.27.52:631][878]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.15-08.27.52:700][878]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.15-08.27.52:858][878]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 157.641ms to complete.
+[2018.01.15-08.27.52:858][878]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.528
+[2018.01.15-08.28.34:339][462]AssetReimport: New page: Outstanding source content changes 10:28:34 AM
+[2018.01.15-08.28.34:478][463]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/blood4.png)
+[2018.01.15-08.28.36:314][464]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/blood3.png)
+[2018.01.15-08.28.38:151][465]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/blood2.png)
+[2018.01.15-08.28.39:078][466]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/blood11.png)
+[2018.01.15-08.28.39:996][467]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/blood10.png)
+[2018.01.15-08.28.41:006][468]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/blood1.png)
+[2018.01.15-08.28.42:375][469]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/blood5.png)
+[2018.01.15-08.28.43:572][470]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/blood6.png)
+[2018.01.15-08.28.44:757][471]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/blood7.png)
+[2018.01.15-08.28.46:222][472]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/blood8.png)
+[2018.01.15-08.28.47:248][473]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/blood9.png)
+[2018.01.15-08.28.48:181][474]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/help.png)
+[2018.01.15-08.28.49:100][475]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/help2.png)
+[2018.01.15-08.28.50:122][476]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 I:/Projekt/PGK/Content/import/plane/kill.png)
+[2018.01.15-08.28.51:566][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/blood4" FILE="I:/Projekt/PGK/Content/import/plane/blood4.uasset" SILENT=true
+[2018.01.15-08.28.52:142][477]LogSavePackage: Save=561.01ms
+[2018.01.15-08.28.52:142][477]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/blood49C019C484392DBF602E520B22A3A1A89.tmp' to 'I:/Projekt/PGK/Content/import/plane/blood4.uasset'
+[2018.01.15-08.28.52:148][477]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/blood4.uasset
+[2018.01.15-08.28.52:256][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/blood3" FILE="I:/Projekt/PGK/Content/import/plane/blood3.uasset" SILENT=true
+[2018.01.15-08.28.52:884][477]LogSavePackage: Save=623.72ms
+[2018.01.15-08.28.52:884][477]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/blood30DC994A7468675060F8B6D97A4D44794.tmp' to 'I:/Projekt/PGK/Content/import/plane/blood3.uasset'
+[2018.01.15-08.28.52:887][477]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/blood3.uasset
+[2018.01.15-08.28.53:007][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/blood2" FILE="I:/Projekt/PGK/Content/import/plane/blood2.uasset" SILENT=true
+[2018.01.15-08.28.53:404][477]LogSavePackage: Save=394.23ms
+[2018.01.15-08.28.53:404][477]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/blood2B91306E74F0F7422B3CF3D87213D234E.tmp' to 'I:/Projekt/PGK/Content/import/plane/blood2.uasset'
+[2018.01.15-08.28.53:408][477]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/blood2.uasset
+[2018.01.15-08.28.53:530][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/blood11" FILE="I:/Projekt/PGK/Content/import/plane/blood11.uasset" SILENT=true
+[2018.01.15-08.28.53:904][477]LogSavePackage: Save=368.92ms
+[2018.01.15-08.28.53:904][477]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/blood119C0FF8C84AA4CCF5AB46618A7A8E7BEF.tmp' to 'I:/Projekt/PGK/Content/import/plane/blood11.uasset'
+[2018.01.15-08.28.53:908][477]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/blood11.uasset
+[2018.01.15-08.28.54:024][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/blood10" FILE="I:/Projekt/PGK/Content/import/plane/blood10.uasset" SILENT=true
+[2018.01.15-08.28.54:556][477]LogSavePackage: Save=530.14ms
+[2018.01.15-08.28.54:556][477]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/blood10BF321F954472B8D7E213BB931915C87F.tmp' to 'I:/Projekt/PGK/Content/import/plane/blood10.uasset'
+[2018.01.15-08.28.54:560][477]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/blood10.uasset
+[2018.01.15-08.28.54:680][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/blood1" FILE="I:/Projekt/PGK/Content/import/plane/blood1.uasset" SILENT=true
+[2018.01.15-08.28.55:093][477]LogSavePackage: Save=410.64ms
+[2018.01.15-08.28.55:093][477]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/blood1A3832364434BF67C2604C993A0B486C5.tmp' to 'I:/Projekt/PGK/Content/import/plane/blood1.uasset'
+[2018.01.15-08.28.55:097][477]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/blood1.uasset
+[2018.01.15-08.28.55:223][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/blood5" FILE="I:/Projekt/PGK/Content/import/plane/blood5.uasset" SILENT=true
+[2018.01.15-08.28.55:598][477]LogSavePackage: Save=371.96ms
+[2018.01.15-08.28.55:598][477]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/blood55E2783354C3ECA61E7982BA51FBFDD52.tmp' to 'I:/Projekt/PGK/Content/import/plane/blood5.uasset'
+[2018.01.15-08.28.55:602][477]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/blood5.uasset
+[2018.01.15-08.28.55:730][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/blood6" FILE="I:/Projekt/PGK/Content/import/plane/blood6.uasset" SILENT=true
+[2018.01.15-08.28.56:175][477]LogSavePackage: Save=442.53ms
+[2018.01.15-08.28.56:175][477]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/blood6BD1E1111498C103AA13D828E76464F08.tmp' to 'I:/Projekt/PGK/Content/import/plane/blood6.uasset'
+[2018.01.15-08.28.56:179][477]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/blood6.uasset
+[2018.01.15-08.28.56:305][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/blood7" FILE="I:/Projekt/PGK/Content/import/plane/blood7.uasset" SILENT=true
+[2018.01.15-08.28.56:788][477]LogSavePackage: Save=480.70ms
+[2018.01.15-08.28.56:788][477]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/blood7619596AE435BA0FABFC5A086327DE862.tmp' to 'I:/Projekt/PGK/Content/import/plane/blood7.uasset'
+[2018.01.15-08.28.56:792][477]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/blood7.uasset
+[2018.01.15-08.28.56:911][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/blood8" FILE="I:/Projekt/PGK/Content/import/plane/blood8.uasset" SILENT=true
+[2018.01.15-08.28.57:289][477]LogSavePackage: Save=374.88ms
+[2018.01.15-08.28.57:289][477]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/blood8B805854A4CB380F1F450F78EDF6E0592.tmp' to 'I:/Projekt/PGK/Content/import/plane/blood8.uasset'
+[2018.01.15-08.28.57:293][477]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/blood8.uasset
+[2018.01.15-08.28.57:415][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/blood9" FILE="I:/Projekt/PGK/Content/import/plane/blood9.uasset" SILENT=true
+[2018.01.15-08.28.57:829][477]LogSavePackage: Save=411.19ms
+[2018.01.15-08.28.57:829][477]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/blood9B7639704404CC99AA13C56994BFCD750.tmp' to 'I:/Projekt/PGK/Content/import/plane/blood9.uasset'
+[2018.01.15-08.28.57:833][477]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/blood9.uasset
+[2018.01.15-08.28.57:948][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/help" FILE="I:/Projekt/PGK/Content/import/plane/help.uasset" SILENT=true
+[2018.01.15-08.28.58:340][477]LogSavePackage: Save=389.82ms
+[2018.01.15-08.28.58:340][477]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/helpDEB416994EEB7CD813E779AA21A57396.tmp' to 'I:/Projekt/PGK/Content/import/plane/help.uasset'
+[2018.01.15-08.28.58:343][477]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/help.uasset
+[2018.01.15-08.28.58:465][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/help2" FILE="I:/Projekt/PGK/Content/import/plane/help2.uasset" SILENT=true
+[2018.01.15-08.28.58:859][477]LogSavePackage: Save=391.19ms
+[2018.01.15-08.28.58:859][477]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/help227CE363B436D247B4DE39A894586CE8E.tmp' to 'I:/Projekt/PGK/Content/import/plane/help2.uasset'
+[2018.01.15-08.28.58:863][477]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/help2.uasset
+[2018.01.15-08.28.58:982][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/kill" FILE="I:/Projekt/PGK/Content/import/plane/kill.uasset" SILENT=true
+[2018.01.15-08.28.59:379][477]LogSavePackage: Save=395.30ms
+[2018.01.15-08.28.59:379][477]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/killA5FC906D40CE9F5DEBE86D954B6E814B.tmp' to 'I:/Projekt/PGK/Content/import/plane/kill.uasset'
+[2018.01.15-08.28.59:382][477]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/kill.uasset
+[2018.01.15-08.29.02:437][524]AssetReimport: Info Importing new asset /Game/import/plane/blood4.
+[2018.01.15-08.29.02:437][524]AssetReimport: Info Importing new asset /Game/import/plane/blood3.
+[2018.01.15-08.29.02:437][524]AssetReimport: Info Importing new asset /Game/import/plane/blood2.
+[2018.01.15-08.29.02:437][524]AssetReimport: Info Importing new asset /Game/import/plane/blood11.
+[2018.01.15-08.29.02:437][524]AssetReimport: Info Importing new asset /Game/import/plane/blood10.
+[2018.01.15-08.29.02:437][524]AssetReimport: Info Importing new asset /Game/import/plane/blood1.
+[2018.01.15-08.29.02:437][524]AssetReimport: Info Importing new asset /Game/import/plane/blood5.
+[2018.01.15-08.29.02:437][524]AssetReimport: Info Importing new asset /Game/import/plane/blood6.
+[2018.01.15-08.29.02:437][524]AssetReimport: Info Importing new asset /Game/import/plane/blood7.
+[2018.01.15-08.29.02:437][524]AssetReimport: Info Importing new asset /Game/import/plane/blood8.
+[2018.01.15-08.29.02:437][524]AssetReimport: Info Importing new asset /Game/import/plane/blood9.
+[2018.01.15-08.29.02:437][524]AssetReimport: Info Importing new asset /Game/import/plane/help.
+[2018.01.15-08.29.02:437][524]AssetReimport: Info Importing new asset /Game/import/plane/help2.
+[2018.01.15-08.29.02:437][524]AssetReimport: Info Importing new asset /Game/import/plane/kill.
+[2018.01.15-08.29.04:056][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2018.01.15-08.31.10:983][214]LogMaterial: Missing cached shader map for material blood10_Mat, compiling. 
+[2018.01.15-08.31.13:139][236]LogMaterial: Missing cached shader map for material blood10_Mat, compiling. 
+[2018.01.15-08.31.13:481][236]LogMaterial: Missing cached shader map for material blood10_Mat, compiling. 
+[2018.01.15-08.31.13:547][236]LogMaterial: Missing cached shader map for material blood10_Mat, compiling. 
+[2018.01.15-08.31.13:600][236]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.15-08.31.13:641][236]LogSlate: Took 0.012235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.15-08.31.18:016][269]MaterialEditorStats: Info Base pass shader: 71 instructions
+[2018.01.15-08.31.18:016][269]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.15-08.31.18:016][269]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.01.15-08.31.18:016][269]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.15-08.31.18:473][271]LogMaterial: Missing cached shader map for material blood10_Mat, compiling. 
+[2018.01.15-08.31.18:526][271]LogMaterial: Missing cached shader map for material blood10_Mat, compiling. 
+[2018.01.15-08.31.20:764][291]MaterialEditorStats: Info Base pass shader: 71 instructions
+[2018.01.15-08.31.20:764][291]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.15-08.31.20:764][291]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.01.15-08.31.20:764][291]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.15-08.31.22:467][303]LogMaterial: Missing cached shader map for material blood10_Mat, compiling. 
+[2018.01.15-08.31.22:612][303]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.01.15-08.31.25:944][340]LogMaterialEditor: Saving and Compiling material blood10_Mat
+[2018.01.15-08.31.27:214][340]LogMaterial: Missing cached shader map for material blood10_Mat, compiling. 
+[2018.01.15-08.31.27:351][340]LogMaterial: Missing cached shader map for material blood10_Mat, compiling. 
+[2018.01.15-08.31.27:450][340]LogMaterial: Missing cached shader map for material blood10_Mat, compiling. 
+[2018.01.15-08.31.27:547][340]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy blood10_Mat, compiling. 
+[2018.01.15-08.31.30:101][340]TextureStreamingBuild:Display: Compiling optional shaders took 2.567 seconds.
+[2018.01.15-08.31.34:227][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/import/plane/blood10_Mat" FILE="I:/Projekt/PGK/Content/import/plane/blood10_Mat.uasset" SILENT=true
+[2018.01.15-08.31.34:257][340]LogSavePackage: Save=28.35ms
+[2018.01.15-08.31.34:257][340]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/blood10_MatB7AC35164CC2786AD33123BD5C328057.tmp' to 'I:/Projekt/PGK/Content/import/plane/blood10_Mat.uasset'
+[2018.01.15-08.31.34:260][340]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/import/plane/blood10_Mat.uasset
+[2018.01.15-08.31.34:274][340]MaterialEditorStats: Info Base pass shader: 74 instructions
+[2018.01.15-08.31.34:274][340]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2018.01.15-08.31.34:274][340]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.01.15-08.31.34:274][340]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.15-08.31.45:500][492]LogActorFactory: Actor Factory created Plane
+[2018.01.15-08.31.47:350][530]LogActorFactory: Actor Factory created Plane
+[2018.01.15-08.32.55:286][873]LogSlate: Took 0.010657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.15-08.38.50:282][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.15-08.38.52:859][415]LogSavePackage: Save=2440.93ms
+[2018.01.15-08.38.52:859][415]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap105F3A9F47F5AC9A8A7A0A80A8704DBA.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2018.01.15-08.38.52:865][415]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2018.01.15-08.38.52:912][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData" FILE="I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2018.01.15-08.38.52:923][415]LogSavePackage: Save=2.57ms
+[2018.01.15-08.38.52:923][415]LogSavePackage: Moving 'I:/Projekt/PGK/Saved/FirstPersonExampleMap_BuiltData127F7FEB4DD7BF479B34E18333BB161E.tmp' to 'I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2018.01.15-08.38.52:925][415]LogSavePackage:Display: Finished SavePackage I:/Projekt/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2018.01.15-08.38.55:695][469]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.15-08.38.56:050][470]Cmd: QUIT_EDITOR
+[2018.01.15-08.38.57:140][470]LogExit: Preparing to exit.
+[2018.01.15-08.38.58:269][470]LogExit: Editor shut down
+[2018.01.15-08.38.58:296][470]LogExit: Transaction tracking system shut down
+[2018.01.15-08.38.58:836][470]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.15-08.38.58:836][470]LogExit: Object subsystem successfully closed.
+[2018.01.15-08.38.58:875][470]LogD3D11RHI: Shutdown
+[2018.01.15-08.38.58:875][470]LogD3D11RHI: CleanupD3DDevice
+[2018.01.15-08.38.59:196][470]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.15-08.38.59:212][470]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.01.15-08.38.59:212][470]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2018.01.15-08.38.59:213][470]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.01.15-08.38.59:213][470]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.01.15-08.38.59:213][470]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.01.15-08.38.59:213][470]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.01.15-08.38.59:213][470]LogDirectoryWatcher: A directory notification for 'P:/silnik/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.15-08.38.59:217][470]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.01.15-08.38.59:217][470]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.01.15-08.38.59:217][470]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.01.15-08.38.59:217][470]LogDirectoryWatcher: A directory notification for 'I:/Projekt/PGK/Content/Collections/' was aborted.
+[2018.01.15-08.38.59:217][470]LogDirectoryWatcher: A directory notification for 'I:/Projekt/PGK/Content/Developers/Robert/Collections/' was aborted.
+[2018.01.15-08.38.59:217][470]LogDirectoryWatcher: A directory notification for 'I:/Projekt/PGK/Saved/Collections/' was aborted.
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.01.15-08.38.59:218][470]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.01.15-08.38.59:219][470]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.01.15-08.38.59:219][470]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.01.15-08.38.59:219][470]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.01.15-08.38.59:219][470]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.01.15-08.38.59:219][470]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.01.15-08.38.59:219][470]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.01.15-08.38.59:219][470]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.01.15-08.38.59:219][470]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.01.15-08.38.59:994][470]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.01.15-08.38.59:994][470]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.01.15-08.38.59:994][470]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.01.15-08.38.59:994][470]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.01.15-08.38.59:994][470]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.01.15-08.38.59:994][470]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.01.15-08.38.59:994][470]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.01.15-08.38.59:995][470]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.01.15-08.38.59:995][470]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.01.15-08.38.59:995][470]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.01.15-08.38.59:995][470]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.01.15-08.38.59:995][470]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.01.15-08.38.59:995][470]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.01.15-08.38.59:995][470]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.01.15-08.38.59:995][470]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.01.15-08.38.59:995][470]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.01.15-08.38.59:995][470]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.01.15-08.38.59:996][470]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.01.15-08.38.59:996][470]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.01.15-08.38.59:996][470]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.01.15-08.38.59:996][470]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.01.15-08.38.59:996][470]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.01.15-08.38.59:996][470]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.01.15-08.38.59:996][470]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.01.15-08.39.00:039][470]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.01.15-08.39.00:039][470]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.01.15-08.39.00:039][470]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.01.15-08.39.00:039][470]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.01.15-08.39.00:039][470]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.01.15-08.39.00:039][470]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.01.15-08.39.00:040][470]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.01.15-08.39.00:040][470]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.01.15-08.39.00:040][470]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.01.15-08.39.00:040][470]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.01.15-08.39.00:041][470]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.01.15-08.39.00:042][470]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.01.15-08.39.00:064][470]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.01.15-08.39.00:064][470]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.01.15-08.39.00:064][470]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.01.15-08.39.00:064][470]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.01.15-08.39.00:064][470]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.01.15-08.39.00:064][470]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.01.15-08.39.00:064][470]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.01.15-08.39.00:064][470]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.01.15-08.39.00:064][470]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.01.15-08.39.00:064][470]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.01.15-08.39.00:064][470]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.01.15-08.39.00:065][470]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.01.15-08.39.00:066][470]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.01.15-08.39.00:066][470]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.01.15-08.39.00:066][470]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.01.15-08.39.00:066][470]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.01.15-08.39.00:066][470]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.01.15-08.39.00:066][470]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.01.15-08.39.00:068][470]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.01.15-08.39.00:068][470]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.01.15-08.39.00:069][470]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.01.15-08.39.00:070][470]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.01.15-08.39.00:070][470]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.01.15-08.39.00:070][470]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.01.15-08.39.00:070][470]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.01.15-08.39.00:070][470]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.01.15-08.39.00:070][470]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.01.15-08.39.00:171][470]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.01.15-08.39.00:271][470]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.01.15-08.39.00:271][470]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.01.15-08.39.00:271][470]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.01.15-08.39.00:271][470]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.01.15-08.39.00:271][470]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.01.15-08.39.00:271][470]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.01.15-08.39.00:275][470]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.01.15-08.39.00:275][470]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.01.15-08.39.00:275][470]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.01.15-08.39.00:275][470]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.01.15-08.39.00:281][470]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.01.15-08.39.00:281][470]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.01.15-08.39.00:281][470]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.01.15-08.39.00:281][470]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.01.15-08.39.00:281][470]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.01.15-08.39.00:281][470]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.01.15-08.39.00:281][470]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.01.15-08.39.00:281][470]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.01.15-08.39.00:281][470]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.01.15-08.39.00:281][470]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.01.15-08.39.00:281][470]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.01.15-08.39.00:281][470]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.01.15-08.39.00:281][470]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.01.15-08.39.00:282][470]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.01.15-08.39.00:282][470]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.01.15-08.39.00:282][470]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.01.15-08.39.00:282][470]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.01.15-08.39.00:282][470]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.01.15-08.39.00:282][470]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.01.15-08.39.00:291][470]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.01.15-08.39.00:291][470]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.01.15-08.39.00:291][470]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.01.15-08.39.00:291][470]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.01.15-08.39.00:291][470]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.01.15-08.39.00:291][470]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.01.15-08.39.00:579][470]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.15-08.39.00:579][470]LogDirectoryWatcher: A directory notification for 'I:/Projekt/PGK/Content/' was aborted.
+[2018.01.15-08.39.00:579][470]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.15-08.39.00:579][470]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.15-08.39.00:587][470]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.01.15-08.39.00:590][470]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.01.15-08.39.00:590][470]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.01.15-08.39.00:590][470]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.15-08.39.00:590][470]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.15-08.39.00:590][470]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.15-08.39.00:590][470]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.15-08.39.00:590][470]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.15-08.39.00:590][470]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.15-08.39.00:629][470]LogDerivedDataCache: Shutdown
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.15-08.39.00:629][470]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.15-08.39.00:630][470]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.15-08.39.00:630][470]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.15-08.39.00:630][470]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.15-08.39.00:630][470]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF9C1D8AB-41A3-8411-5247-03B36554E4BF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=29637ffe4c58a1c3c8e01ea6909a8eb4%7C4b55de0784454aa7bd2b02757aa35777%7C0a577216-477d-4061-b982-e092ed939e1e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.15-08.39.00:666][470]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.15-08.39.00:670][470]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.15-08.39.00:670][470]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.15-08.39.00:670][470]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.15-08.39.00:670][470]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.15-08.39.00:670][470]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.15-08.39.00:670][470]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.15-08.39.00:670][470]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.15-08.39.00:670][470]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.15-08.39.00:672][470]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.15-08.39.00:672][470]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.15-08.39.00:672][470]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.15-08.39.00:672][470]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.15-08.39.00:672][470]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.15-08.39.00:672][470]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.15-08.39.00:672][470]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.15-08.39.00:672][470]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.15-08.39.00:672][470]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.15-08.39.00:672][470]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.15-08.39.00:676][470]LogExit: Exiting.
+[2018.01.15-08.39.00:706][470]Log file closed, 01/15/18 09:39:00

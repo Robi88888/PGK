@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-EBFDD1D9441DDFB40564B7B324D27083_0000</CrashGUID>
+<ProcessId>10224</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<SecondsSinceStart>809</SecondsSinceStart>
+<GameName>UE4-PGK</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineModeEx>Vanilla</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.16.3-3561208+++UE4+Release-4.16</EngineVersion>
+<CommandLine>&quot;I:/Projekt/PGK/PGK.uproject&quot;-EpicPortal </CommandLine>
+<LanguageLCID>1045</LanguageLCID>
+<AppDefaultLocale>pl-PL</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.16-CL-3561208</BuildVersion>
+<IsUE4Release>true</IsUE4Release>
+<UserName></UserName>
+<BaseDir>P:/silnik/UE_4.16/Engine/Binaries/Win64/</BaseDir>
+<RootDir>P:/silnik/UE_4.16/</RootDir>
+<MachineId>29637FFE4C58A1C3C8E01EA6909A8EB4</MachineId>
+<LoginId>29637ffe4c58a1c3c8e01ea6909a8eb4</LoginId>
+<EpicAccountId>4b55de0784454aa7bd2b02757aa35777</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint>Layout=&quot;MaterialEditor_Palette&quot; Label=&quot;Palette&quot; Content=SBox</UserActivityHint>
+<ErrorMessage>Fatal error: [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\ShaderCompiler\ShaderCompiler.cpp] [Line: 282] &nl;ShaderCompileWorker crashed!&nl;&nl;	Assertion failed: ModuleManager.IsModuleLoaded(ModuleName) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Core\Public\Modules/ModuleManager.h] [Line: 258] &nl;Tried to get module interface for unloaded module: &apos;VulkanShaderFormat&apos;&nl;&nl;&nl;KERNELBASE.dll!0x000000001E343FB8&nl;ShaderCompileWorker-Core.dll!0x00000000E8568C0E&nl;ShaderCompileWorker-Core.dll!0x00000000E8412DFB&nl;ShaderCompileWorker-Core.dll!0x00000000E83A0C28&nl;ShaderCompileWorker.exe!0x00000000CC0F4D31&nl;ShaderCompileWorker.exe!0x00000000CC0F4EC4&nl;ShaderCompileWorker.exe!0x00000000CC105392&nl;ShaderCompileWorker.exe!0x00000000CC1056AD&nl;ShaderCompileWorker.exe!0x00000000CC105E0F&nl;ShaderCompileWorker.exe!0x00000000CC10EF58&nl;ShaderCompileWorker.exe!0x00000000CC11000D&nl;KERNEL32.DLL!0x00000000210F1FE4&nl;ntdll.dll!0x00000000216FEFB1&nl;ntdll.dll!0x00000000216FEFB1&nl;&nl;</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 530</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>8504164352</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>1240981504</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140734071197696</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>1484636160</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>1538150400</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>2431782912</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>2558271488</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+</FGenericCrashContext>
