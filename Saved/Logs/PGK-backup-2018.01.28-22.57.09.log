@@ -1,0 +1,476 @@
+﻿Log file open, 01/28/18 22:45:17
+LogInit:Display: Running engine for game: PGK
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(111254301) SRandInit(111254301).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.087201
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Unreal_engine/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.28-21.45.18:927][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.28-21.45.18:927][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.28-21.45.19:038][  0]LogInit: Computer: DESKTOP-9RDI5OP
+[2018.01.28-21.45.19:038][  0]LogInit: User: Admin
+[2018.01.28-21.45.19:038][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.01.28-21.45.19:038][  0]LogInit: High frequency timer resolution =2.143476 MHz
+[2018.01.28-21.45.19:038][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2018.01.28-21.45.19:038][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.28-21.45.19:038][  0]LogMemory: Process Physical Memory: 274.41 MB used, 274.41 MB peak
+[2018.01.28-21.45.19:038][  0]LogMemory: Process Virtual Memory: 258.36 MB used, 258.36 MB peak
+[2018.01.28-21.45.19:038][  0]LogMemory: Physical Memory: 1530.77 MB used,  2484.17 MB free, 4014.94 MB total
+[2018.01.28-21.45.19:038][  0]LogMemory: Virtual Memory: 667.94 MB used,  2484.17 MB free, 134217728.00 MB total
+[2018.01.28-21.45.19:419][  0]LogInit: Using OS detected language (pl-PL).
+[2018.01.28-21.45.19:419][  0]LogInit: Using OS detected locale (pl-PL).
+[2018.01.28-21.45.19:602][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2018.01.28-21.45.19:603][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the locale.
+[2018.01.28-21.45.25:201][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.28-21.45.25:574][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R5 M330' (Feature Level 11_0)
+[2018.01.28-21.45.25:574][  0]LogD3D11RHI:       1016/0/2007 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.01.28-21.45.25:584][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2018.01.28-21.45.25:584][  0]LogD3D11RHI:       128/0/2007 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.28-21.45.25:586][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.28-21.45.25:586][  0]LogD3D11RHI:       0/0/2007 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.28-21.45.25:586][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.28-21.45.25:593][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.28-21.45.25:593][  0]LogD3D11RHI:     GPU DeviceId: 0x6660 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.28-21.45.25:593][  0]LogWindows: EnumDisplayDevices:
+[2018.01.28-21.45.25:593][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2018.01.28-21.45.25:594][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.01.28-21.45.25:594][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.01.28-21.45.25:594][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.28-21.45.25:594][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R5 M330
+[2018.01.28-21.45.25:594][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.28-21.45.25:594][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.28-21.45.25:594][  0]LogRHI: Texture pool is 711 MB (70% of 1016 MB)
+[2018.01.28-21.45.25:671][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.28-21.45.25:688][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.01.28-21.45.25:689][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (C:/Users/Admin/Documents/Unreal Projects/PGK/Intermediate/Shaders/WorkingDirectory/8936/).
+[2018.01.28-21.45.25:689][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/376F35274EBB04020FB7C79B1B3AFED6/'.
+[2018.01.28-21.45.25:689][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.28-21.45.31:054][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.28-21.45.31:156][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.28-21.45.31:238][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.28-21.45.31:323][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.28-21.45.31:447][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.28-21.45.31:522][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.28-21.45.31:649][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.28-21.45.31:714][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.28-21.45.31:775][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.28-21.45.31:871][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.28-21.45.31:958][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.28-21.45.32:028][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.28-21.45.32:106][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.28-21.45.32:186][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.28-21.45.32:257][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.28-21.45.32:402][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.28-21.45.32:402][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.28-21.45.32:478][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.28-21.45.32:691][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.28-21.45.32:728][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.28-21.45.32:805][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.28-21.45.32:881][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.28-21.45.32:943][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.28-21.45.33:074][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.28-21.45.33:074][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.28-21.45.34:386][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.28-21.45.36:367][  0]LogDerivedDataCache: Loaded boot cache 1.98s 88MB C:/Users/Admin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.28-21.45.36:367][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.28-21.45.36:367][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Admin/Documents/Unreal Projects/PGK/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.28-21.45.36:367][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.28-21.45.36:367][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Admin/Documents/Unreal Projects/PGK/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.28-21.45.36:367][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.28-21.45.36:412][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.28-21.45.36:426][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.28-21.45.36:441][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.28-21.45.36:442][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.28-21.45.36:488][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.28-21.45.36:488][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.28-21.45.45:865][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.28-21.45.46:000][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.28-21.45.46:426][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.28-21.45.46:512][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.28-21.45.46:590][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.28-21.45.46:590][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.28-21.45.46:590][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.28-21.45.47:801][  0]LogNetVersion: PGK , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3392332418)
+[2018.01.28-21.45.47:882][  0]LogAssetRegistry: FAssetRegistry took 0.0317 seconds to start up
+[2018.01.28-21.45.47:970][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.053444 seconds
+[2018.01.28-21.45.47:978][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.28-21.45.47:978][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.01.28-21.45.47:978][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.28-21.45.48:060][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.28-21.46.23:671][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.28-21.46.23:732][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.28-21.46.24:789][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.28-21.46.25:404][  0]SourceControl: Info Source control is disabled
+[2018.01.28-21.46.25:406][  0]SourceControl: Info Source control is disabled
+[2018.01.28-21.46.25:473][  0]SourceControl: Info Source control is disabled
+[2018.01.28-21.46.25:571][  0]SourceControl: Info Source control is disabled
+[2018.01.28-21.46.27:071][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.28-21.46.28:073][  0]LogEngine: Initializing Engine...
+[2018.01.28-21.46.28:074][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.28-21.46.28:482][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.28-21.46.28:482][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.28-21.46.28:686][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.28-21.46.28:765][  0]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.28-21.46.29:410][  0]LogInit: FAudioDevice initialized.
+[2018.01.28-21.46.29:513][  0]LogDerivedDataCache: Saved boot cache 0.10s 88MB C:/Users/Admin/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.28-21.46.29:545][  0]LogInit: Texture streaming: Enabled
+[2018.01.28-21.46.29:891][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.28-21.46.30:290][  0]LogInit: Transaction tracking system initialized
+[2018.01.28-21.46.30:762][  0]BlueprintLog: New page: Editor Load
+[2018.01.28-21.46.32:717][  0]LocalizationService: Info Localization service is disabled
+[2018.01.28-21.46.34:248][  0]LogConsoleResponse:Display: 
+[2018.01.28-21.46.35:772][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.28-21.46.35:772][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.28-21.46.36:102][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Unreal Projects/PGK/Content/' took 0.03s
+[2018.01.28-21.46.38:487][  0]SourceControl: Info Source control is disabled
+[2018.01.28-21.46.38:487][  0]Cmd: MAP LOAD FILE="C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.28-21.46.38:488][  0]LightingResults: New page: Lighting Build
+[2018.01.28-21.46.38:538][  0]MapCheck: New page: Map Check
+[2018.01.28-21.46.38:538][  0]LightingResults: New page: Lighting Build
+[2018.01.28-21.46.39:429][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Bed'
+[2018.01.28-21.46.39:429][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Bed' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.28-21.46.39:429][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Bed
+[2018.01.28-21.46.39:429][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Drawer'
+[2018.01.28-21.46.39:429][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Drawer' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.28-21.46.39:429][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Drawer
+[2018.01.28-21.46.39:429][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Main'
+[2018.01.28-21.46.39:429][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Main' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.28-21.46.39:429][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Main
+[2018.01.28-21.46.39:430][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Metal'
+[2018.01.28-21.46.39:430][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Metal' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.28-21.46.39:430][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Metal
+[2018.01.28-21.46.39:430][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Bed'
+[2018.01.28-21.46.39:430][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Bed' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.28-21.46.39:430][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Bed
+[2018.01.28-21.46.39:430][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Drawer'
+[2018.01.28-21.46.39:430][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Drawer' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.28-21.46.39:430][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Drawer
+[2018.01.28-21.46.39:430][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Main'
+[2018.01.28-21.46.39:430][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Main' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.28-21.46.39:430][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Main
+[2018.01.28-21.46.39:430][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Metal'
+[2018.01.28-21.46.39:430][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Metal' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/bed/BunkFBX.uasset.
+[2018.01.28-21.46.39:430][  0]LoadErrors:Error: Error /Game/import/bed/BunkFBX : Can't find file for asset. /Game/import/bed/Metal
+[2018.01.28-21.46.39:488][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/lambert2'
+[2018.01.28-21.46.39:488][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/lambert2' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/wardrobe/wardrobe.uasset.
+[2018.01.28-21.46.39:488][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe : Can't find file for asset. /Game/import/wardrobe/lambert2
+[2018.01.28-21.46.39:488][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/lambert2'
+[2018.01.28-21.46.39:488][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/lambert2' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/wardrobe/wardrobe.uasset.
+[2018.01.28-21.46.39:488][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe : Can't find file for asset. /Game/import/wardrobe/lambert2
+[2018.01.28-21.46.39:514][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/box'
+[2018.01.28-21.46.39:514][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/box' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.28-21.46.39:514][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/box
+[2018.01.28-21.46.39:514][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/st_gold'
+[2018.01.28-21.46.39:514][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/st_gold' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.28-21.46.39:515][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/st_gold
+[2018.01.28-21.46.39:515][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/box'
+[2018.01.28-21.46.39:515][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/box' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.28-21.46.39:515][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/box
+[2018.01.28-21.46.39:515][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/st_gold'
+[2018.01.28-21.46.39:515][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/st_gold' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.28-21.46.39:515][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/st_gold
+[2018.01.28-21.46.39:515][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_PhysicsAsset'
+[2018.01.28-21.46.39:515][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_PhysicsAsset' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.28-21.46.39:515][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/wardrobe3_PhysicsAsset
+[2018.01.28-21.46.39:515][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_Skeleton'
+[2018.01.28-21.46.39:515][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_Skeleton' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.28-21.46.39:515][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/wardrobe3_Skeleton
+[2018.01.28-21.46.39:516][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_PhysicsAsset'
+[2018.01.28-21.46.39:516][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_PhysicsAsset' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.28-21.46.39:516][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/wardrobe3_PhysicsAsset
+[2018.01.28-21.46.39:516][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_Skeleton'
+[2018.01.28-21.46.39:516][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_Skeleton' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/wardrobe/wardrobe3.uasset.
+[2018.01.28-21.46.39:516][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe3 : Can't find file for asset. /Game/import/wardrobe/wardrobe3_Skeleton
+[2018.01.28-21.46.39:517][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/None'
+[2018.01.28-21.46.39:517][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/None' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/wardrobe/wardrobe4.uasset.
+[2018.01.28-21.46.39:517][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe4 : Can't find file for asset. /Game/import/wardrobe/None
+[2018.01.28-21.46.39:518][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/None'
+[2018.01.28-21.46.39:518][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/None' while loading C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/wardrobe/wardrobe4.uasset.
+[2018.01.28-21.46.39:518][  0]LoadErrors:Error: Error /Game/import/wardrobe/wardrobe4 : Can't find file for asset. /Game/import/wardrobe/None
+[2018.01.28-21.46.40:359][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/None'
+[2018.01.28-21.46.40:359][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/None.Material_0 Referenced by wardrobe4
+[2018.01.28-21.46.40:359][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/None' while loading NULL.
+[2018.01.28-21.46.40:359][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/None.Material_0 Referenced by wardrobe4
+[2018.01.28-21.46.40:362][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_Skeleton'
+[2018.01.28-21.46.40:362][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/wardrobe3_Skeleton.wardrobe3_Skeleton Referenced by wardrobe3
+[2018.01.28-21.46.40:362][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_Skeleton' while loading NULL.
+[2018.01.28-21.46.40:362][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/wardrobe3_Skeleton.wardrobe3_Skeleton Referenced by wardrobe3
+[2018.01.28-21.46.40:362][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/wardrobe3_PhysicsAsset'
+[2018.01.28-21.46.40:362][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/wardrobe3_PhysicsAsset.wardrobe3_PhysicsAsset Referenced by wardrobe3
+[2018.01.28-21.46.40:362][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/wardrobe3_PhysicsAsset' while loading NULL.
+[2018.01.28-21.46.40:362][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/wardrobe3_PhysicsAsset.wardrobe3_PhysicsAsset Referenced by wardrobe3
+[2018.01.28-21.46.40:363][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/st_gold'
+[2018.01.28-21.46.40:363][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/st_gold.st_gold Referenced by wardrobe3
+[2018.01.28-21.46.40:363][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/st_gold' while loading NULL.
+[2018.01.28-21.46.40:363][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/st_gold.st_gold Referenced by wardrobe3
+[2018.01.28-21.46.40:363][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/box'
+[2018.01.28-21.46.40:363][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/box.box Referenced by wardrobe3
+[2018.01.28-21.46.40:363][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/box' while loading NULL.
+[2018.01.28-21.46.40:363][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/box.box Referenced by wardrobe3
+[2018.01.28-21.46.40:423][  0]LogLinker:Warning: Can't find file '/Game/import/wardrobe/lambert2'
+[2018.01.28-21.46.40:423][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/lambert2.lambert2 Referenced by wardrobe
+[2018.01.28-21.46.40:423][  0]LogLinker:Warning: Can't find file for asset '/Game/import/wardrobe/lambert2' while loading NULL.
+[2018.01.28-21.46.40:423][  0]LoadErrors: Info Failed to load /Game/import/wardrobe/lambert2.lambert2 Referenced by wardrobe
+[2018.01.28-21.46.40:526][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Main'
+[2018.01.28-21.46.40:526][  0]LoadErrors: Info Failed to load /Game/import/bed/Main.Main Referenced by BunkFBX
+[2018.01.28-21.46.40:526][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Main' while loading NULL.
+[2018.01.28-21.46.40:526][  0]LoadErrors: Info Failed to load /Game/import/bed/Main.Main Referenced by BunkFBX
+[2018.01.28-21.46.40:526][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Bed'
+[2018.01.28-21.46.40:526][  0]LoadErrors: Info Failed to load /Game/import/bed/Bed.Bed Referenced by BunkFBX
+[2018.01.28-21.46.40:526][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Bed' while loading NULL.
+[2018.01.28-21.46.40:526][  0]LoadErrors: Info Failed to load /Game/import/bed/Bed.Bed Referenced by BunkFBX
+[2018.01.28-21.46.40:527][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Drawer'
+[2018.01.28-21.46.40:527][  0]LoadErrors: Info Failed to load /Game/import/bed/Drawer.Drawer Referenced by BunkFBX
+[2018.01.28-21.46.40:527][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Drawer' while loading NULL.
+[2018.01.28-21.46.40:527][  0]LoadErrors: Info Failed to load /Game/import/bed/Drawer.Drawer Referenced by BunkFBX
+[2018.01.28-21.46.40:527][  0]LogLinker:Warning: Can't find file '/Game/import/bed/Metal'
+[2018.01.28-21.46.40:527][  0]LoadErrors: Info Failed to load /Game/import/bed/Metal.Metal Referenced by BunkFBX
+[2018.01.28-21.46.40:527][  0]LogLinker:Warning: Can't find file for asset '/Game/import/bed/Metal' while loading NULL.
+[2018.01.28-21.46.40:527][  0]LoadErrors: Info Failed to load /Game/import/bed/Metal.Metal Referenced by BunkFBX
+[2018.01.28-21.46.49:293][  0]LogMaterial: Missing cached shader map for material st_tile, compiling. 
+[2018.01.28-21.46.49:293][  0]LogMaterial:Warning: Failed to compile Material /Game/import/kibel/st_tile.st_tile for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.28-21.46.49:293][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Color for /Game/import/kibel/Dirt_map.Dirt_map
+[2018.01.28-21.46.50:142][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.01.28-21.46.50:795][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.28-21.46.50:865][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.28-21.46.50:998][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 132.909ms to complete.
+[2018.01.28-21.46.50:998][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 12.511
+[2018.01.28-21.46.51:061][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.28-21.46.51:283][  0]LogCollectionManager: Loaded 0 collections in 0.001742 seconds
+[2018.01.28-21.46.51:372][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Unreal Projects/PGK/Saved/Collections/' took 0.01s
+[2018.01.28-21.46.51:372][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Unreal Projects/PGK/Content/Developers/Admin/Collections/' took 0.01s
+[2018.01.28-21.46.51:372][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Admin/Documents/Unreal Projects/PGK/Content/Collections/' took 0.01s
+[2018.01.28-21.46.51:372][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.01.28-21.46.51:388][  0]LogContentBrowser: Native class hierarchy populated in 0.0157 seconds. Added 2329 classes and 491 folders.
+[2018.01.28-21.46.51:467][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.01.28-21.46.52:186][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.01.28-21.46.52:251][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.01.28-21.46.52:313][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.28-21.46.52:318][  0]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.28-21.46.52:345][  0]LogSlate: Took 0.024772 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.28-21.46.52:378][  0]LogSlate: Took 0.024602 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.28-21.46.52:542][  0]LogRenderer: Reallocating scene render targets to support 816x396 NumSamples 1 (Frame:1).
+[2018.01.28-21.46.54:063][  0]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.28-21.46.54:206][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.28-21.46.54:279][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.01.28-21.46.54:279][  0]LogLoad: (Engine Initialization) Total time: 100.98 seconds
+[2018.01.28-21.46.54:279][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.58 seconds
+[2018.01.28-21.46.54:280][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.28-21.46.54:314][  0]LogOcInput: OculusInput pre-init called
+[2018.01.28-21.46.54:314][  0]LogHMD: Starting GearVRController plugin
+[2018.01.28-21.46.54:385][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.28-21.46.56:037][  4]LogAssetRegistry: Asset discovery search completed in 68.1772 seconds
+[2018.01.28-21.46.56:085][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.28-21.46.56:085][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2018.01.28-21.46.57:061][ 30]LogSlate: Took 0.000957 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.28-21.47.09:714][462]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Admin/Documents/Unreal Projects/PGK/Content/' took 15.38s
+[2018.01.28-21.47.40:639][868]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.28-21.47.40:752][868]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/extra/matiPROSUPAEKSTRAPROGRAMISTASOŁMACZ.png)
+[2018.01.28-21.47.40:844][868]LogTexture:Display: Building textures: matiPROSUPAEKSTRAPROGRAMISTASOŁMACZ (BGRA8, 698X435)
+[2018.01.28-21.47.41:121][868]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/extra/robcioDIZAJNER.png)
+[2018.01.28-21.47.41:171][868]LogTexture:Display: Building textures: robcioDIZAJNER (BGRA8, 534X579)
+[2018.01.28-21.47.41:268][868]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/extra/roksiaGRAFIKSPECJALIST.png)
+[2018.01.28-21.47.41:295][868]LogTexture:Display: Building textures: roksiaGRAFIKSPECJALIST (BGRA8, 822X433)
+[2018.01.28-21.47.41:407][868]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/extra/theend.png)
+[2018.01.28-21.47.41:596][868]LogTexture:Display: Building textures: theend (AutoDXT, 2000X2000)
+[2018.01.28-21.47.46:090][868]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Admin/Documents/Unreal Projects/PGK/Content/import/extra/yadead.png)
+[2018.01.28-21.47.46:303][868]LogTexture:Display: Building textures: yadead (AutoDXT, 2000X2000)
+[2018.01.28-21.47.56:438][553]LogAIModule: Creating AISystem for world DeadScreen
+[2018.01.28-21.47.58:441][553]LogSavePackage: Save=144.20ms
+[2018.01.28-21.47.58:442][553]LogSavePackage: Moving 'C:/Users/Admin/Documents/Unreal Projects/PGK/Saved/matiPROSUPAEKSTRAPROGRAMISTASOŁMACZB211F63B4B62547808BDF392B3A3EA59.tmp' to 'C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/MenuAssets/matiPROSUPAEKSTRAPROGRAMISTASOŁMACZ.uasset'
+[2018.01.28-21.47.58:505][553]LogSavePackage:Display: Finished SavePackage C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/MenuAssets/matiPROSUPAEKSTRAPROGRAMISTASOŁMACZ.uasset
+[2018.01.28-21.47.58:605][553]LogSavePackage: Save=66.60ms
+[2018.01.28-21.47.58:605][553]LogSavePackage: Moving 'C:/Users/Admin/Documents/Unreal Projects/PGK/Saved/robcioDIZAJNERB595E7784C8290815AF8E7987611DF41.tmp' to 'C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/MenuAssets/robcioDIZAJNER.uasset'
+[2018.01.28-21.47.58:609][553]LogSavePackage:Display: Finished SavePackage C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/MenuAssets/robcioDIZAJNER.uasset
+[2018.01.28-21.47.58:773][553]LogSavePackage: Save=60.46ms
+[2018.01.28-21.47.58:773][553]LogSavePackage: Moving 'C:/Users/Admin/Documents/Unreal Projects/PGK/Saved/roksiaGRAFIKSPECJALIST126E0B0843F557D55D184FA756C1B188.tmp' to 'C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/MenuAssets/roksiaGRAFIKSPECJALIST.uasset'
+[2018.01.28-21.47.58:777][553]LogSavePackage:Display: Finished SavePackage C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/MenuAssets/roksiaGRAFIKSPECJALIST.uasset
+[2018.01.28-21.47.58:788][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/MenuAssets/theend" FILE="C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/MenuAssets/theend.uasset" SILENT=true
+[2018.01.28-21.47.59:054][553]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.28-21.47.59:074][553]LogSavePackage: Save=283.85ms
+[2018.01.28-21.47.59:074][553]LogSavePackage: Moving 'C:/Users/Admin/Documents/Unreal Projects/PGK/Saved/theendBD50F97C4F846333F9E907A8C22418A9.tmp' to 'C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/MenuAssets/theend.uasset'
+[2018.01.28-21.47.59:080][553]LogSavePackage:Display: Finished SavePackage C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/MenuAssets/theend.uasset
+[2018.01.28-21.47.59:094][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/MenuAssets/yadead" FILE="C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/MenuAssets/yadead.uasset" SILENT=true
+[2018.01.28-21.47.59:518][553]LogSavePackage: Save=421.34ms
+[2018.01.28-21.47.59:518][553]LogSavePackage: Moving 'C:/Users/Admin/Documents/Unreal Projects/PGK/Saved/yadeadC1BF3DE44C244E1D8AD4778A63DBE311.tmp' to 'C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/MenuAssets/yadead.uasset'
+[2018.01.28-21.47.59:523][553]LogSavePackage:Display: Finished SavePackage C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/MenuAssets/yadead.uasset
+[2018.01.28-21.47.59:581][553]Cmd: MAP LOAD FILE="C:/Users/Admin/Documents/Unreal Projects/PGK/Content/Maps/DeadScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.28-21.47.59:581][553]LightingResults: New page: Lighting Build
+[2018.01.28-21.47.59:583][553]LoadErrors: New page: Loading map: DeadScreen.umap
+[2018.01.28-21.47.59:736][553]MapCheck: New page: Map Check
+[2018.01.28-21.47.59:736][553]LightingResults: New page: Lighting Build
+[2018.01.28-21.48.00:111][553]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.28-21.48.00:338][553]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.28-21.48.00:464][553]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 126.406ms to complete.
+[2018.01.28-21.48.00:464][553]LogFileHelpers: Loading map 'DeadScreen' took 0.941
+[2018.01.28-21.48.17:554][317]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
+[2018.01.28-21.48.21:517][317]LogSlate: Took 0.030191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.28-21.49.21:672][281]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/DeadScreenWidget.DeadScreenWidget:WidgetTree.CanvasPanel_0
+[2018.01.28-21.49.21:672][281]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu_C:WidgetTree.CanvasPanel_0
+[2018.01.28-21.49.21:672][281]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/DeadScreenWidget.DeadScreenWidget_C:WidgetTree.CanvasPanel_0
+[2018.01.28-21.49.21:672][281]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:DeadScreenWidget_C_0.WidgetTree_0.CanvasPanel_0
+[2018.01.28-21.49.21:672][281]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:DeadScreenWidget_C_1.WidgetTree_1.CanvasPanel_0
+[2018.01.28-21.49.21:732][281]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (Image /Engine/UMG/Editor/Transient.Image_20).  Import failed...
+[2018.01.28-21.49.21:732][281]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_0''
+[2018.01.28-21.49.49:023][234]LogSlate: Took 0.129419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.01.28-21.50.07:507][794]LogTexture:Display: Building textures: play (BGRA8, 492X123)
+[2018.01.28-21.50.21:730][184]LogTexture:Display: Building textures: play1 (BGRA8, 492X123)
+[2018.01.28-21.51.13:951][789]BlueprintLog: New page: Compile DeadScreenWidget
+[2018.01.28-21.51.14:720][789]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.28-21.51.15:713][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/DeadScreenWidget" FILE="C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/DeadScreenWidget.uasset" SILENT=true
+[2018.01.28-21.51.16:005][829]LogSavePackage: Save=98.48ms
+[2018.01.28-21.51.16:005][829]LogSavePackage: Moving 'C:/Users/Admin/Documents/Unreal Projects/PGK/Saved/DeadScreenWidget7D7D3C124333387EC04E2D870A1B18DF.tmp' to 'C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/DeadScreenWidget.uasset'
+[2018.01.28-21.51.16:009][829]LogSavePackage:Display: Finished SavePackage C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/DeadScreenWidget.uasset
+[2018.01.28-21.51.17:984][910]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.28-21.51.18:897][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.28-21.51.18:990][910]PIE: New page: PIE session: DeadScreen (Jan 28, 2018, 11:51:18 PM)
+[2018.01.28-21.51.19:005][910]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DeadScreen
+[2018.01.28-21.51.19:061][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055589s)
+[2018.01.28-21.51.19:062][910]LogAIModule: Creating AISystem for world DeadScreen
+[2018.01.28-21.51.19:062][910]LogPlayLevel: PIE: World Init took: (0.001755s)
+[2018.01.28-21.51.19:063][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DeadScreen.DeadScreen to /Game/Maps/UEDPIE_0_DeadScreen.DeadScreen (0.058023s)
+[2018.01.28-21.51.19:188][910]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.28-21.51.19:227][910]LogInit: FAudioDevice initialized.
+[2018.01.28-21.51.19:339][910]LogLoad: Game class is 'DeadFPP_C'
+[2018.01.28-21.51.19:348][910]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DeadScreen.DeadScreen up for play (max tick rate 60) at 2018.01.28-22.51.19
+[2018.01.28-21.51.19:360][910]LogWorld: Bringing up level for play took: 0.006753
+[2018.01.28-21.51.19:686][910]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2018.01.28-21.51.19:774][910]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_DeadScreen 1.543
+[2018.01.28-21.51.30:354][279]LogNet: Browse: /Game/Maps/MenuLevel
+[2018.01.28-21.51.30:365][279]LogLoad: LoadMap: /Game/Maps/MenuLevel
+[2018.01.28-21.51.30:445][279]Cmd: MEM
+[2018.01.28-21.51.30:614][279]LogMemory: Platform Memory Stats for Windows
+[2018.01.28-21.51.30:614][279]LogMemory: Process Physical Memory: 1576.62 MB used, 2102.57 MB peak
+[2018.01.28-21.51.30:614][279]LogMemory: Process Virtual Memory: 3135.07 MB used, 3137.30 MB peak
+[2018.01.28-21.51.30:614][279]LogMemory: Physical Memory: 3059.12 MB used,  955.82 MB free, 4014.94 MB total
+[2018.01.28-21.51.30:614][279]LogMemory: Virtual Memory: 4037.10 MB used,  955.82 MB free, 134217728.00 MB total
+[2018.01.28-21.51.30:614][279]LogMemory: 
+[2018.01.28-21.51.30:614][279]Allocator Stats for TBB: (not implemented)
+[2018.01.28-21.51.43:170][279]LogAIModule: Creating AISystem for world MenuLevel
+[2018.01.28-21.51.43:170][279]LogLoad: Game class is 'FirstPersonMenu_C'
+[2018.01.28-21.51.43:184][279]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 60) at 2018.01.28-22.51.43
+[2018.01.28-21.51.43:184][279]LogWorld: Bringing up level for play took: 0.002948
+[2018.01.28-21.51.43:185][279]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.28-21.51.44:232][279]LogHardwareCursor:Error: Failed to load cursor 'C:/Users/Admin/Documents/Unreal Projects/PGK/Content/None'.  If you included a file extension or the size information '_WidthxHeight' remove them.
+[2018.01.28-21.51.44:256][279]LogLoad: Took 13.890851 seconds to LoadMap(/Game/Maps/MenuLevel)
+[2018.01.28-21.51.44:744][280]LogWmfMedia:Warning: Possible loss of audio quality in stream 0 due to sample rate != 44100 Hz
+[2018.01.28-21.52.06:269][340]LogAIModule: Creating AISystem for world WinLevel
+[2018.01.28-21.52.06:340][340]Cmd: MAP LOAD FILE="C:/Users/Admin/Documents/Unreal Projects/PGK/Content/Maps/WinLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.28-21.52.06:340][340]LightingResults: New page: Lighting Build
+[2018.01.28-21.52.06:341][340]LoadErrors: New page: Loading map: WinLevel.umap
+[2018.01.28-21.52.06:341][340]MapCheck: New page: Map Check
+[2018.01.28-21.52.06:341][340]LightingResults: New page: Lighting Build
+[2018.01.28-21.52.06:434][340]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.28-21.52.06:566][340]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.28-21.52.24:011][340]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 17,445.669ms to complete.
+[2018.01.28-21.52.24:024][340]LogFileHelpers: Loading map 'WinLevel' took 17.685
+[2018.01.28-21.53.02:323][ 40]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/DeadScreenWidget.DeadScreenWidget:WidgetTree.CanvasPanel_0
+[2018.01.28-21.53.02:324][ 40]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu_C:WidgetTree.CanvasPanel_0
+[2018.01.28-21.53.02:324][ 40]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_9:WinWidget_C_1.WidgetTree_12.CanvasPanel_0
+[2018.01.28-21.53.02:324][ 40]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/WinMovie.WinMovie:WidgetTree.CanvasPanel_0
+[2018.01.28-21.53.02:324][ 40]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/MovieTime.MovieTime:WidgetTree.CanvasPanel_0
+[2018.01.28-21.53.02:324][ 40]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/MainMenuWidget.MainMenuWidget_C:WidgetTree.CanvasPanel_0
+[2018.01.28-21.53.02:324][ 40]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_9:WinWidget_C_0.WidgetTree_11.CanvasPanel_0
+[2018.01.28-21.53.02:324][ 40]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/MainMenuWidget.MainMenuWidget:WidgetTree.CanvasPanel_0
+[2018.01.28-21.53.02:324][ 40]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/DeadScreenWidget.DeadScreenWidget_C:WidgetTree.CanvasPanel_0
+[2018.01.28-21.53.02:324][ 40]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_6:DeadScreenWidget_C_4.WidgetTree_5.CanvasPanel_0
+[2018.01.28-21.53.02:324][ 40]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/WinMovie.WinMovie_C:WidgetTree.CanvasPanel_0
+[2018.01.28-21.53.02:324][ 40]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/MovieTime.MovieTime_C:WidgetTree.CanvasPanel_0
+[2018.01.28-21.53.02:324][ 40]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/WinWidget.WinWidget:WidgetTree.CanvasPanel_0
+[2018.01.28-21.53.02:324][ 40]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/FirstPersonBP/Blueprints/WinWidget.WinWidget_C:WidgetTree.CanvasPanel_0
+[2018.01.28-21.53.02:324][ 40]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/FirstPersonBP/Blueprints/PauseMenu.PauseMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (Image /Engine/UMG/Editor/Transient.Image_16).  Import failed...
+[2018.01.28-21.53.02:324][ 40]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_0''
+[2018.01.28-21.53.52:571][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/WinWidget" FILE="C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/WinWidget.uasset" SILENT=true
+[2018.01.28-21.53.52:961][547]LogSavePackage: Save=85.86ms
+[2018.01.28-21.53.52:961][547]LogSavePackage: Moving 'C:/Users/Admin/Documents/Unreal Projects/PGK/Saved/WinWidgetD90D02674F234153B29390918064D143.tmp' to 'C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/WinWidget.uasset'
+[2018.01.28-21.53.52:966][547]LogSavePackage:Display: Finished SavePackage C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/WinWidget.uasset
+[2018.01.28-21.54.13:703][149]LogSlate: Took 0.020203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.28-21.55.24:610][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/WinMovie" FILE="C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/WinMovie.uasset" SILENT=true
+[2018.01.28-21.55.24:795][308]LogSavePackage: Save=165.92ms
+[2018.01.28-21.55.24:795][308]LogSavePackage: Moving 'C:/Users/Admin/Documents/Unreal Projects/PGK/Saved/WinMovieFF3A72384DFBF2B2EDE78A88B9134480.tmp' to 'C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/WinMovie.uasset'
+[2018.01.28-21.55.24:817][308]LogSavePackage:Display: Finished SavePackage C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/WinMovie.uasset
+[2018.01.28-21.55.30:258][478]BlueprintLog: New page: Compile WinScreenHUD
+[2018.01.28-21.55.30:910][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/WinScreenHUD" FILE="C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/WinScreenHUD.uasset" SILENT=true
+[2018.01.28-21.55.31:018][497]LogSavePackage: Save=28.37ms
+[2018.01.28-21.55.31:018][497]LogSavePackage: Moving 'C:/Users/Admin/Documents/Unreal Projects/PGK/Saved/WinScreenHUD632DE23C4041AE7A643524BA67F95211.tmp' to 'C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/WinScreenHUD.uasset'
+[2018.01.28-21.55.31:082][497]LogSavePackage:Display: Finished SavePackage C:/Users/Admin/Documents/Unreal Projects/PGK/Content/FirstPersonBP/Blueprints/WinScreenHUD.uasset
+[2018.01.28-21.55.33:025][561]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.28-21.55.33:169][561]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.28-21.55.33:169][561]LogPlayLevel: [PlayLevel] Compiling WinMovie before play...
+[2018.01.28-21.55.33:372][561]LogPlayLevel: [PlayLevel] Compiling WinWidget before play...
+[2018.01.28-21.55.33:583][561]LogPlayLevel: PlayLevel: Blueprint regeneration took 413 ms (2 blueprints)
+[2018.01.28-21.55.33:583][561]PIE: New page: PIE session: WinLevel (Jan 28, 2018, 11:55:33 PM)
+[2018.01.28-21.55.33:583][561]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_WinLevel
+[2018.01.28-21.55.33:584][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000803s)
+[2018.01.28-21.55.33:584][561]LogAIModule: Creating AISystem for world WinLevel
+[2018.01.28-21.55.33:585][561]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2018.01.28-21.55.33:585][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/WinLevel.WinLevel to /Game/Maps/UEDPIE_0_WinLevel.WinLevel (0.002368s)
+[2018.01.28-21.55.33:635][561]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.28-21.55.33:729][561]LogInit: FAudioDevice initialized.
+[2018.01.28-21.55.33:768][561]LogLoad: Game class is 'WinFPP_C'
+[2018.01.28-21.55.33:770][561]LogWorld: Bringing World /Game/Maps/UEDPIE_0_WinLevel.WinLevel up for play (max tick rate 60) at 2018.01.28-22.55.33
+[2018.01.28-21.55.33:770][561]LogWorld: Bringing up level for play took: 0.001297
+[2018.01.28-21.55.33:815][561]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_WinLevel 1.583
+[2018.01.28-21.55.33:841][562]LogWmfMedia:Warning: Possible loss of audio quality in stream 0 due to sample rate != 44100 Hz
+[2018.01.28-21.56.00:234][377]LogWmfMedia:Warning: Possible loss of audio quality in stream 0 due to sample rate != 44100 Hz
+[2018.01.28-21.56.12:147][734]LogRenderer: Reallocating scene render targets to support 816x400 NumSamples 1 (Frame:1171).
+[2018.01.28-21.56.12:209][735]LogRenderer: Reallocating scene render targets to support 816x408 NumSamples 1 (Frame:1172).
+[2018.01.28-21.56.12:270][736]LogRenderer: Reallocating scene render targets to support 816x420 NumSamples 1 (Frame:1173).
+[2018.01.28-21.56.12:336][737]LogRenderer: Reallocating scene render targets to support 816x432 NumSamples 1 (Frame:1174).
+[2018.01.28-21.56.12:403][738]LogRenderer: Reallocating scene render targets to support 816x444 NumSamples 1 (Frame:1175).
+[2018.01.28-21.56.12:462][739]LogRenderer: Reallocating scene render targets to support 816x456 NumSamples 1 (Frame:1176).
+[2018.01.28-21.56.12:528][740]LogRenderer: Reallocating scene render targets to support 816x464 NumSamples 1 (Frame:1177).
+[2018.01.28-21.56.12:588][741]LogRenderer: Reallocating scene render targets to support 816x472 NumSamples 1 (Frame:1178).
+[2018.01.28-21.56.12:645][742]LogRenderer: Reallocating scene render targets to support 816x480 NumSamples 1 (Frame:1179).
+[2018.01.28-21.56.12:706][743]LogRenderer: Reallocating scene render targets to support 816x488 NumSamples 1 (Frame:1180).
+[2018.01.28-21.56.12:762][744]LogRenderer: Reallocating scene render targets to support 816x492 NumSamples 1 (Frame:1181).
+[2018.01.28-21.56.12:855][746]LogRenderer: Reallocating scene render targets to support 816x496 NumSamples 1 (Frame:1183).
+[2018.01.28-21.56.12:921][747]LogRenderer: Reallocating scene render targets to support 816x500 NumSamples 1 (Frame:1184).
+[2018.01.28-21.56.12:984][748]LogRenderer: Reallocating scene render targets to support 816x504 NumSamples 1 (Frame:1185).
+[2018.01.28-21.56.13:461][773]LogWindows: Windows GetLastError: Operacja ukończona pomyślnie. (0)
+[2018.01.28-21.56.15:523][833]LogRenderer: Reallocating scene render targets to support 824x504 NumSamples 1 (Frame:1235).
